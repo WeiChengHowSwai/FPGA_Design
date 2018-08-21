@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Aug 21 21:06:38 2018
+# Process ID: 13304
+# Current directory: C:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab01/vivado_prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16240 C:\Users\VLSILAB\Documents\GitHub\FPGA_Design\Lab01\vivado_prj\vivado_prj.xpr
+# Log file: C:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab01/vivado_prj/vivado.log
+# Journal file: C:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab01/vivado_prj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab01/vivado_prj/vivado_prj.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 884.785 ; gain = 141.512
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg400-1
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab01/xdc/pynq-z2_v1.0.xdc]
+Finished Parsing XDC File [C:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab01/xdc/pynq-z2_v1.0.xdc]
+Parsing XDC File [C:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab01/vivado_prj/vivado_prj.srcs/constrs_1/new/virCLK.xdc]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'virclk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [C:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab01/vivado_prj/vivado_prj.srcs/constrs_1/new/virCLK.xdc:1]
+Finished Parsing XDC File [C:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab01/vivado_prj/vivado_prj.srcs/constrs_1/new/virCLK.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 1338.285 ; gain = 427.508

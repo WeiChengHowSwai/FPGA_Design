@@ -1,0 +1,216 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 13304
+License: Customer
+
+Current time: 	Tue Aug 21 21:06:52 CST 2018
+Time zone: 	China Standard Time (Asia/Taipei)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 110 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	VLSILAB
+User home directory: C:/Users/VLSILAB
+User working directory: C:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab01/vivado_prj
+User country: 	TW
+User language: 	zh
+User locale: 	zh_TW
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.2
+RDI_DATADIR: C:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/VLSILAB/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/VLSILAB/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/VLSILAB/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab01/vivado_prj/vivado.log
+Vivado journal file location: 	C:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab01/vivado_prj/vivado.jou
+Engine tmp dir: 	C:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab01/vivado_prj/.Xil/Vivado-13304-DESKTOP-IRIBVUK
+
+Xilinx Environment Variables
+----------------------------
+KINECTSDK10_DIR: C:\Program Files\Microsoft SDKs\Kinect\v1.8\
+NO_XILINX_DATA_LICENSE: HIDDEN
+XILINX: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.2
+XILINX_SDK: C:/Xilinx/SDK/2018.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	266 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 659 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\VLSILAB\Documents\GitHub\FPGA_Design\Lab01\vivado_prj\vivado_prj.xpr. Version: Vivado v2018.2 
+// [GUI Memory]: 84 MB (+85368kb) [00:00:05]
+// [Engine Memory]: 514 MB (+387537kb) [00:00:05]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab01/vivado_prj/vivado_prj.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab01/vivado_prj/vivado_prj.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 109 MB (+22477kb) [00:00:08]
+// [Engine Memory]: 622 MB (+86146kb) [00:00:08]
+// [GUI Memory]: 125 MB (+10585kb) [00:00:08]
+// [Engine Memory]: 659 MB (+6442kb) [00:00:09]
+// HMemoryUtils.trashcanNow. Engine heap size: 659 MB. GUI used memory: 45 MB. Current time: 8/21/18 9:06:52 PM CST
+// Tcl Message: open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 884.785 ; gain = 141.512 
+// Project name: vivado_prj; location: C:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab01/vivado_prj; part: xc7z020clg400-1
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 36 seconds
+selectButton(PAResourceQtoS.RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES, "3 warnings"); // h (Q, ck)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3917] design LED has port led[3] driven by constant 0. ]", 1, true); // ah (O, ck) - Node
+selectButton(PAResourceQtoS.RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES, "2 warnings"); // h (Q, ck)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+selectButton(PAResourceQtoS.RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES, "3 warnings"); // h (Q, ck)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3917] design LED has port led[3] driven by constant 0. ]", 1); // ah (O, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (D, ck)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u (O, ck)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u (O, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Schematic]", 26, false); // u (O, ck)
+// bx (ck):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7z020clg400-1 
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 45 MB. Current time: 8/21/18 9:08:06 PM CST
+// [Engine Memory]: 734 MB (+43859kb) [00:01:26]
+// [Engine Memory]: 897 MB (+131962kb) [00:01:31]
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 995 MB. GUI used memory: 44 MB. Current time: 8/21/18 9:08:14 PM CST
+// [Engine Memory]: 1,026 MB (+88933kb) [00:01:32]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 1,116 MB (+40643kb) [00:01:33]
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.2 INFO: [Device 21-403] Loading part xc7z020clg400-1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [C:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab01/xdc/pynq-z2_v1.0.xdc] Finished Parsing XDC File [C:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab01/xdc/pynq-z2_v1.0.xdc] Parsing XDC File [C:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab01/vivado_prj/vivado_prj.srcs/constrs_1/new/virCLK.xdc] 
+// Tcl Message: INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'virclk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [C:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab01/vivado_prj/vivado_prj.srcs/constrs_1/new/virCLK.xdc:1] 
+// Tcl Message: Finished Parsing XDC File [C:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab01/vivado_prj/vivado_prj.srcs/constrs_1/new/virCLK.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// Tcl Message: open_run: Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 1338.285 ; gain = 427.508 
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// Elapsed time: 12 seconds
+dismissDialog("Open Synthesized Design"); // bx (ck)
+// Schematic: addNotify
+// PAPropertyPanels.initPanels (led) elapsed time: 0.2s
+// [Engine Memory]: 1,176 MB (+4093kb) [00:01:43]
+// RouteApi::initDelayMediator elapsed time: 11.1s
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// [Engine Memory]: 1,508 MB (+286124kb) [00:01:47]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,508 MB. GUI used memory: 77 MB. Current time: 8/21/18 9:08:31 PM CST
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aE (Q, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 3); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, virCLK.xdc]", 5, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, virCLK.xdc]", 5, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("virCLK.xdc", 229, 12); // ce (w, ck)
+selectCodeEditor("virCLK.xdc", 131, 72); // ce (w, ck)
+selectCodeEditor("virCLK.xdc", 215, 14); // ce (w, ck)
+selectCodeEditor("virCLK.xdc", 226, 16); // ce (w, ck)
+selectCodeEditor("virCLK.xdc", 215, 15); // ce (w, ck)
+selectCodeEditor("virCLK.xdc", 230, 12); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 2); // k (j, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,553 MB. GUI used memory: 79 MB. Current time: 8/21/18 9:08:56 PM CST
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Device", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+selectButton(PAResourceQtoS.RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES, "2 warnings"); // h (Q, ck)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "virCLK.xdc", 3); // k (j, ck)
+// Elapsed time: 87 seconds
+selectCodeEditor("virCLK.xdc", 281, 59); // ce (w, ck)
+// Elapsed time: 66 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+// Elapsed time: 385 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "virCLK.xdc", 3); // k (j, ck)
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+selectButton(PAResourceQtoS.RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES, "3 warnings"); // h (Q, ck)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+// Elapsed time: 76 seconds
+selectButton(PAResourceQtoS.RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES, "2 warnings"); // h (Q, ck)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+// Elapsed time: 12 seconds
+selectButton(PAResourceQtoS.RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES, "3 warnings"); // h (Q, ck)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+// [GUI Memory]: 131 MB (+104kb) [00:13:29]
+// Elapsed time: 236 seconds
+selectButton(PAResourceQtoS.RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES, "2 warnings"); // h (Q, ck)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 46-29] place_design is not in timing mode. Skip physical synthesis in placer. ]", 3, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 46-29] place_design is not in timing mode. Skip physical synthesis in placer. ]", 3, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 46-29] place_design is not in timing mode. Skip physical synthesis in placer. ]", 3, false, false, false, false, false, true); // ah (O, ck) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 46-29] place_design is not in timing mode. Skip physical synthesis in placer. ]", 3, false, false, false, false, true, false); // ah (O, ck) - Popup Trigger
+// HMemoryUtils.trashcanNow. Engine heap size: 1,553 MB. GUI used memory: 79 MB. Current time: 8/21/18 9:38:56 PM CST
