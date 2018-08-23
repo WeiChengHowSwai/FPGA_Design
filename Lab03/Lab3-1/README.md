@@ -67,7 +67,7 @@ SDK GUI 如下圖所示。
 
 File > New > Application Project > 命名 > Next > Empty Application > Finish
 
-新增空的 source file 並將 Lab3-1/src/hello.c 的內容貼上。
+新增空的 source file 並將 `Lab3-1/src/hello.c` 的內容貼上。
 
 ![add_src](images/add_src.png)
 
