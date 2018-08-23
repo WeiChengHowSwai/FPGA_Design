@@ -3,7 +3,8 @@ FPGA Design Lab00 - How to Turn in Homework in This Course
 
 ## Step 1. Create a GitHub account
 ![Create_acount](images/create_account.png)
-## Step 2. Download GitHub Desktop
+## Step 2. Download Git and GitHub Desktop
+Here's [Git](https://git-scm.com/download/win) (For Windows)  
 Here's [GithHub Desktop](https://desktop.github.com)
 ## Step 3. Fork this course repository
 ![Course_repo](images/course_repo.png)
