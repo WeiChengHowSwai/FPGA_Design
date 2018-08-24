@@ -29,8 +29,8 @@ int main() {
 		return XST_FAILURE;
 	}
 	/* Set the direction for all signals as inputs except the LED output */
-	XGpio_SetDataDirection(&LED_Gpio, 1, 0x0f);
-	XGpio_SetDataDirection(&SW_Gpio, 1, 0x00);
+	XGpio_SetDataDirection(&LED_Gpio, 1, 0x00);
+	XGpio_SetDataDirection(&SW_Gpio, 1, 0x0f);
 
 	while (1) {
 			sw_data = XGpio_DiscreteRead(&SW_Gpio, 1);
