@@ -1,0 +1,37 @@
+/*
+ * gpio_irq.c
+ *
+ *  Created on: 2018¦~8¤ë24¤é
+ *      Author: VLSILAB
+ */
+
+
+#include "xparameters.h"
+#include "xgpio.h"
+#include "xscugic.h"
+#include "xil_exception.h"
+#include "xil_printf.h"
+
+#define INTC_DEVICE_ID     XPAR_PS7_SCUGIC_0_DEVICE_ID
+#define SW_DEVICE_ID       XPAR_GPIO_0_DEVICE_ID
+#define BTN_DEVICE_ID      XPAR_GPIO_1_DEVICE_ID
+#define LED_DEVICE_ID      XPAR_GPIO_2_DEVICE_ID
+#define INTC_BTN_INTERRUPT XPAR_FABRIC_AXI_GPIO_1_IP2INTC_IRPT_INTR
+
+#define BTN_INTC XGPIO_IR_CH1_MASK
+
+#define LED_DELAY     10000000
+
+XGpio LED_Gpio, SW_Gpio, BTN_Gpio;
+XScuGic INTCInst;
+
+static void BTNIntrHandler(void *baseaddr_p);
+static int interSysSetup(XScuGic *XScuGicInstPtr);
+static int intcInitFunc(u16 device_ID, XGpio *GpioPtr);
+
+int int main(]) {
+  int LED_Status, SW_Status, BTN_Status;
+	u32 led_data = 0x00, sw_data, btn_data;
+  return 0;
+}
+

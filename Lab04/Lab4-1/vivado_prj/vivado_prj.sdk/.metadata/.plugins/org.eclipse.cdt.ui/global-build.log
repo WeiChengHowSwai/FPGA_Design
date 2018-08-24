@@ -1,0 +1,1248 @@
+17:05:17 **** Build of project gpio_irq_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project gpio_irq ****
+
+Nothing to build for project gpio_irq
+17:10:26 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../gpio_irq_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\Users\VLSILAB\Documents\GitHub\FPGA_Design\Lab04\Lab4-1\vivado_prj\vivado_prj.sdk\gpio_irq_bsp\ps7_cortexa9_0\libsrc\standalone_v6_7\src/xil-crt0.S:142: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [gpio_irq.elf] Error 1
+17:13:47 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../gpio_irq_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\Users\VLSILAB\Documents\GitHub\FPGA_Design\Lab04\Lab4-1\vivado_prj\vivado_prj.sdk\gpio_irq_bsp\ps7_cortexa9_0\libsrc\standalone_v6_7\src/xil-crt0.S:142: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [gpio_irq.elf] Error 1
+17:21:26 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+../src/gpio_irq.c:32:5: error: two or more data types in declaration specifiers
+ int int main(int argc, char const *argv[]) {
+     ^~~
+../src/gpio_irq.c: In function 'main':
+../src/gpio_irq.c:34:32: warning: unused variable 'btn_data' [-Wunused-variable]
+  u32 led_data = 0x00, sw_data, btn_data;
+                                ^~~~~~~~
+../src/gpio_irq.c:34:23: warning: unused variable 'sw_data' [-Wunused-variable]
+  u32 led_data = 0x00, sw_data, btn_data;
+                       ^~~~~~~
+../src/gpio_irq.c:34:6: warning: unused variable 'led_data' [-Wunused-variable]
+  u32 led_data = 0x00, sw_data, btn_data;
+      ^~~~~~~~
+../src/gpio_irq.c:33:30: warning: unused variable 'BTN_Status' [-Wunused-variable]
+   int LED_Status, SW_Status, BTN_Status;
+                              ^~~~~~~~~~
+../src/gpio_irq.c:33:19: warning: unused variable 'SW_Status' [-Wunused-variable]
+   int LED_Status, SW_Status, BTN_Status;
+                   ^~~~~~~~~
+../src/gpio_irq.c:33:7: warning: unused variable 'LED_Status' [-Wunused-variable]
+   int LED_Status, SW_Status, BTN_Status;
+       ^~~~~~~~~~
+../src/gpio_irq.c: At top level:
+../src/gpio_irq.c:28:13: warning: 'BTNIntrHandler' declared 'static' but never defined [-Wunused-function]
+ static void BTNIntrHandler(void *baseaddr_p);
+             ^~~~~~~~~~~~~~
+../src/gpio_irq.c:29:12: warning: 'interSysSetup' declared 'static' but never defined [-Wunused-function]
+ static int interSysSetup(XScuGic *XScuGicInstPtr);
+            ^~~~~~~~~~~~~
+../src/gpio_irq.c:30:12: warning: 'intcInitFunc' declared 'static' but never defined [-Wunused-function]
+ static int intcInitFunc(u16 device_ID, XGpio *GpioPtr);
+            ^~~~~~~~~~~~
+make: *** [src/gpio_irq.o] Error 1
+17:21:36 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+../src/gpio_irq.c:32:5: error: two or more data types in declaration specifiers
+ int int main(]) {
+     ^~~
+../src/gpio_irq.c:32:14: error: expected declaration specifiers or '...' before ']' token
+ int int main(]) {
+              ^
+../src/gpio_irq.c:32:14: error: expected ';', ',' or ')' before ']' token
+../src/gpio_irq.c:28:13: warning: 'BTNIntrHandler' declared 'static' but never defined [-Wunused-function]
+ static void BTNIntrHandler(void *baseaddr_p);
+             ^~~~~~~~~~~~~~
+../src/gpio_irq.c:29:12: warning: 'interSysSetup' declared 'static' but never defined [-Wunused-function]
+ static int interSysSetup(XScuGic *XScuGicInstPtr);
+            ^~~~~~~~~~~~~
+../src/gpio_irq.c:30:12: warning: 'intcInitFunc' declared 'static' but never defined [-Wunused-function]
+ static int intcInitFunc(u16 device_ID, XGpio *GpioPtr);
+            ^~~~~~~~~~~~
+make: *** [src/gpio_irq.o] Error 1
+17:21:48 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+../src/gpio_irq.c:32:5: error: two or more data types in declaration specifiers
+ int int main(]) {
+     ^~~
+../src/gpio_irq.c:32:14: error: expected declaration specifiers or '...' before ']' token
+ int int main(]) {
+              ^
+../src/gpio_irq.c:32:14: error: expected ';', ',' or ')' before ']' token
+../src/gpio_irq.c:28:13: warning: 'BTNIntrHandler' declared 'static' but never defined [-Wunused-function]
+ static void BTNIntrHandler(void *baseaddr_p);
+             ^~~~~~~~~~~~~~
+../src/gpio_irq.c:29:12: warning: 'interSysSetup' declared 'static' but never defined [-Wunused-function]
+ static int interSysSetup(XScuGic *XScuGicInstPtr);
+            ^~~~~~~~~~~~~
+../src/gpio_irq.c:30:12: warning: 'intcInitFunc' declared 'static' but never defined [-Wunused-function]
+ static int intcInitFunc(u16 device_ID, XGpio *GpioPtr);
+            ^~~~~~~~~~~~
+make: *** [src/gpio_irq.o] Error 1
+17:21:53 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+../src/gpio_irq.c:32:5: error: two or more data types in declaration specifiers
+ int int main() {
+     ^~~
+../src/gpio_irq.c: In function 'main':
+../src/gpio_irq.c:34:33: warning: unused variable 'btn_data' [-Wunused-variable]
+   u32 led_data = 0x00, sw_data, btn_data;
+                                 ^~~~~~~~
+../src/gpio_irq.c:34:24: warning: unused variable 'sw_data' [-Wunused-variable]
+   u32 led_data = 0x00, sw_data, btn_data;
+                        ^~~~~~~
+../src/gpio_irq.c:34:7: warning: unused variable 'led_data' [-Wunused-variable]
+   u32 led_data = 0x00, sw_data, btn_data;
+       ^~~~~~~~
+../src/gpio_irq.c:33:30: warning: unused variable 'BTN_Status' [-Wunused-variable]
+   int LED_Status, SW_Status, BTN_Status;
+                              ^~~~~~~~~~
+../src/gpio_irq.c:33:19: warning: unused variable 'SW_Status' [-Wunused-variable]
+   int LED_Status, SW_Status, BTN_Status;
+                   ^~~~~~~~~
+../src/gpio_irq.c:33:7: warning: unused variable 'LED_Status' [-Wunused-variable]
+   int LED_Status, SW_Status, BTN_Status;
+       ^~~~~~~~~~
+../src/gpio_irq.c: At top level:
+../src/gpio_irq.c:28:13: warning: 'BTNIntrHandler' declared 'static' but never defined [-Wunused-function]
+ static void BTNIntrHandler(void *baseaddr_p);
+             ^~~~~~~~~~~~~~
+../src/gpio_irq.c:29:12: warning: 'interSysSetup' declared 'static' but never defined [-Wunused-function]
+ static int interSysSetup(XScuGic *XScuGicInstPtr);
+            ^~~~~~~~~~~~~
+../src/gpio_irq.c:30:12: warning: 'intcInitFunc' declared 'static' but never defined [-Wunused-function]
+ static int intcInitFunc(u16 device_ID, XGpio *GpioPtr);
+            ^~~~~~~~~~~~
+make: *** [src/gpio_irq.o] Error 1
+17:22:05 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+../src/gpio_irq.c: In function 'main':
+../src/gpio_irq.c:34:33: warning: unused variable 'btn_data' [-Wunused-variable]
+   u32 led_data = 0x00, sw_data, btn_data;
+                                 ^~~~~~~~
+../src/gpio_irq.c:34:24: warning: unused variable 'sw_data' [-Wunused-variable]
+   u32 led_data = 0x00, sw_data, btn_data;
+                        ^~~~~~~
+../src/gpio_irq.c:34:7: warning: unused variable 'led_data' [-Wunused-variable]
+   u32 led_data = 0x00, sw_data, btn_data;
+       ^~~~~~~~
+../src/gpio_irq.c:33:30: warning: unused variable 'BTN_Status' [-Wunused-variable]
+   int LED_Status, SW_Status, BTN_Status;
+                              ^~~~~~~~~~
+../src/gpio_irq.c:33:19: warning: unused variable 'SW_Status' [-Wunused-variable]
+   int LED_Status, SW_Status, BTN_Status;
+                   ^~~~~~~~~
+../src/gpio_irq.c:33:7: warning: unused variable 'LED_Status' [-Wunused-variable]
+   int LED_Status, SW_Status, BTN_Status;
+       ^~~~~~~~~~
+../src/gpio_irq.c: At top level:
+../src/gpio_irq.c:28:13: warning: 'BTNIntrHandler' declared 'static' but never defined [-Wunused-function]
+ static void BTNIntrHandler(void *baseaddr_p);
+             ^~~~~~~~~~~~~~
+../src/gpio_irq.c:29:12: warning: 'interSysSetup' declared 'static' but never defined [-Wunused-function]
+ static int interSysSetup(XScuGic *XScuGicInstPtr);
+            ^~~~~~~~~~~~~
+../src/gpio_irq.c:30:12: warning: 'intcInitFunc' declared 'static' but never defined [-Wunused-function]
+ static int intcInitFunc(u16 device_ID, XGpio *GpioPtr);
+            ^~~~~~~~~~~~
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19028	   1144	  22632	  42804	   a734	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+17:54:44 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+../src/gpio_irq.c: In function 'BTNIntrHandler':
+../src/gpio_irq.c:56:33: error: invalid operands to binary & (have 'u32 (*)(XGpio *) {aka long unsigned int (*)(struct <anonymous> *)}' and 'int')
+   if ((XGpio_InterruptGetStatus & BTN_INT) != BTN_INT) {
+        ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+../src/gpio_irq.c: In function 'interruptSysSetup':
+../src/gpio_irq.c:71:3: warning: implicit declaration of function 'xil_ExceptionRegisterHandler'; did you mean 'Xil_ExceptionRegisterHandler'? [-Wimplicit-function-declaration]
+   xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT, (Xil_ExceptionHandler) XScuGic_InterruptHandler, XScuGicInstPtr);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Xil_ExceptionRegisterHandler
+../src/gpio_irq.c:72:3: warning: implicit declaration of function 'xil_ExceptionEnable'; did you mean 'Xil_ExceptionEnable'? [-Wimplicit-function-declaration]
+   xil_ExceptionEnable();
+   ^~~~~~~~~~~~~~~~~~~
+   Xil_ExceptionEnable
+../src/gpio_irq.c: In function 'intcInitFunc':
+../src/gpio_irq.c:88:40: error: 'INTC_GPIO_INTERRUPT_ID' undeclared (first use in this function); did you mean 'INTC_BTN_INTERRUPT'?
+   status = XScuGic_Connect(&INTC_inst, INTC_GPIO_INTERRUPT_ID, (Xil_ExceptionHandler)BTNIntrHandler, (coid *)GpioPtr);
+                                        ^~~~~~~~~~~~~~~~~~~~~~
+                                        INTC_BTN_INTERRUPT
+../src/gpio_irq.c:88:40: note: each undeclared identifier is reported only once for each function it appears in
+../src/gpio_irq.c:88:103: error: 'coid' undeclared (first use in this function); did you mean 'void'?
+   status = XScuGic_Connect(&INTC_inst, INTC_GPIO_INTERRUPT_ID, (Xil_ExceptionHandler)BTNIntrHandler, (coid *)GpioPtr);
+                                                                                                       ^~~~
+                                                                                                       void
+../src/gpio_irq.c:88:109: error: expected expression before ')' token
+   status = XScuGic_Connect(&INTC_inst, INTC_GPIO_INTERRUPT_ID, (Xil_ExceptionHandler)BTNIntrHandler, (coid *)GpioPtr);
+                                                                                                             ^
+../src/gpio_irq.c:91:25: warning: passing argument 1 of 'XGpio_InterruptEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+   XGpio_InterruptEnable(&GpioPtr, 1);
+                         ^
+In file included from ../src/gpio_irq.c:10:0:
+../../gpio_irq_bsp/ps7_cortexa9_0/include/xgpio.h:203:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'XGpio ** {aka struct <anonymous> **}'
+ void XGpio_InterruptEnable(XGpio *InstancePtr, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~~~
+../src/gpio_irq.c:92:31: warning: passing argument 1 of 'XGpio_InterruptGlobalEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+   XGpio_InterruptGlobalEnable(&GpioPtr);
+                               ^
+In file included from ../src/gpio_irq.c:10:0:
+../../gpio_irq_bsp/ps7_cortexa9_0/include/xgpio.h:201:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'XGpio ** {aka struct <anonymous> **}'
+ void XGpio_InterruptGlobalEnable(XGpio *InstancePtr);
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/gpio_irq.o] Error 1
+17:54:53 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+../src/gpio_irq.c: In function 'BTNIntrHandler':
+../src/gpio_irq.c:56:33: error: invalid operands to binary & (have 'u32 (*)(XGpio *) {aka long unsigned int (*)(struct <anonymous> *)}' and 'int')
+   if ((XGpio_InterruptGetStatus & BTN_INT) != BTN_INT) {
+        ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+../src/gpio_irq.c: In function 'interruptSysSetup':
+../src/gpio_irq.c:71:3: warning: implicit declaration of function 'xil_ExceptionRegisterHandler'; did you mean 'Xil_ExceptionRegisterHandler'? [-Wimplicit-function-declaration]
+   xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT, (Xil_ExceptionHandler) XScuGic_InterruptHandler, XScuGicInstPtr);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Xil_ExceptionRegisterHandler
+../src/gpio_irq.c:72:3: warning: implicit declaration of function 'xil_ExceptionEnable'; did you mean 'Xil_ExceptionEnable'? [-Wimplicit-function-declaration]
+   xil_ExceptionEnable();
+   ^~~~~~~~~~~~~~~~~~~
+   Xil_ExceptionEnable
+../src/gpio_irq.c: In function 'intcInitFunc':
+../src/gpio_irq.c:88:40: error: 'INTC_GPIO_INTERRUPT_ID' undeclared (first use in this function); did you mean 'INTC_BTN_INTERRUPT'?
+   status = XScuGic_Connect(&INTC_inst, INTC_GPIO_INTERRUPT_ID, (Xil_ExceptionHandler)BTNIntrHandler, (void *)GpioPtr);
+                                        ^~~~~~~~~~~~~~~~~~~~~~
+                                        INTC_BTN_INTERRUPT
+../src/gpio_irq.c:88:40: note: each undeclared identifier is reported only once for each function it appears in
+../src/gpio_irq.c:91:25: warning: passing argument 1 of 'XGpio_InterruptEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+   XGpio_InterruptEnable(&GpioPtr, 1);
+                         ^
+In file included from ../src/gpio_irq.c:10:0:
+../../gpio_irq_bsp/ps7_cortexa9_0/include/xgpio.h:203:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'XGpio ** {aka struct <anonymous> **}'
+ void XGpio_InterruptEnable(XGpio *InstancePtr, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~~~
+../src/gpio_irq.c:92:31: warning: passing argument 1 of 'XGpio_InterruptGlobalEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+   XGpio_InterruptGlobalEnable(&GpioPtr);
+                               ^
+In file included from ../src/gpio_irq.c:10:0:
+../../gpio_irq_bsp/ps7_cortexa9_0/include/xgpio.h:201:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'XGpio ** {aka struct <anonymous> **}'
+ void XGpio_InterruptGlobalEnable(XGpio *InstancePtr);
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/gpio_irq.o] Error 1
+17:56:35 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+../src/gpio_irq.c: In function 'BTNIntrHandler':
+../src/gpio_irq.c:56:33: error: invalid operands to binary & (have 'u32 (*)(XGpio *) {aka long unsigned int (*)(struct <anonymous> *)}' and 'int')
+   if ((XGpio_InterruptGetStatus & BTN_INT) != BTN_INT) {
+        ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+../src/gpio_irq.c: In function 'intcInitFunc':
+../src/gpio_irq.c:88:40: error: 'INTC_GPIO_INTERRUPT_ID' undeclared (first use in this function); did you mean 'INTC_BTN_INTERRUPT'?
+   status = XScuGic_Connect(&INTC_inst, INTC_GPIO_INTERRUPT_ID, (Xil_ExceptionHandler)BTNIntrHandler, (void *)GpioPtr);
+                                        ^~~~~~~~~~~~~~~~~~~~~~
+                                        INTC_BTN_INTERRUPT
+../src/gpio_irq.c:88:40: note: each undeclared identifier is reported only once for each function it appears in
+../src/gpio_irq.c:91:25: warning: passing argument 1 of 'XGpio_InterruptEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+   XGpio_InterruptEnable(&GpioPtr, 1);
+                         ^
+In file included from ../src/gpio_irq.c:10:0:
+../../gpio_irq_bsp/ps7_cortexa9_0/include/xgpio.h:203:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'XGpio ** {aka struct <anonymous> **}'
+ void XGpio_InterruptEnable(XGpio *InstancePtr, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~~~
+../src/gpio_irq.c:92:31: warning: passing argument 1 of 'XGpio_InterruptGlobalEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+   XGpio_InterruptGlobalEnable(&GpioPtr);
+                               ^
+In file included from ../src/gpio_irq.c:10:0:
+../../gpio_irq_bsp/ps7_cortexa9_0/include/xgpio.h:201:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'XGpio ** {aka struct <anonymous> **}'
+ void XGpio_InterruptGlobalEnable(XGpio *InstancePtr);
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/gpio_irq.o] Error 1
+17:57:27 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+../src/gpio_irq.c: In function 'BTNIntrHandler':
+../src/gpio_irq.c:56:33: error: invalid operands to binary & (have 'u32 (*)(XGpio *) {aka long unsigned int (*)(struct <anonymous> *)}' and 'int')
+   if ((XGpio_InterruptGetStatus & BTN_INT) != BTN_INT) {
+        ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+../src/gpio_irq.c: In function 'intcInitFunc':
+../src/gpio_irq.c:88:40: error: 'INTC_GPIO_INTERRUPT_ID' undeclared (first use in this function); did you mean 'INTC_BTN_INTERRUPT'?
+   status = XScuGic_Connect(&INTC_inst, INTC_GPIO_INTERRUPT_ID, (Xil_ExceptionHandler)BTNIntrHandler, (void *)GpioPtr);
+                                        ^~~~~~~~~~~~~~~~~~~~~~
+                                        INTC_BTN_INTERRUPT
+../src/gpio_irq.c:88:40: note: each undeclared identifier is reported only once for each function it appears in
+../src/gpio_irq.c:92:31: warning: passing argument 1 of 'XGpio_InterruptGlobalEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+   XGpio_InterruptGlobalEnable(&GpioPtr);
+                               ^
+In file included from ../src/gpio_irq.c:10:0:
+../../gpio_irq_bsp/ps7_cortexa9_0/include/xgpio.h:201:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'XGpio ** {aka struct <anonymous> **}'
+ void XGpio_InterruptGlobalEnable(XGpio *InstancePtr);
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/gpio_irq.o] Error 1
+17:57:30 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+../src/gpio_irq.c: In function 'BTNIntrHandler':
+../src/gpio_irq.c:56:33: error: invalid operands to binary & (have 'u32 (*)(XGpio *) {aka long unsigned int (*)(struct <anonymous> *)}' and 'int')
+   if ((XGpio_InterruptGetStatus & BTN_INT) != BTN_INT) {
+        ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+../src/gpio_irq.c: In function 'intcInitFunc':
+../src/gpio_irq.c:88:40: error: 'INTC_GPIO_INTERRUPT_ID' undeclared (first use in this function); did you mean 'INTC_BTN_INTERRUPT'?
+   status = XScuGic_Connect(&INTC_inst, INTC_GPIO_INTERRUPT_ID, (Xil_ExceptionHandler)BTNIntrHandler, (void *)GpioPtr);
+                                        ^~~~~~~~~~~~~~~~~~~~~~
+                                        INTC_BTN_INTERRUPT
+../src/gpio_irq.c:88:40: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/gpio_irq.o] Error 1
+17:57:57 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+../src/gpio_irq.c: In function 'BTNIntrHandler':
+../src/gpio_irq.c:56:33: error: invalid operands to binary & (have 'u32 (*)(XGpio *) {aka long unsigned int (*)(struct <anonymous> *)}' and 'int')
+   if ((XGpio_InterruptGetStatus & BTN_INT) != BTN_INT) {
+        ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+../src/gpio_irq.c: In function 'intcInitFunc':
+../src/gpio_irq.c:88:40: error: 'INTC_BTN_INTERRUPT_ID' undeclared (first use in this function); did you mean 'INTC_BTN_INTERRUPT'?
+   status = XScuGic_Connect(&INTC_inst, INTC_BTN_INTERRUPT_ID, (Xil_ExceptionHandler)BTNIntrHandler, (void *)GpioPtr);
+                                        ^~~~~~~~~~~~~~~~~~~~~
+                                        INTC_BTN_INTERRUPT
+../src/gpio_irq.c:88:40: note: each undeclared identifier is reported only once for each function it appears in
+../src/gpio_irq.c:94:30: error: 'INTC_GPIO_INTERRUPT_ID' undeclared (first use in this function); did you mean 'INTC_BTN_INTERRUPT_ID'?
+   XScuGic_Enable(&INTC_inst, INTC_GPIO_INTERRUPT_ID);
+                              ^~~~~~~~~~~~~~~~~~~~~~
+                              INTC_BTN_INTERRUPT_ID
+make: *** [src/gpio_irq.o] Error 1
+17:58:02 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+../src/gpio_irq.c: In function 'BTNIntrHandler':
+../src/gpio_irq.c:56:33: error: invalid operands to binary & (have 'u32 (*)(XGpio *) {aka long unsigned int (*)(struct <anonymous> *)}' and 'int')
+   if ((XGpio_InterruptGetStatus & BTN_INT) != BTN_INT) {
+        ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+../src/gpio_irq.c: In function 'intcInitFunc':
+../src/gpio_irq.c:88:40: error: 'INTC_BTN_INTERRUPT_ID' undeclared (first use in this function); did you mean 'INTC_BTN_INTERRUPT'?
+   status = XScuGic_Connect(&INTC_inst, INTC_BTN_INTERRUPT_ID, (Xil_ExceptionHandler)BTNIntrHandler, (void *)GpioPtr);
+                                        ^~~~~~~~~~~~~~~~~~~~~
+                                        INTC_BTN_INTERRUPT
+../src/gpio_irq.c:88:40: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/gpio_irq.o] Error 1
+17:58:28 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+../src/gpio_irq.c: In function 'BTNIntrHandler':
+../src/gpio_irq.c:56:33: error: invalid operands to binary & (have 'u32 (*)(XGpio *) {aka long unsigned int (*)(struct <anonymous> *)}' and 'int')
+   if ((XGpio_InterruptGetStatus & BTN_INT) != BTN_INT) {
+        ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+make: *** [src/gpio_irq.o] Error 1
+17:59:11 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+../src/gpio_irq.c: In function 'BTNIntrHandler':
+../src/gpio_irq.c:56:34: error: 'BTN_XGpio' undeclared (first use in this function); did you mean 'BTN_Gpio'?
+   if ((XGpio_InterruptGetStatus(&BTN_XGpio) & BTN_INT) != BTN_INT) {
+                                  ^~~~~~~~~
+                                  BTN_Gpio
+../src/gpio_irq.c:56:34: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/gpio_irq.o] Error 1
+17:59:25 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28220	   2768	  22664	  53652	   d194	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:00:09 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28220	   2768	  22664	  53652	   d194	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:00:10 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:01:28 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28220	   2768	  22664	  53652	   d194	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:01:46 **** Incremental Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:02:24 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28220	   2768	  22664	  53652	   d194	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:02:29 **** Incremental Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:02:49 **** Incremental Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:03:11 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28220	   2768	  22664	  53652	   d194	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:03:16 **** Incremental Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:03:50 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28220	   2768	  22664	  53652	   d194	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:03:57 **** Incremental Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:04:26 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+../src/gpio_irq.c: In function 'main':
+../src/gpio_irq.c:33:41: warning: unused variable 'status' [-Wunused-variable]
+  int LED_Status, SW_Status, BTN_Status, status;
+                                         ^~~~~~
+At top level:
+../src/gpio_irq.c:79:12: warning: 'intcInitFunc' defined but not used [-Wunused-function]
+ static int intcInitFunc(u16 device_ID, XGpio *GpioPtr) {
+            ^~~~~~~~~~~~
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28156	   2768	  22664	  53588	   d154	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:04:30 **** Incremental Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:05:05 **** Incremental Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:05:30 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+../src/gpio_irq.c: In function 'main':
+../src/gpio_irq.c:33:41: warning: unused variable 'status' [-Wunused-variable]
+  int LED_Status, SW_Status, BTN_Status, status;
+                                         ^~~~~~
+At top level:
+../src/gpio_irq.c:79:12: warning: 'intcInitFunc' defined but not used [-Wunused-function]
+ static int intcInitFunc(u16 device_ID, XGpio *GpioPtr) {
+            ^~~~~~~~~~~~
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28156	   2768	  22664	  53588	   d154	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:05:37 **** Incremental Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:06:00 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28220	   2768	  22664	  53652	   d194	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:06:03 **** Incremental Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:13:17 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28308	   2768	  22664	  53740	   d1ec	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:14:22 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28308	   2768	  22664	  53740	   d1ec	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:16:39 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28500	   2768	  22664	  53932	   d2ac	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:16:56 **** Incremental Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:17:54 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28500	   2768	  22664	  53932	   d2ac	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:18:02 **** Incremental Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:18:48 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28372	   2768	  22664	  53804	   d22c	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:18:53 **** Incremental Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:19:23 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28372	   2768	  22664	  53804	   d22c	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:19:29 **** Incremental Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:20:38 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28308	   2768	  22664	  53740	   d1ec	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:20:43 **** Incremental Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:21:44 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28476	   2768	  22664	  53908	   d294	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:21:48 **** Incremental Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:22:11 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+../src/gpio_irq.c: In function 'BTNIntrHandler':
+../src/gpio_irq.c:63:6: warning: unused variable 'btn' [-Wunused-variable]
+  int btn = 0;
+      ^~~
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28412	   2768	  22664	  53844	   d254	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:22:23 **** Incremental Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:23:31 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+../src/gpio_irq.c: In function 'BTNIntrHandler':
+../src/gpio_irq.c:63:6: warning: unused variable 'btn' [-Wunused-variable]
+  int btn = 0;
+      ^~~
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28412	   2768	  22664	  53844	   d254	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:23:35 **** Incremental Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:26:11 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+../src/gpio_irq.c: In function 'BTNIntrHandler':
+../src/gpio_irq.c:79:10: error: expected ':' or '...' before ';' token
+    case 4; btn = 2;
+          ^
+../src/gpio_irq.c:63:6: warning: variable 'btn' set but not used [-Wunused-but-set-variable]
+  int btn = 0;
+      ^~~
+make: *** [src/gpio_irq.o] Error 1
+18:26:33 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+../src/gpio_irq.c: In function 'BTNIntrHandler':
+../src/gpio_irq.c:63:6: warning: variable 'btn' set but not used [-Wunused-but-set-variable]
+  int btn = 0;
+      ^~~
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28540	   2768	  22664	  53972	   d2d4	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:27:54 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28660	   2768	  22664	  54092	   d34c	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:28:00 **** Incremental Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:29:43 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+../src/gpio_irq.c: In function 'BTNIntrHandler':
+../src/gpio_irq.c:90:2: error: expected expression before 'else'
+  else xil_printf("Button %d is pressed\r\n", btn);
+  ^~~~
+make: *** [src/gpio_irq.o] Error 1
+18:29:46 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28660	   2768	  22664	  54092	   d34c	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:29:58 **** Incremental Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:31:21 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28660	   2768	  22664	  54092	   d34c	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:31:56 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28660	   2768	  22664	  54092	   d34c	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:32:01 **** Incremental Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:32:43 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28660	   2768	  22664	  54092	   d34c	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:34:00 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28724	   2768	  22664	  54156	   d38c	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:34:03 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28724	   2768	  22664	  54156	   d38c	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+18:34:07 **** Incremental Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:36:29 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28724	   2768	  22664	  54156	   d38c	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '

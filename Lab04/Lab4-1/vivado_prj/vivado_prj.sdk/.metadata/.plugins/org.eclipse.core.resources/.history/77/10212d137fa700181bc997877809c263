@@ -1,0 +1,20 @@
+/*
+ * gpio_irq.c
+ *
+ *  Created on: 2018¦~8¤ë24¤é
+ *      Author: VLSILAB
+ */
+
+
+#include "xparameters.h"
+#include "xgpio.h"
+#include "xscugic.h"
+#include "xil_exception.h"
+#include "xil_printf.h"
+
+#define INTC_DEVICE_ID XPAR_PS7_SCUGIC_0_DEVICE_ID
+#define SW_DEVICE_ID   XPAR_GPIO_0_DEVICE_ID
+#define BTN_DEVICE_ID  XPAR_GPIO_1_DEVICE_ID
+#define LED_DEVICE_ID  XPAR_GPIO_2_DEVICE_ID
+
+#define LED_DELAY     10000000

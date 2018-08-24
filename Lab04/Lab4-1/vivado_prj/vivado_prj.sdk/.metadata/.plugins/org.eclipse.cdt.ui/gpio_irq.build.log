@@ -1,0 +1,23 @@
+18:36:29 **** Auto Build of configuration Debug for project gpio_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gpio_irq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_irq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_irq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_irq.d" -MT"src/gpio_irq.o" -o "src/gpio_irq.o" "../src/gpio_irq.c"
+'Finished building: ../src/gpio_irq.c'
+' '
+'Building target: gpio_irq.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_irq_bsp/ps7_cortexa9_0/lib -o "gpio_irq.elf"  ./src/gpio_irq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gpio_irq.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gpio_irq.elf  |tee "gpio_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28724	   2768	  22664	  54156	   d38c	gpio_irq.elf
+'Finished building: gpio_irq.elf.size'
+' '
+
+18:36:29 Build Finished (took 698ms)
+
