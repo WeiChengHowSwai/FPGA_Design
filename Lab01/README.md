@@ -1,6 +1,9 @@
 FPGA Design Lab01 - FPGA Implementation of Combinational Logic
 ======================
 
+## Purpose
+
+本實驗目的為讓各位了解如何將設計好的電路燒錄到 FPGA 上執行。 
 
 ## Step 1. Create a new project
 首先，開啟 Vivado 軟體後會出現以下介面。
