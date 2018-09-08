@@ -1,0 +1,9 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/VLSILAB/Documents/FPGA_Design/Lab02/Lab2-3/src/Decoder.v,1536376382,verilog,,C:/Users/VLSILAB/Documents/FPGA_Design/Lab02/Lab2-3/src/RGB_LED.v,,Decoder,,,,,,,,
+C:/Users/VLSILAB/Documents/FPGA_Design/Lab02/Lab2-3/src/RGB_LED.v,1536376161,verilog,,C:/Users/VLSILAB/Documents/FPGA_Design/Lab02/Lab2-3/src/RGB_LED_TB.v,,RGB_LED,,,,,,,,
+C:/Users/VLSILAB/Documents/FPGA_Design/Lab02/Lab2-3/src/RGB_LED_TB.v,1536377968,verilog,,,,RGB_LED_TB,,,,,,,,
+C:/Users/VLSILAB/Documents/FPGA_Design/Lab02/Lab2-3/src/RGB_top.v,1536376160,verilog,,,,RGB_top,,,,,,,,
+C:/Users/VLSILAB/Documents/FPGA_Design/Lab02/Lab2-3/vivado_prj/vivado_prj.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
