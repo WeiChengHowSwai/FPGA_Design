@@ -25,5 +25,33 @@ output_valid，busy)。
 其中顯示端的影像的平移使用x、y來控制，x代表橫軸，y代表縱軸。而輸出的結果利用addr控制要輸出的資料位置。
 
 ### 模擬結果截圖:
+兩組樣本皆pass
+
+![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab00/verilog_hw/E24044046/image/simulation.PNG)
 
 ### 波形截圖:
+1.當cmd=1且cmd_valid=1時，load data和dataout輸出結果
+
+![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab00/verilog_hw/E24044046/image/load1.PNG)
+
+![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab00/verilog_hw/E24044046/image/load2_output.PNG)
+
+2.當cmd=2且cmd_valid=1時，dataout輸出顯示端的影像向右移的結果
+
+![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab00/verilog_hw/E24044046/image/cmd2.PNG)
+
+3.當cmd=5且cmd_valid=1時，dataout輸出顯示端的影像向下移的結果
+
+![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab00/verilog_hw/E24044046/image/cmd5.PNG)
+
+4.當cmd=3且cmd_valid=1時，dataout輸出顯示端的影像向左移的結果
+
+![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab00/verilog_hw/E24044046/image/cmd3.PNG)
+
+5.當cmd=4且cmd_valid=1時，dataout輸出顯示端的影像向上移的結果
+
+![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab00/verilog_hw/E24044046/image/cmd4.PNG)
+
+6.當cmd=0且cmd_valid=1時，dataout輸出顯示端的影像重新輸出的結果
+
+![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab00/verilog_hw/E24044046/image/cmd0.PNG)
