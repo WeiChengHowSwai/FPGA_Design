@@ -2,4 +2,4 @@
 
 2.Add a README file in the new folder.
 
-3.commit and push. 
+3.commit and pull resqusets. 
