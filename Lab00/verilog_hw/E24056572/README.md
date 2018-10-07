@@ -1,32 +1,67 @@
-Homework - Verilog Practice
-=========
+HW00--Image Display Controller
+===================
+* [Member](#member)
+* [Requirement](#rules)
+* [Design](#design)
+* [File](#file)
+* [Simulation](#simulation)
+    * [Simulation1](#sim1)
+    * [Simulation2](#sim2)
 
-# 題目
-[下載連結](http://icdc.ee.nsysu.edu.tw/history/Xilinx/2007_A/2007_FPGA.zip)
-# 繳交時間
-2018/10/14 23:59
 
-以 pull request 時間準。
+<h2 id="member">Member</h2>
 
-# 繳交格式
+- 三乙 E24056572 楊承燁
+- 三乙 E24056637 陳  淳
+- 三乙 E24054203 張復凱
 
-請在此資料夾底下創建以其中一位組員的學號為名稱的資料夾:
+<h2 id="rules">Requirement</h2>
+請完成一影像顯示控制電路設計。此控制電路，可依指定之操控指令，
+使顯示端的影像進行水平及垂直方向的平移(Shift)功能。本控制電路有 5 個信號輸入(cmd，cmd_valid，datain，clk，reset)及3 個信號輸出(dataout，output_valid，busy)
 
-```shell
-/Lab00/verilog_hw/學號
-```
-該資料夾內必須要有一文件命名為 `README`:
+<h2 id="design">Design</h2>
+<p>利用FSM來控制時序，分為八個state，以下為其工作:</p>
 
-```shell
-/Lab00/verilog_hw/學號/README.md
-or
-/Lab00/verilog_hw/學號/README.txt
-or
-/Lab00/verilog_hw/學號/README.doc
-```
+|  State                   |            Function             
+| ------------------------ |-----------------------------------|
+|  S_reflash               | reflash the image
+|  S_load                  | load data
+|  S_shiftright            | shift image right
+|  S_shiftleft             | shift image left 
+|  S_shiftup               | shift image up
+|  S_shiftdown             | shift image down
+|  S_wait                  | standby and decode
+|  S_Out                   | output state
 
-該 `README` 檔案內基本一定要有所有組員的學號、模擬結果截圖、波形截圖。
+S_load , S_reflash 以及 S_shift 的四個state負責處理邊界以及計算新的center後由S_out負責輸出，S_wait則是等待以及負責解析輸入的指令。
 
-> 作為專案基本要記錄好自己的進度，請抱著不只是交作業的心態來做每一份作業，README 不是有寫就好，能詳細就詳細，這是公開的平台任何人都可以檢視。
+<h2 id="file">File</h5>
 
-最後一定要有設計的 HDL code。
+|  folder/file             |            Function                
+| ------------------------ |-----------------------------------|
+|  src/cmd1.dat            | testing command set 1  
+|  src/cmd2.dat            | testing command set 2      
+|  src/image1.dat          | testing data set 1 
+|  src/image2.dat          | testing data set 2      
+|  src/out_golden1.dat     | golden set 1                      
+|  src/out_golden2.dat     | golden set 2                      
+|  src/out.dat             | testbench output file 
+|  src/testfixture.v       | testbench source code             
+|  src/lcd_ctrl.v          | **hw00 source code**  
+
+<h2 id="simulation">Simulation Result</h2>
+
+<h3 id="sim1">Simulation1</h3>
+
+<p>模擬結果截圖</p>
+<img src = "./result/result.png">
+<p>模擬波形圖</p>
+<img src = "./result/waveform.png">
+
+<h3 id="sim2">Simulation2</h3>
+
+<p>模擬結果截圖</p>
+<img src = "./result/result2.png">
+<p>模擬波形圖</p>
+<img src = "./result/waveform2.png">
+
