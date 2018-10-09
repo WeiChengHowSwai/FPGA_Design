@@ -15,7 +15,7 @@ reg busy;
 reg [7:0] dataout;
 reg output_valid; 
 integer i;
-reg signal,signal1;
+reg signal;
 	
 	always@(posedge clk) begin
 	if(cmd_valid) begin
@@ -58,7 +58,6 @@ reg signal,signal1;
                       
                       i <= 0;
                       signal <= 1;
-                      signal1 <= 1;
                       position <= 6'd14;
                       
                       end
@@ -135,7 +134,6 @@ reg signal,signal1;
 			dataout <= data_reg[position];
 			out_position <= out_position + 1;
 			output_valid <= 1;
-			signal1 <= 0;
 		end
 		4'd1:
 		begin
