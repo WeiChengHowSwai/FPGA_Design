@@ -16,9 +16,11 @@ Implementation的report跑出了"[Power 33-232] No user defined clocks were foun
 我們利用FPGA內建的**Clock的頻率遠大於人類手指的按壓頻率的特性**，將4-bit的LED設計成一個**16面骰子**。
 怎麼說呢？首先從四個button的功能說起
 [在Clock正緣時觸發]
+
 | btn[0] | btn[1] | btn[2] | btn[3] |
 |--|--|--|--|
 | Counter+1 | Counter-1 | Counter歸零 | Counter全填1 |
+
 這個4-bit的Counter，每一個都對應到一顆LED。(EX：若Counter為1010，則只有LED[1]、LED[3]會亮，此數代表10。)
 
 而使用者的手指就算只是很短暫的按一下按鈕，這短暫的時間內也經過了無數個Clock Cycles，又因為每一次按壓的時間不會相同，所以這個方法可以視為是**亂數**的實現。
