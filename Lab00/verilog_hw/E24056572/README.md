@@ -68,7 +68,7 @@ S_load , S_reflash 以及 S_shift 的四個state負責處理邊界以及計算�
 
 <h3 id="detail">Detail</h3>
 
-shift right
+shift right  
 在wait state時接到新的指令後，進到下一個狀態計算新的參考點後接著進輸出的狀態
 其餘的left, up, down, reflash皆採用相同的模式
 <img src = "./result/shift_right.png">
@@ -85,6 +85,6 @@ shift down
 reflash
 <img src = "./result/reflash.png">
 
-load
+load  
 按照競賽要求，讀入資料後不用做任何的處理，以原參考點為基準直接寫出資料
 <img src = "./result/LoadData.png">
