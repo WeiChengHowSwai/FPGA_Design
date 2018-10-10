@@ -7,7 +7,7 @@
 //                                                             //
 //  Last Modified : 2018/08/21                                 //
 //                                                             //
-//  Auther : Jyun-Neng Ji                                      //
+//  Auther : Wei-Cheng Chen                                     //
 /////////////////////////////////////////////////////////////////
 
 module LED(
