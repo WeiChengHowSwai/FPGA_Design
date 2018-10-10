@@ -3,11 +3,11 @@
 //                                                             //
 //  Purpose : use switches to control LEDs                     //
 //                                                             //
-//  Creation Date : 2018/08/21                                 //
+//  Creation Date : 2018/10/10                                 //
 //                                                             //
-//  Last Modified : 2018/08/21                                 //
+//  Last Modified : 2018/10/10                                 //
 //                                                             //
-//  Auther : Jyun-Neng Ji                                      //
+//  Auther : E24044046,E24046713                               //
 /////////////////////////////////////////////////////////////////
 
 module LED(
