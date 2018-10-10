@@ -29,7 +29,7 @@ Programming
 實作成果：(verilog code見src資料夾)
 ---
 * 按下BTN3，LED3發亮
-![](https://i.imgur.com/0HTnXHW.jpg =x291)
+<img src="https://i.imgur.com/0HTnXHW.jpg" width = "300" align=center />
 
 * 按下BTN1，LED1發亮
-![](https://i.imgur.com/NBc4UFa.jpg =x300)
+<img src="https://i.imgur.com/NBc4UFa.jpg" width = "300" align=center />
