@@ -5,7 +5,7 @@
 ### Question 1.
  1.warning: design LED has port led[3] driven by constant 0
  
- ![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab01/hw/E24044046/image/warning.PNG)
+ ![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab01/hw/E24044046/image/warning.jpg)
  
    此warning表達led[3]一直被0驅動，代表在任何情形下不會亮。而我們並未使用到led[3]得顯示功能，因此不會影響結果。
    
@@ -19,20 +19,20 @@
 ### Programming: 改用板子上的四個按鈕來控制 LED，其下為FPGA燒錄結果。
  1.reset或未按下任何按鈕時，全部LED不亮
  
- ![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab01/hw/E24044046/image/0000.PNG) 
+ ![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab01/hw/E24044046/image/0000.jpg) 
  
  2.按下butten 0，LED 0亮起
  
- ![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab01/hw/E24044046/image/0001.PNG) 
+ ![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab01/hw/E24044046/image/0001.jpg) 
  
  3.按下butten 1，LED 1亮起
  
- ![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab01/hw/E24044046/image/0010.PNG)
+ ![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab01/hw/E24044046/image/0010.jpg)
  
  4.按下butten 2，LED 2亮起
  
- ![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab01/hw/E24044046/image/0100.PNG) 
+ ![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab01/hw/E24044046/image/0100.jpg) 
  
  5.按下butten 3，LED 3亮起
  
- ![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab01/hw/E24044046/image/1000.PNG)
+ ![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab01/hw/E24044046/image/1000.jpg)
