@@ -7,7 +7,7 @@
  
  ![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab01/hw/E24044046/image/warning.jpg)
  
-   此warning表達led[3]一直被0驅動，代表在任何情形下不會亮。而我們並未使用到led[3]得顯示功能，因此不會影響結果。
+   此warning表達led[3]一直被0驅動，代表在任何情形下都不會亮。而我們並未使用到led[3]的顯示功能，因此不會影響結果。
    
  2.warning: place_design is not in timing mode
    一般電路都會有sequential的部分，因此需要加入timing的資訊，但這次實驗為combinational電路，因此不需要timing資訊，此warning並不會影響結果。
