@@ -7,13 +7,14 @@ HW00--Image Display Controller
 * [Simulation](#simulation)
     * [Simulation1](#sim1)
     * [Simulation2](#sim2)
+    * [Detail](#detail)
 
 
 <h2 id="member">Member</h2>
 
-- 三乙 E24056572 楊承燁
-- 三乙 E24056637 陳  淳
-- 三乙 E24054203 張復凱
+- E24056572 
+- E24056637 
+- E24054203 
 
 <h2 id="rules">Requirement</h2>
 請完成一影像顯示控制電路設計。此控制電路，可依指定之操控指令，
@@ -53,15 +54,37 @@ S_load , S_reflash 以及 S_shift 的四個state負責處理邊界以及計算�
 
 <h3 id="sim1">Simulation1</h3>
 
-<p>模擬結果截圖</p>
+模擬結果截圖
 <img src = "./result/result.png">
-<p>模擬波形圖</p>
+模擬波形圖
 <img src = "./result/waveform.png">
 
 <h3 id="sim2">Simulation2</h3>
 
-<p>模擬結果截圖</p>
+模擬結果截圖
 <img src = "./result/result2.png">
-<p>模擬波形圖</p>
+模擬波形圖
 <img src = "./result/waveform2.png">
 
+<h3 id="detail">Detail</h3>
+
+shift right  
+在wait state時接到新的指令後，進到下一個狀態計算新的參考點後接著進輸出的狀態
+其餘的left, up, down, reflash皆採用相同的模式
+<img src = "./result/shift_right.png">
+
+shift left
+<img src = "./result/shift_left.png">
+
+shift up
+<img src = "./result/shift_up.png">
+
+shift down
+<img src = "./result/shift_down.png">
+
+reflash
+<img src = "./result/reflash.png">
+
+load  
+按照競賽要求，讀入資料後不用做任何的處理，以原參考點為基準直接寫出資料
+<img src = "./result/LoadData.png">
