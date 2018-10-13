@@ -28,10 +28,10 @@ vim
 
 ## 模擬結果
 #### Simulation1 : testfixture1.v
-![](https://github.com/ncku-vlsilab/FPGA_Design/blob/master/Lab00/verilog_hw/F94041034/images/test1_result.PNG)
+![](https://raw.githubusercontent.com/happy210168/FPGA_Design/master/Lab00/verilog_hw/F94041034/images/test1_result.png)
 
 #### Simulation2 : testfixture2.v
-![](https://github.com/ncku-vlsilab/FPGA_Design/blob/master/Lab00/verilog_hw/F94041034/images/test2_result.PNG)
+![](https://raw.githubusercontent.com/happy210168/FPGA_Design/master/Lab00/verilog_hw/F94041034/images/test2_result.png)
 :::info
 **兩個模擬結果皆成功**
 :::
@@ -41,49 +41,49 @@ vim
 ![](https://github.com/ncku-vlsilab/FPGA_Design/blob/master/Lab00/verilog_hw/F94041034/images/wave_analysis_output_valid.PNG)
 2. busy 為 high 時，正在執行 current state 指令，無法接收新指令輸入。
 3. 在 cmd_valid 為 high 及 busy 為 low 時， cmd 為有效指令輸入
-![](https://github.com/ncku-vlsilab/FPGA_Design/blob/master/Lab00/verilog_hw/F94041034/images/wave_analysis_busy.PNG)
+![](https://raw.githubusercontent.com/happy210168/FPGA_Design/master/Lab00/verilog_hw/F94041034/images/wave_analysis_busy.png)
 ### B. cmd
 1. cmd 0 : Reflash
 結果顯示當 cmd=0 時，有將原本顯示的3x3影像資料重新輸出。
-![](https://github.com/ncku-vlsilab/FPGA_Design/blob/master/Lab00/verilog_hw/F94041034/images/cmd0_reflash.PNG)
+![](https://raw.githubusercontent.com/happy210168/FPGA_Design/master/Lab00/verilog_hw/F94041034/images/cmd0_reflash.png)
 2. cmd 1 : Load data
 結果顯示當 cmd=1 時，origin會設為(2,2)，datain輸入資料，輸完後再由dataout輸出資料
 test1:
-![](https://github.com/ncku-vlsilab/FPGA_Design/blob/master/Lab00/verilog_hw/F94041034/images/test1_cmd1_load_data.PNG)
+![](https://raw.githubusercontent.com/happy210168/FPGA_Design/master/Lab00/verilog_hw/F94041034/images/test1_cmd1_load_data.png)
 test2:
-![](https://github.com/ncku-vlsilab/FPGA_Design/blob/master/Lab00/verilog_hw/F94041034/images/test2_cmd1_load_data.PNG)
+![](https://raw.githubusercontent.com/happy210168/FPGA_Design/master/Lab00/verilog_hw/F94041034/images/test2_cmd1_load_data.png)
 3. cmd 2 : Shift right
 結果顯示當cmd=2時，x 座標會向右移動1，y 座標不變，形成新origin，再由新origin作為新原點輸出新的影像資料；而當x = 3 無法再往右移動，所以origin座標不變
 test1:
-![](https://github.com/ncku-vlsilab/FPGA_Design/blob/master/Lab00/verilog_hw/F94041034/images/test1_cmd2_shift_right.PNG)
+![](https://raw.githubusercontent.com/happy210168/FPGA_Design/master/Lab00/verilog_hw/F94041034/images/test1_cmd2_shift_right.png)
 test2:
-![](https://github.com/ncku-vlsilab/FPGA_Design/blob/master/Lab00/verilog_hw/F94041034/images/test2_cmd2_shift_right.PNG)
+![](https://raw.githubusercontent.com/happy210168/FPGA_Design/master/Lab00/verilog_hw/F94041034/images/test2_cmd2_shift_right.png)
 x = 3 無法再往右移動，所以origin座標不變
-![](https://github.com/ncku-vlsilab/FPGA_Design/blob/master/Lab00/verilog_hw/F94041034/images/cmd2_shift_right_special.PNG)
+![](https://raw.githubusercontent.com/happy210168/FPGA_Design/master/Lab00/verilog_hw/F94041034/images/cmd2_shift_right_special.png)
 4. cmd 3 : Shift left
 結果顯示當cmd=3時，x 座標會向左移動1，y 座標不變，形成新origin，再由新origin作為新原點輸出新的影像資料；而當x = 0 無法再往左移動，所以origin座標不變
 test1:
-![](https://github.com/ncku-vlsilab/FPGA_Design/blob/master/Lab00/verilog_hw/F94041034/images/test1_cmd3_shift_left.PNG)
+![](https://raw.githubusercontent.com/happy210168/FPGA_Design/master/Lab00/verilog_hw/F94041034/images/test1_cmd3_shift_left.png)
 test2:
-![](https://github.com/ncku-vlsilab/FPGA_Design/blob/master/Lab00/verilog_hw/F94041034/images/test2_cmd3_shift_left.PNG)
+![](https://raw.githubusercontent.com/happy210168/FPGA_Design/master/Lab00/verilog_hw/F94041034/images/test2_cmd3_shift_left.png)
 x = 0 無法再往左移動，所以origin座標不變
-![](https://github.com/ncku-vlsilab/FPGA_Design/blob/master/Lab00/verilog_hw/F94041034/images/cmd3_shift_left_special.PNG)
+![](https://raw.githubusercontent.com/happy210168/FPGA_Design/master/Lab00/verilog_hw/F94041034/images/cmd3_shift_left_special.png)
 5. cmd 4 : Shift up
 結果顯示當cmd=4時，y 座標會向上移動1，x 座標不變，形成新origin，再由新origin作為新原點輸出新的影像資料；而當y = 0 無法再向上移動，所以origin座標不變
 test1:
-![](https://github.com/ncku-vlsilab/FPGA_Design/blob/master/Lab00/verilog_hw/F94041034/images/test1_cmd4_shift_up.PNG)
+![](https://raw.githubusercontent.com/happy210168/FPGA_Design/master/Lab00/verilog_hw/F94041034/images/test1_cmd4_shift_up.png)
 test2:
-![](https://github.com/ncku-vlsilab/FPGA_Design/blob/master/Lab00/verilog_hw/F94041034/images/test2_cmd4_shift_up.PNG)
+![](https://raw.githubusercontent.com/happy210168/FPGA_Design/master/Lab00/verilog_hw/F94041034/images/test2_cmd4_shift_up.png)
 y = 0 無法再向上移動，所以origin座標不變
-![](https://github.com/ncku-vlsilab/FPGA_Design/blob/master/Lab00/verilog_hw/F94041034/images/cmd4_shift_up_special.PNG)
+![](https://raw.githubusercontent.com/happy210168/FPGA_Design/master/Lab00/verilog_hw/F94041034/images/cmd4_shift_up_special.png)
 6. cmd 5 : Shift down
 結果顯示當cmd=5時，y 座標會向下移動1，x 座標不變，形成新origin，再由新origin作為新原點輸出新的影像資料；而當y = 3 無法再向下移動，所以origin座標不變
 test1:
-![](https://github.com/ncku-vlsilab/FPGA_Design/blob/master/Lab00/verilog_hw/F94041034/images/test1_cmd5_shift_down.PNG)
+![](https://raw.githubusercontent.com/happy210168/FPGA_Design/master/Lab00/verilog_hw/F94041034/images/test1_cmd5_shift_down.png)
 test2:
-![](https://github.com/ncku-vlsilab/FPGA_Design/blob/master/Lab00/verilog_hw/F94041034/images/test2_cmd5_shift_down.PNG)
+![](https://raw.githubusercontent.com/happy210168/FPGA_Design/master/Lab00/verilog_hw/F94041034/images/test2_cmd5_shift_down.png)
 y = 3 無法再向下移動，所以origin座標不變
-![](https://github.com/ncku-vlsilab/FPGA_Design/blob/master/Lab00/verilog_hw/F94041034/images/cmd5_shift_down_special.PNG)
+![](https://raw.githubusercontent.com/happy210168/FPGA_Design/master/Lab00/verilog_hw/F94041034/images/cmd5_shift_down_special.png)
 
 :::info
 **波形圖結果與Image Display Control規定系統功能相同**
