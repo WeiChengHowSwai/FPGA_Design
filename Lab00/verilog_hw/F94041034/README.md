@@ -32,9 +32,9 @@ vim
 
 #### Simulation2 : testfixture2.v
 ![](https://raw.githubusercontent.com/happy210168/FPGA_Design/master/Lab00/verilog_hw/F94041034/images/test2_result.png)
-:::info
+
 **兩個模擬結果皆成功**
-:::
+
 ## 波形圖分析
 ### A.
 1. output_valid 為 high 時， dataout 才是有效資料輸出。
@@ -85,6 +85,5 @@ test2:
 y = 3 無法再向下移動，所以origin座標不變
 ![](https://raw.githubusercontent.com/happy210168/FPGA_Design/master/Lab00/verilog_hw/F94041034/images/cmd5_shift_down_special.png)
 
-:::info
+
 **波形圖結果與Image Display Control規定系統功能相同**
-:::
