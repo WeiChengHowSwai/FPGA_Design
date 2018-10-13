@@ -29,6 +29,11 @@ This repository provides various FPGA design tutorials.
 * [Git Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 * `git --help`
 
+# SystemVerilog
+* [IEEE Standard for SystemVerilog](https://ieeexplore.ieee.org/document/8299595)
+
+# Verilog
+* [IEEE Standard for Verilog](https://ieeexplore.ieee.org/document/1620780)
 
 # Teaching Assistance
 

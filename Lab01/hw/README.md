@@ -1,5 +1,8 @@
 Homework
 ====
+# 繳交時間
+2018/10/21 23:59
+
 ### Question 1.
 執行完 Generate Bitstream 後，Project Summary 會有各個階段的結果如下圖。
 
