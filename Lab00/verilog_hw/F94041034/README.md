@@ -38,7 +38,7 @@ vim
 ## 波形圖分析
 ### A.
 1. output_valid 為 high 時， dataout 才是有效資料輸出。
-![](https://github.com/ncku-vlsilab/FPGA_Design/blob/master/Lab00/verilog_hw/F94041034/images/wave_analysis_output_valid.PNG)
+![](https://raw.githubusercontent.com/happy210168/FPGA_Design/master/Lab00/verilog_hw/F94041034/images/wave_analysis_output_valid.png)
 2. busy 為 high 時，正在執行 current state 指令，無法接收新指令輸入。
 3. 在 cmd_valid 為 high 及 busy 為 low 時， cmd 為有效指令輸入
 ![](https://raw.githubusercontent.com/happy210168/FPGA_Design/master/Lab00/verilog_hw/F94041034/images/wave_analysis_busy.png)
