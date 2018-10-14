@@ -1,15 +1,3 @@
-/////////////////////////////////////////////////////////////////
-//  File Name : LED.sv                                         //
-//                                                             //
-//  Purpose : use switches to control LEDs                     //
-//                                                             //
-//  Creation Date : 2018/08/21                                 //
-//                                                             //
-//  Last Modified : 2018/08/21                                 //
-//                                                             //
-//  Auther : Wei-Cheng Chen                                     //
-/////////////////////////////////////////////////////////////////
-
 module LED(
   input        clk ,
   input        [3 : 0] btn,
