@@ -18,20 +18,19 @@ input           reset;
 input   [7:0]   datain;
 input   [2:0]   cmd;
 input           cmd_valid;
-output  reg [7:0]   dataout;
+output  reg [7:0]  dataout;
 output  reg        output_valid;
 output  reg        busy;
 
 reg [1:0] state, n_state;
-reg [7:0]  image[35:0];
+reg [7:0] image[35:0];
 reg [7:0] out_image[8:0];
 reg [3:0] out;
 reg [5:0] k;
 reg [1:0] X,Y;
 integer i,h,j;
-
-wire [7:0] image35=image[35],image34=image[34],image33=image[33],image0=image[0],image1=image[1];
-
+	
+	
 always@(posedge clk or posedge reset)begin
 	if(reset)
 		state<=`RESET;
