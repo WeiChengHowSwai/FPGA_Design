@@ -1,5 +1,5 @@
 `timescale 1ns/10ps
-module lcd_ctrl(clk, reset, datain, cmd, cmd_valid, dataout, output_valid, busy);
+
 
 
 `define REFLASH   3'd0
@@ -12,6 +12,9 @@ module lcd_ctrl(clk, reset, datain, cmd, cmd_valid, dataout, output_valid, busy)
 `define RESET     3'd0
 `define PRINT     3'd2
 `define IDLE      3'd3
+
+module lcd_ctrl(clk, reset, datain, cmd, cmd_valid, dataout, output_valid, busy);
+
 
 input           clk;
 input           reset;
