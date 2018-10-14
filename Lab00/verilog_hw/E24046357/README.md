@@ -6,7 +6,7 @@ E24046357、E24046399、E24042060
 請完成一影像顯示控制(Image Display Control)電路設計。此控制電路，可依指定之操控指令，使顯示端的影像進行水平及垂直方向的平移(Shift)功能。
 本控制電路有 5 個信號輸入(cmd，cmd_valid，datain，clk，reset)及3 個信號輸出(dataout，output_valid，busy)，關於各輸入輸出信號的功能說明。
 ## 設計說明
-#FSM State Diagram
+# FSM State Diagram
 ![StateDiagram](image/State_Diagram.JPG)
 ## 模擬結果圖
 ### 測試檔1
