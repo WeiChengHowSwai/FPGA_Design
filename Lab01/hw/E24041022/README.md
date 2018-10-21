@@ -16,3 +16,5 @@ Implementation 產生了 "place_design is not in timing mode" 的 warning，為�
 ## Answer2
 1.再重做一次這個實驗，由於這次有加一個虛擬的clk (.xdc檔)，所以就不會跑出Question1的warning。
 
+## Programming
+這個程式就是讓我們練習，用不同的button來控制不同的led燈。
