@@ -18,3 +18,6 @@ Implementation 產生了 "place_design is not in timing mode" 的 warning，為�
 
 ## Programming
 這個程式就是讓我們練習，用不同的button來控制不同的led燈。
+
+
+# ☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠
