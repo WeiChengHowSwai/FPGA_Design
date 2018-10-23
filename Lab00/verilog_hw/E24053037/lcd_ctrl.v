@@ -37,7 +37,7 @@ always@(posedge clk or posedge reset) begin
 			i=0;
 			busy=0;
 			dataout=0;
-			cs <=SLEEP; 
+			cs <=rst; 
 		
 		
 		end
@@ -109,26 +109,29 @@ always@(negedge clk or datain or posedge cs)begin
 	case(cs)
 		LOAD:begin//1
 		
-		if(i<36)begin
+		if(i<37)
+			begin
 		
-		input_memory[i-1]=datain;
-		innum = input_memory[i];
-		dataout=0;
-		output_valid=0;
-		i=i+1;
-		cs = LOAD;
-		end
-		else begin
-			output_valid=0;
-            i=0;
-			dataout=0;
-			cs = PRINT;
+				input_memory[i-1]=datain;
+				innum = input_memory[i];
+				dataout=0;
+				output_valid=0;
+				i=i+1;
+				cs = LOAD;
+			end
+		else 
+			begin
+				output_valid=0;
+				i=0;
+				dataout=0;
+				cs = PRINT;
         end  
 		end
 		PRINT:begin//0
 		if(z<9)begin
 			cs = PRINT;
 			busy = 1;
+			output_valid=1;
 		dataout=input_memory[x+6*y];
             if(count<2)
 			begin
@@ -147,6 +150,7 @@ always@(negedge clk or datain or posedge cs)begin
 			z=0;
 			busy =0;
 			dataout=0;
+			output_valid=0;
 			cs = SLEEP;
 			y = y-3;
 
@@ -157,6 +161,7 @@ always@(negedge clk or datain or posedge cs)begin
 		SLEEP: begin
 		cs = SLEEP;
 		dataout=0;
+		output_valid=0;
 		
 		end
 		default begin
