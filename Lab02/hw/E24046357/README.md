@@ -35,6 +35,7 @@ E24046357、E24046399、E24042060
 ### 設計說明
 #### Block Design
 ![BD2](image/BlockDesign2.JPG)
+
 (在這個作業中我們並沒有把自己設計的Decoder以及RGB_LED驅動電路包成IP，所以使用PPT來繪製Block Design Diagram)
 #### Decoder設計
 | I/O | Port | Description |
@@ -57,20 +58,29 @@ E24046357、E24046399、E24042060
 #### 實際操作
 - rst後，sw切至00
 ![01](image/1.JPG)
+
 - sw切換至10，將Green之PWM值調整至0001
 ![02](image/2.JPG)
+
 - sw切換至00，按下btn[1]，輸出為微弱的綠色
 ![03](image/3.JPG)
+
 - 將Green之PWM歸零後，sw切換至01，將Red之PWM值調整至0101
 ![04](image/4.JPG)
+
 - sw切換至00，按下btn[1]，輸出為較亮的的紅色
 ![05](image/5.JPG)
+
 - Red之PWM值不變，sw切換至10，將Green之PWM值亦調整至0101
 ![06](image/6.JPG)
+
 - sw切換至00，按下btn[1]，輸出為較亮的的黃色
 ![07](image/7.JPG)
+
 - 將Red之PWM值歸零後，sw切換至11，將Blue之PWM值亦調整至0101
 ![08](image/8.JPG)
+
 - sw切換至00，按下btn[1]，輸出為充滿少女情懷的的❤❤❤Tiffany藍❤❤❤
 ![09](image/9.JPG)
+
 > Written with [StackEdit](https://stackedit.io/).
