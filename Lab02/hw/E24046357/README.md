@@ -34,7 +34,7 @@ E24046357、E24046399、E24042060
 ## Programming 2
 ### 設計說明
 #### Block Design
-![BD2](image/BlockDesign2.JPG)
+![BD2](image/BlockDesign2.jpg)
 
 (在這個作業中我們並沒有把自己設計的Decoder以及RGB_LED驅動電路包成IP，所以使用PPT來繪製Block Design Diagram)
 #### Decoder設計
@@ -57,30 +57,30 @@ E24046357、E24046399、E24042060
 | Output | RGB_out | 當RGB_time_in>counter時，輸出為1；反之為0 |
 #### 實際操作
 - rst後，sw切至00
-![01](image/1.JPG)
+![01](image/1.jpg)
 
 - sw切換至10，將Green之PWM值調整至0001
-![02](image/2.JPG)
+![02](image/2.jpg)
 
 - sw切換至00，按下btn[1]，輸出為微弱的綠色
-![03](image/3.JPG)
+![03](image/3.jpg)
 
 - 將Green之PWM歸零後，sw切換至01，將Red之PWM值調整至0101
-![04](image/4.JPG)
+![04](image/4.jpg)
 
 - sw切換至00，按下btn[1]，輸出為較亮的的紅色
-![05](image/5.JPG)
+![05](image/5.jpg)
 
 - Red之PWM值不變，sw切換至10，將Green之PWM值亦調整至0101
-![06](image/6.JPG)
+![06](image/6.jpg)
 
 - sw切換至00，按下btn[1]，輸出為較亮的的黃色
-![07](image/7.JPG)
+![07](image/7.jpg)
 
 - 將Red之PWM值歸零後，sw切換至11，將Blue之PWM值亦調整至0101
-![08](image/8.JPG)
+![08](image/8.jpg)
 
 - sw切換至00，按下btn[1]，輸出為充滿少女情懷的的❤❤❤Tiffany藍❤❤❤
-![09](image/9.JPG)
+![09](image/9.jpg)
 
 > Written with [StackEdit](https://stackedit.io/).
