@@ -3,13 +3,7 @@ FPGA-based System Design - Lab02 HW
 
 * [Member](#Member)
 * [Program 1](#Program1)
-    * [Introduction](#Introduction1)
-    * [Programming](#Programming1)
-    * [Result](#Result1)
 * [Program 2](#Program2)
-    * [Introduction](#Introduction2)
-    * [Programming](#Programming2)
-    * [Result](#Result2)
 
 <h2 id="Member">Member</h2>
 
