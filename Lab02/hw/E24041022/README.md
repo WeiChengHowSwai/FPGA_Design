@@ -39,4 +39,11 @@ E24041022、E24041894、E24046674
 
 
 ### ★由於這次作業結果極難以用圖片表示，所以我們把demo影片拍了下來，藉此說明其運作。
+Program1 :  https://drive.google.com/open?id=1lD-5-4gnBIhAD28i-QegqAJrKgxfc-1R
+
+Program2 :  https://drive.google.com/file/d/1hCDX51ExqZe-G85jkRmhQ79zzOJ1IcnZ/view?usp=sharing
+
+
+### 希望助教不要介意QQ
+
 
