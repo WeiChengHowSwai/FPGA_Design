@@ -27,23 +27,23 @@ Switch的切換對應如下表：
 | 11 | 顯示查無此人，LED持續輸出1111 |
 
 ### 實際操作
-![morse](/image/morse.jpg)
+![morse](image/morse.jpg)
 ## Programming 1-2
 ### 問題描述：計算 hash function 並在 putty 上顯示出學號經由 hash function 的結果
 ### 程式說明
 這題我們所採用的hash function為 [sha256](http://www.iwar.org.uk/comsec/resources/cipher/sha256-384-512.pdf)  
 輸入任何訊息經過sha256輸出皆會變成256 bits的hash values，經常被用在數位簽證中的雜湊函數。
 ### 實際操作
-![hash](/image/hash.jpg)
+![hash](image/hash.jpg)
 ### 驗證
 我們使用線上的sha256產生器來做驗證：
-![6357](/image/hash_verify6357.JPG)
-![6399](/image/hash_verify6399.JPG)
-![2060](/image/hash_verify2060.JPG)
+![6357](image/hash_verify6357.JPG)
+![6399](image/hash_verify6399.JPG)
+![2060](image/hash_verify2060.JPG)
 ## Programming 2
 ### 問題描述：輸入 32-bit 資料並計算其 parity bit
 ### 程式說明
 這題相對於上面兩題相較簡單，而我們的做法為計算輸入的1的個數，再由其除以2的餘數來判斷奇偶性。
 ### 實際操作
-![parity](/image/parity.jpg)
+![parity](image/parity.jpg)
 > Written with [StackEdit](https://stackedit.io/).
