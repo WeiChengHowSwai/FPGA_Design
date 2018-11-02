@@ -1,4 +1,4 @@
-FPGA_Design Lab02 HW
+FPGA_Design Lab03 HW
 ====
 
 # 成員名單
