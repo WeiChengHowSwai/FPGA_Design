@@ -31,7 +31,7 @@ E24053037   黑崇瑜
 ##  Program 2.
 輸入 32-bit 資料並計算其 parity bit。
 我們將輸入的整數計算為32bit的二進位數並計算它的odd parity bit
-![parity](image/parity)
+![parity](image/parity.jpg)
 
 
 
