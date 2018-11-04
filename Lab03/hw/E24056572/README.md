@@ -123,7 +123,7 @@ ZYNQ CPU儲存資料的方式應該是 little endian
 
 在Program1實作過程中我們一直無法使用 xil_printf("0x%" PRIx64 "\n", hashed); 的語句成功輸出unsigned long long int型態的資料，後來搜尋<a href = "https://www.xilinx.com/support/documentation/sw_manuals/xilinx11/oslib_rm.pdf?fbclid=IwAR37BlG6_H1A2uL5kOWw4Mq5XBQTL7DOnuRZeKpDnERWOPvVE9neX4t_vRo">官方說明文件</a>才知道xil_printf是輕量化的printf，有許多不常使用到的資料型台以及浮點運算都被移除了
 
-<img src = "./image/xil_printf.png"></img>
+<img src = "./image/xil_printf."></img>
 
 此外，從xil_printf的實作方式也可以看到我們所希望的%llx並沒有被實作，因此我們在這裡並不能使用xil_printf來當作輸出資料的方式，而須使用標準的printf。
 
