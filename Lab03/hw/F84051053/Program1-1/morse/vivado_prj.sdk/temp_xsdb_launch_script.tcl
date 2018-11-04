@@ -1,0 +1,1 @@
+set xsdb_idle_timeout -1;source D:/SDK/2018.2/scripts/xsdb/xsdb/xsdb-server.tcl

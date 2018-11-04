@@ -1,0 +1,12 @@
+#include "xil_printf.h"
+#include <stdio.h>
+
+int main() {
+
+	int a=2;
+	while(a!=1){
+	scanf("%d",&a);
+	xil_printf("Hello World!\r\n");
+	}
+	return 0;
+}
