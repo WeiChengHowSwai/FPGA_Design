@@ -1,0 +1,30 @@
+#include "xil_printf.h"
+#include <stdio.h>
+
+int main() {
+
+	char bit[5];
+	int count = 0;
+	int parity_bit;
+	while(1){
+		printf("please input 5-bits data\n");
+		scanf("%s",bit);
+
+		for(int =0 ;i<5;i++){
+			if(bit[i]==1) count ++;
+		}
+		if(count%2==1){
+			odd_parity_bit = 0;
+			even_parity_bit = 1;
+		}
+		else{
+			odd_parity_bit = 1;
+			even_parity_bit =0;
+		}
+		printf("odd parity bit = %d\n",odd_parity_bit);
+		printf("even_parity_bit = %d\n",even_parity_bit);
+		count = 0 ;
+	}
+
+	return 0;
+}

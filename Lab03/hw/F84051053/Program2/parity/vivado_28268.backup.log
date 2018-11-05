@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Oct 15 19:59:38 2018
+# Process ID: 28268
+# Current directory: C:/Users/user/Documents/GitHub/External_hw/hw3/Lab3-1/vivado_prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent32504 C:\Users\user\Documents\GitHub\External_hw\hw3\Lab3-1\vivado_prj\vivado_prj.xpr
+# Log file: C:/Users/user/Documents/GitHub/External_hw/hw3/Lab3-1/vivado_prj/vivado.log
+# Journal file: C:/Users/user/Documents/GitHub/External_hw/hw3/Lab3-1/vivado_prj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/user/Documents/GitHub/External_hw/hw3/Lab3-1/vivado_prj/vivado_prj.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab03/Lab3-1/vivado_prj' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/user/Documents/GitHub/External_hw/hw3/Lab3-1/vivado_prj/vivado_prj.ip_user_files', nor could it be found using path 'C:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab03/Lab3-1/vivado_prj/vivado_prj.ip_user_files'.
+CRITICAL WARNING: [Board 49-67] The board_part definition was not found for tul.com.tw:pynq-z2:part0:1.0. This can happen sometimes when you use custom board part. You can resolve this issue by setting 'board.repoPaths' parameter, pointing to the location of custom board files. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2018.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'processor.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+processor_processing_system7_0_0
+
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 833.207 ; gain = 118.082
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 15 20:04:00 2018...

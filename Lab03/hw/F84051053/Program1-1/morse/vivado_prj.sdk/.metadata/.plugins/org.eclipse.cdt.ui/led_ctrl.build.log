@@ -1,0 +1,22 @@
+01:27:33 **** Incremental Build of configuration Debug for project led_ctrl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: led_ctrl.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../led_ctrl_bsp/ps7_cortexa9_0/lib -o "led_ctrl.elf"  ./src/led.o   
+d:/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _vector_table; defaulting to 0000000000100000
+./src/led.o: In function `main':
+C:\Users\user\Documents\GitHub\External_hw\hw3\hw\Lab3-2\vivado_prj\vivado_prj.sdk\led_ctrl\Debug/../src/led.c:25: undefined reference to `XGpio_Initialize'
+C:\Users\user\Documents\GitHub\External_hw\hw3\hw\Lab3-2\vivado_prj\vivado_prj.sdk\led_ctrl\Debug/../src/led.c:26: undefined reference to `XGpio_Initialize'
+C:\Users\user\Documents\GitHub\External_hw\hw3\hw\Lab3-2\vivado_prj\vivado_prj.sdk\led_ctrl\Debug/../src/led.c:28: undefined reference to `xil_printf'
+C:\Users\user\Documents\GitHub\External_hw\hw3\hw\Lab3-2\vivado_prj\vivado_prj.sdk\led_ctrl\Debug/../src/led.c:32: undefined reference to `XGpio_SetDataDirection'
+C:\Users\user\Documents\GitHub\External_hw\hw3\hw\Lab3-2\vivado_prj\vivado_prj.sdk\led_ctrl\Debug/../src/led.c:33: undefined reference to `XGpio_SetDataDirection'
+C:\Users\user\Documents\GitHub\External_hw\hw3\hw\Lab3-2\vivado_prj\vivado_prj.sdk\led_ctrl\Debug/../src/led.c:36: undefined reference to `XGpio_DiscreteRead'
+C:\Users\user\Documents\GitHub\External_hw\hw3\hw\Lab3-2\vivado_prj\vivado_prj.sdk\led_ctrl\Debug/../src/led.c:37: undefined reference to `xil_printf'
+C:\Users\user\Documents\GitHub\External_hw\hw3\hw\Lab3-2\vivado_prj\vivado_prj.sdk\led_ctrl\Debug/../src/led.c:39: undefined reference to `XGpio_DiscreteWrite'
+collect2.exe: error: ld returned 1 exit status
+make: *** [led_ctrl.elf] Error 1
+
+01:27:34 Build Finished (took 911ms)
+
