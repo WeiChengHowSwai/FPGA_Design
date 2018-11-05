@@ -22,36 +22,24 @@ void long_delay(int in);
 XGpio LED_Gpio, SW_Gpio;
 
 
-int main() {
+int main(int argc,char *argv[]) {
 	int LED_Status, SW_Status;
 	u32 led_data = 0x00, sw_data;
-
-	int number1=24041810;
-	int number2=24046755;
-	int number3=24046307;
-
-	int record[3]={3,3,3};
-	int hash(int stu1,int *ptr){
-		int index=stu1%3;
-		if(ptr[index]==3){
-			ptr[index]=index;
+	//bkdr hash function
+	unsigned int hash(char *ptr){
+		unsigned int seed=31;
+		unsigned int hash_number=0;
+		unsigned int i=0;
+		for(i=0;i<9;i++){
+			hash_number=hash_number*seed+ptr[i];
 		}
-		else{
-			switch(index){
-				case 0:
-					index=2;
-					break;
-				case 1:
-					index=0;
-					break;
-				case 2:
-					index=1;
-					break;
-			}
-			ptr[index]=index;
-		}
-		return index;
+		return hash_number;
 	}
+	char str1[9]="E24041810";
+	char str2[9]="E24046755";
+	char str3[9]="E24046307";
+	//xil.printf("Please enter student number: ");
+	//scanf("%s",str);
 
 	/* Initialize the GPIO driver */
 	LED_Status = XGpio_Initialize(&LED_Gpio, LED_DEVICE_ID);
@@ -67,7 +55,7 @@ int main() {
 	while (1) {
 			sw_data = XGpio_DiscreteRead(&SW_Gpio, 1);
 			if(sw_data == 1){
-                xil_printf("E24041810 after hash is %d .\r\n" , hash(number1,record));
+                xil_printf("E24041810 after hash is %d .\r\n" , hash(str1));
                 short_delay(1);
                 short_delay(2);short_delay(2);long_delay(2);long_delay(2);long_delay(2);
                 short_delay(3);short_delay(3);short_delay(3);short_delay(3);long_delay(3);
@@ -79,7 +67,7 @@ int main() {
                 long_delay(9);long_delay(9);long_delay(9);long_delay(9);long_delay(9);
 			}
             else if(sw_data == 2){
-                xil_printf("E24046755 after hash is %d .\r\n",hash(number2,record));
+                xil_printf("E24046755 after hash is %d .\r\n",hash(str2));
                 short_delay(1);
                 short_delay(2);short_delay(2);long_delay(2);long_delay(2);long_delay(2);
                 short_delay(3);short_delay(3);short_delay(3);short_delay(3);long_delay(3);
@@ -91,7 +79,7 @@ int main() {
                 short_delay(9);short_delay(9);short_delay(9);short_delay(9);short_delay(9);
 			}
             else if(sw_data == 3){
-                xil_printf("E24046307 after hash is %d .\r\n",hash(number3,record));
+                xil_printf("E24046307 after hash is %d .\r\n",hash(str3));
                 short_delay(1);
                 short_delay(2);short_delay(2);long_delay(2);long_delay(2);long_delay(2);
                 short_delay(3);short_delay(3);short_delay(3);short_delay(3);long_delay(3);
@@ -107,21 +95,6 @@ int main() {
 
 		}
 
-		/*while(1){
-			sw_data = XGpio_DiscreteRead(&SW_Gpio, 1);
-			if(sw_data==1){
-				xil_printf("E24041810 after hash is %d .\r\n" , hash(number1,record));
-			}
-			else if(sw_data==2){
-				xil_printf("E24046755 after hash is %d .\r\n",hash(number2,record));
-			}
-			else if(sw_data==3){
-				xil_printf("E24046307 after hash is %d .\r\n",hash(number3,record));
-			}
-			else{
-				xil_printf("Change the switch:\r\n");
-			}
-		}*/
 
 		xil_printf("Successfully ran Gpio Example\r\n");
 		return XST_SUCCESS;
@@ -147,6 +120,5 @@ void long_delay(int in)
     led_data = 0;
     XGpio_DiscreteWrite(&LED_Gpio, 1, led_data);
 }
-
 
 

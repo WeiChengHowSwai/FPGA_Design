@@ -31,20 +31,25 @@ E24041810 E24046755 E24046307
 # Program 1.2
 ### 計算 hash function 並在 putty 上顯示出學號經由 hash function 的結果。
 ### 設計說明
- 我們使用的是較為簡單的 hash function，由於總共有3個學號，因此我們將3個學號分別除以3取餘數，
- 若碰到取完餘數結果為重複時，較晚做 hash function的學號則將結果減一，若再重複則再次減一，直到沒重複為止。
+ 我們的hash function是採用BKDR Hash Function,其中seed的值選擇31，
+ 因為如果選擇131的話回傳值會是負的（即使我們已經限制回傳值是unsigned了）。
+ 推測其原因可能是因為變數的type記憶體大小不夠大，造成最後的結果怪怪的。
+ 而我們把學號整個當成string去運算，也就是用ascii code的值來計算。
  而在這裡是搭配program1.1的sw去分別顯示三個學號的hash function。
  
 ### 實驗結果
-![hash3](image/hash3.jpg)
+![hash](image/hash.jpg)
 
 # Program 2
 ### 輸入 32-bit 資料並計算其 parity bit。
 ### 設計說明
- 我們的是採用 even parity，使用者可以更改程式碼中number這個變數的值，且我們設定輸入的數字為十進位，
- 而我們再將數字轉為二進位存到一個陣列中，再計算陣列中總共有幾個1，並把它除以2取餘數，以判斷其even parity。
+ 我們的是採用 even parity，使用者可以隨意輸入一個十進位且大小為32bits的數，
+ 原本我們將數字轉為二進位存到一個陣列中，再計算陣列中總共有幾個1，但這樣子有點浪費記憶體空間，
+ 因此我們改成不存入陣列，而是直接在除以2取餘數的時候就判斷是不是1，如果是1就counter++，
+ 最後再把counter除以2取餘數，以判斷其even parity。
   
 ### 實驗結果
-![parity_test1](image/parity_test1.jpg)
-![parity_test2](image/parity_test2.jpg)
+![parity](image/parity.jpg)
+
+
 
