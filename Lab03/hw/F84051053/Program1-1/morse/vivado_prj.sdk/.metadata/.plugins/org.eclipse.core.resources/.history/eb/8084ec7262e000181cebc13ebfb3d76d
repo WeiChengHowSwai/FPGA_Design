@@ -1,0 +1,148 @@
+#include "xparameters.h"
+#include "xgpio.h"
+#include "xil_printf.h"
+
+#define SW_DEVICE_ID  XPAR_GPIO_0_DEVICE_ID
+#define LED_DEVICE_ID  XPAR_GPIO_1_DEVICE_ID
+
+#define LED_DELAY     15000000
+XGpio LED_Gpio, SW_Gpio;
+u32 led_data = 0x00, sw_data;
+void lightshort();
+void lightlong();
+void lightF();
+void light0();
+void light1();
+void light3();
+void light4();
+void light5();
+void light8();
+void light9();
+
+int main() {
+	int LED_Status, SW_Status;
+
+
+	/* Initialize the GPIO driver */
+	LED_Status = XGpio_Initialize(&LED_Gpio, LED_DEVICE_ID);
+	SW_Status = XGpio_Initialize(&SW_Gpio, SW_DEVICE_ID);
+	if (LED_Status != XST_SUCCESS || SW_Status) {
+		xil_printf("Gpio Initialization Failed\r\n");
+		return XST_FAILURE;
+	}
+	/* Set the direction for all signals as inputs except the LED output */
+	XGpio_SetDataDirection(&LED_Gpio, 1, 0x00);
+	XGpio_SetDataDirection(&SW_Gpio, 1, 0x0f);
+
+	while (1) {
+			sw_data = XGpio_DiscreteRead(&SW_Gpio, 1);
+			xil_printf("switches data = %d\r\n", sw_data);
+
+			while(sw_data==0){
+				lightF();
+				for (int Delay = 0; Delay < LED_DELAY*5; Delay++);
+				if(sw_data!=0) break;
+				light8();
+				for (int Delay = 0; Delay < LED_DELAY*5; Delay++);
+				if(sw_data!=0) break;
+				light4();
+				for (int Delay = 0; Delay < LED_DELAY*5; Delay++);
+				if(sw_data!=0) break;
+				light0();
+				for (int Delay = 0; Delay < LED_DELAY*5; Delay++);
+				if(sw_data!=0) break;
+				light5();
+				for (int Delay = 0; Delay < LED_DELAY*5; Delay++);
+				if(sw_data!=0) break;
+				light1();
+				for (int Delay = 0; Delay < LED_DELAY*5; Delay++);
+				if(sw_data!=0) break;
+				light0();
+				for (int Delay = 0; Delay < LED_DELAY*5; Delay++);
+				if(sw_data!=0) break;
+				light5();
+				for (int Delay = 0; Delay < LED_DELAY*5; Delay++);
+				if(sw_data!=0) break;
+				light3();
+				for (int Delay = 0; Delay < LED_DELAY*5; Delay++);
+			}
+			while(sw_data==3){
+				lightF();
+				for (int Delay = 0; Delay < LED_DELAY*5; Delay++);
+				if(sw_data!=3) break;
+				light9();
+				for (int Delay = 0; Delay < LED_DELAY*5; Delay++);
+				if(sw_data!=3) break;
+				light4();
+				for (int Delay = 0; Delay < LED_DELAY*5; Delay++);
+				if(sw_data!=3) break;
+				light0();
+				for (int Delay = 0; Delay < LED_DELAY*5; Delay++);
+				if(sw_data!=3) break;
+				light4();
+				for (int Delay = 0; Delay < LED_DELAY*5; Delay++);
+				if(sw_data!=3) break;
+				light1();
+				for (int Delay = 0; Delay < LED_DELAY*5; Delay++);
+				if(sw_data!=3) break;
+				light0();
+				for (int Delay = 0; Delay < LED_DELAY*5; Delay++);
+				if(sw_data!=3) break;
+				light3();
+				for (int Delay = 0; Delay < LED_DELAY*5; Delay++);
+				if(sw_data!=3) break;
+				light4();
+				for (int Delay = 0; Delay < LED_DELAY*5; Delay++);
+			}
+		}
+
+		xil_printf("Successfully ran Gpio Example\r\n");
+		return XST_SUCCESS;
+}
+
+
+void lightlong(){
+	led_data--;
+	XGpio_DiscreteWrite(&LED_Gpio, 1, led_data);
+	for (int Delay = 0; Delay < LED_DELAY*3; Delay++);
+	led_data ++;
+	XGpio_DiscreteWrite(&LED_Gpio, 1, led_data);
+	for (int Delay = 0; Delay < LED_DELAY; Delay++);
+}
+
+void lightshort(){
+	led_data--;
+	XGpio_DiscreteWrite(&LED_Gpio, 1, led_data);
+	for (int Delay = 0; Delay < LED_DELAY; Delay++);
+	led_data ++;
+	XGpio_DiscreteWrite(&LED_Gpio, 1, led_data);
+	for (int Delay = 0; Delay < LED_DELAY; Delay++);
+}
+
+void lightF(){
+	lightshort();
+	lightshort();
+	lightlong();
+	lightshort();
+}
+void light0(){
+	lightlong(); lightlong(); lightlong(); lightlong(); lightlong();
+}
+void light1(){
+	lightshort(); lightlong(); lightlong(); lightlong(); lightlong();
+}
+void light3(){
+	lightshort(); lightshort(); lightshort(); lightlong(); lightlong();
+}
+void light4(){
+	lightshort(); lightshort(); lightshort(); lightshort(); lightlong();
+}
+void light5(){
+	lightshort(); lightshort(); lightshort(); lightshort(); lightshort();
+}
+void light8(){
+	lightlong(); lightlong(); lightlong(); lightlong(); lightshort();
+}
+void light9(){
+	lightlong(); lightlong(); lightlong(); lightlong(); lightshort();
+}

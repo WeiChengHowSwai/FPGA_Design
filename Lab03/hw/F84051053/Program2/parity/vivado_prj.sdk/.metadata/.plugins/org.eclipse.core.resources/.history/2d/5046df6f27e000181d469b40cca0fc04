@@ -1,0 +1,27 @@
+#include "xil_printf.h"
+#include <stdio.h>
+
+int main() {
+
+	char id[9];
+	int data[10]={0};
+	int sum;
+	int temp;
+	int value;
+	while(1){
+	scanf("%s",id);
+	for(int i=0;i<9;i++) sum += id[i];
+	temp = sum % 5;
+	for(int i=0;i<10;i++){
+		if(data[temp]==1) temp++;
+		else{
+			value = temp;
+			break;
+		}
+	}
+	data[value] == 1;
+	printf("the hash value of %s is %d",id,value);
+
+	}
+	return 0;
+}

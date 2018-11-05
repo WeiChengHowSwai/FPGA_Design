@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Nov  5 01:18:45 2018
+# Process ID: 9300
+# Current directory: C:/Users/user/Documents/GitHub/External_hw/hw3/hw/Lab3-2/vivado_prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2488 C:\Users\user\Documents\GitHub\External_hw\hw3\hw\Lab3-2\vivado_prj\vivado_prj.xpr
+# Log file: C:/Users/user/Documents/GitHub/External_hw/hw3/hw/Lab3-2/vivado_prj/vivado.log
+# Journal file: C:/Users/user/Documents/GitHub/External_hw/hw3/hw/Lab3-2/vivado_prj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/user/Documents/GitHub/External_hw/hw3/hw/Lab3-2/vivado_prj/vivado_prj.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab03/Lab3-2/vivado_prj' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/user/Documents/GitHub/External_hw/hw3/hw/Lab3-2/vivado_prj/vivado_prj.ip_user_files', nor could it be found using path 'C:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab03/Lab3-2/vivado_prj/vivado_prj.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:36 . Memory (MB): peak = 794.531 ; gain = 117.332
+update_compile_order -fileset sources_1
+INFO: [Vivado 12-4159] Implementation run is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-run implementation and re-generate bitstream before doing hardware export.
+file copy -force C:/Users/user/Documents/GitHub/External_hw/hw3/hw/Lab3-2/vivado_prj/vivado_prj.runs/impl_1/led_ctrl_wrapper.sysdef C:/Users/user/Documents/GitHub/External_hw/hw3/hw/Lab3-2/vivado_prj/vivado_prj.sdk/led_ctrl_wrapper.hdf
+
+INFO: [Vivado 12-4158] Exported Hardware file is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-export the design and launch SDK otherwise SDK is launched with out of date hardware system file.
+launch_sdk -workspace C:/Users/user/Documents/GitHub/External_hw/hw3/hw/Lab3-2/vivado_prj/vivado_prj.sdk -hwspec C:/Users/user/Documents/GitHub/External_hw/hw3/hw/Lab3-2/vivado_prj/vivado_prj.sdk/led_ctrl_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/user/Documents/GitHub/External_hw/hw3/hw/Lab3-2/vivado_prj/vivado_prj.sdk -hwspec C:/Users/user/Documents/GitHub/External_hw/hw3/hw/Lab3-2/vivado_prj/vivado_prj.sdk/led_ctrl_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+INFO: [Vivado 12-4158] Exported Hardware file is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-export the design and launch SDK otherwise SDK is launched with out of date hardware system file.
+open_bd_design {C:/Users/user/Documents/GitHub/External_hw/hw3/hw/Lab3-2/vivado_prj/vivado_prj.srcs/sources_1/bd/led_ctrl/led_ctrl.bd}
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_1
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <led_ctrl> from BD file <C:/Users/user/Documents/GitHub/External_hw/hw3/hw/Lab3-2/vivado_prj/vivado_prj.srcs/sources_1/bd/led_ctrl/led_ctrl.bd>
+open_bd_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 927.566 ; gain = 116.180
+make_wrapper -files [get_files C:/Users/user/Documents/GitHub/External_hw/hw3/hw/Lab3-2/vivado_prj/vivado_prj.srcs/sources_1/bd/led_ctrl/led_ctrl.bd] -top
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Nov  5 01:38:53 2018] Launched synth_1...
+Run output will be captured here: C:/Users/user/Documents/GitHub/External_hw/hw3/hw/Lab3-2/vivado_prj/vivado_prj.runs/synth_1/runme.log
+[Mon Nov  5 01:38:53 2018] Launched impl_1...
+Run output will be captured here: C:/Users/user/Documents/GitHub/External_hw/hw3/hw/Lab3-2/vivado_prj/vivado_prj.runs/impl_1/runme.log
+file copy -force C:/Users/user/Documents/GitHub/External_hw/hw3/hw/Lab3-2/vivado_prj/vivado_prj.runs/impl_1/led_ctrl_wrapper.sysdef C:/Users/user/Documents/GitHub/External_hw/hw3/hw/Lab3-2/vivado_prj/vivado_prj.sdk/led_ctrl_wrapper.hdf
+
+launch_sdk -workspace C:/Users/user/Documents/GitHub/External_hw/hw3/hw/Lab3-2/vivado_prj/vivado_prj.sdk -hwspec C:/Users/user/Documents/GitHub/External_hw/hw3/hw/Lab3-2/vivado_prj/vivado_prj.sdk/led_ctrl_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/user/Documents/GitHub/External_hw/hw3/hw/Lab3-2/vivado_prj/vivado_prj.sdk -hwspec C:/Users/user/Documents/GitHub/External_hw/hw3/hw/Lab3-2/vivado_prj/vivado_prj.sdk/led_ctrl_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+launch_sdk -workspace C:/Users/user/Documents/GitHub/External_hw/hw3/hw/Lab3-2/vivado_prj/vivado_prj.sdk -hwspec C:/Users/user/Documents/GitHub/External_hw/hw3/hw/Lab3-2/vivado_prj/vivado_prj.sdk/led_ctrl_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/user/Documents/GitHub/External_hw/hw3/hw/Lab3-2/vivado_prj/vivado_prj.sdk -hwspec C:/Users/user/Documents/GitHub/External_hw/hw3/hw/Lab3-2/vivado_prj/vivado_prj.sdk/led_ctrl_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
