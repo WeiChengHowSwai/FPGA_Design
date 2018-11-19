@@ -12,7 +12,7 @@ Homework
 
 ### PS 內長什麼樣子?
 
-![block_diagram](../images/zynq.png)
+![block_diagram](../images/ZYNQ.png)
 
 ### Program 1.
 
