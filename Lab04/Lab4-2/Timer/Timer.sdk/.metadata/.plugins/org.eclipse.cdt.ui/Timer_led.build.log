@@ -1,0 +1,23 @@
+20:32:15 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28232	   2804	  22712	  53748	   d1f4	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+
+20:32:16 Build Finished (took 240ms)
+

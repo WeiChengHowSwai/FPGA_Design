@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Oct  1 22:45:40 2018
+# Process ID: 15014
+# Current directory: /home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.runs/design_timer_axi_gpio_2_0_synth_1
+# Command line: vivado -log design_timer_axi_gpio_2_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_timer_axi_gpio_2_0.tcl
+# Log file: /home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.runs/design_timer_axi_gpio_2_0_synth_1/design_timer_axi_gpio_2_0.vds
+# Journal file: /home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.runs/design_timer_axi_gpio_2_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_timer_axi_gpio_2_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1274.801 ; gain = 75.992 ; free physical = 777 ; free virtual = 77425
+INFO: [Synth 8-638] synthesizing module 'design_timer_axi_gpio_2_0' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ip/design_timer_axi_gpio_2_0/synth/design_timer_axi_gpio_2_0.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'axi_gpio' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:1257]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (1#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (1#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (1#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (1#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (2#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (3#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (4#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'GPIO_Core' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:177]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (5#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'GPIO_Core' (6#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:177]
+INFO: [Synth 8-256] done synthesizing module 'axi_gpio' (7#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:1257]
+INFO: [Synth 8-256] done synthesizing module 'design_timer_axi_gpio_2_0' (8#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ip/design_timer_axi_gpio_2_0/synth/design_timer_axi_gpio_2_0.vhd:84]
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1317.309 ; gain = 118.500 ; free physical = 763 ; free virtual = 77412
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1317.309 ; gain = 118.500 ; free physical = 741 ; free virtual = 77390
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 1734.371 ; gain = 0.008 ; free physical = 243 ; free virtual = 76320
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1734.371 ; gain = 535.562 ; free physical = 538 ; free virtual = 76574
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1734.371 ; gain = 535.562 ; free physical = 545 ; free virtual = 76580
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1734.371 ; gain = 535.562 ; free physical = 545 ; free virtual = 76580
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1734.371 ; gain = 535.562 ; free physical = 509 ; free virtual = 76544
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1734.371 ; gain = 535.562 ; free physical = 475 ; free virtual = 76510
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1734.371 ; gain = 535.562 ; free physical = 296 ; free virtual = 76051
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1734.371 ; gain = 535.562 ; free physical = 285 ; free virtual = 76038
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1734.371 ; gain = 535.562 ; free physical = 305 ; free virtual = 76047
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1734.371 ; gain = 535.562 ; free physical = 341 ; free virtual = 76082
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1734.371 ; gain = 535.562 ; free physical = 341 ; free virtual = 76082
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1734.371 ; gain = 535.562 ; free physical = 341 ; free virtual = 76082
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1734.371 ; gain = 535.562 ; free physical = 341 ; free virtual = 76082
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1734.371 ; gain = 535.562 ; free physical = 340 ; free virtual = 76081
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1734.371 ; gain = 535.562 ; free physical = 340 ; free virtual = 76081
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |     4|
+|3     |LUT3 |     4|
+|4     |LUT4 |     4|
+|5     |LUT5 |    13|
+|6     |LUT6 |    12|
+|7     |FDR  |     8|
+|8     |FDRE |    31|
+|9     |FDSE |     2|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1734.371 ; gain = 535.562 ; free physical = 340 ; free virtual = 76081
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1734.371 ; gain = 548.152 ; free physical = 378 ; free virtual = 75865
