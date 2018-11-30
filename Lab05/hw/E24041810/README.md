@@ -11,7 +11,7 @@ E24041810 E24046755 E24046307
 ### 設計一個排序電路，由 processor 輸入一串數字將其排序後傳回。(數列長度固定)
 ### 設計說明
 1. 分別輸入4個4bits的數去做排序，出來結果為由小至大。
-2. 
+
 ![sorting](images/sorting.JPG)
 
 # Program 2
@@ -23,6 +23,7 @@ E24041810 E24046755 E24046307
 ![arithmetic](images/arithmetic2.JPG)
 ![arithmetic](images/arithmetic3.JPG)
 ![arithmetic](images/arithmetic4.JPG)
+
 測試加法、減法(大減小、小減大)、乘法。
 
 # Program 3
