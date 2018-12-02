@@ -1,0 +1,25 @@
+
+
+/***************************** Include Files *******************************/
+#include "PWM_ctrl.h"
+#include "sleep.h"
+
+/************************** Function Definitions ***************************/
+u32 PWM(UINTPTR baseaddr , int sw , int ari)
+{
+	u32 PWM , data ;
+
+	data = sw + (ari << 4);
+
+	PWM_CTRL_mWriteReg(baseaddr , 0 , data);
+
+	PWM_CTRL_mWriteReg(baseaddr , 0 , 0);
+
+	PWM = PWM_CTRL_mReadReg(baseaddr , 4);
+
+}
+
+void PWM_reset(UINTPTR baseaddr){
+	PWM_CTRL_mWriteReg(baseaddr , 0 , 4);
+	PWM_CTRL_mWriteReg(baseaddr , 0 , 0);
+}
