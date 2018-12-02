@@ -1,0 +1,369 @@
+
+*** Running vivado
+    with args -log hw5_calculator_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source hw5_calculator_0_0.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source hw5_calculator_0_0.tcl -notrace
+Command: synth_design -top hw5_calculator_0_0 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 533444 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 389.633 ; gain = 98.996
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'hw5_calculator_0_0' [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ip/hw5_calculator_0_0/synth/hw5_calculator_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'calculator_v1_0' [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ipshared/6090/hdl/calculator_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'calculator_v1_0_S00_AXI' [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ipshared/6090/hdl/calculator_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
+INFO: [Synth 8-226] default block is never used [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ipshared/6090/hdl/calculator_v1_0_S00_AXI.v:231]
+INFO: [Synth 8-226] default block is never used [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ipshared/6090/hdl/calculator_v1_0_S00_AXI.v:372]
+INFO: [Synth 8-6157] synthesizing module 'calculator' [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ipshared/6090/src/calculator.v:1]
+	Parameter add bound to: 2'b00 
+	Parameter sub bound to: 2'b01 
+	Parameter multiply bound to: 2'b10 
+INFO: [Synth 8-6155] done synthesizing module 'calculator' (1#1) [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ipshared/6090/src/calculator.v:1]
+WARNING: [Synth 8-689] width (32) of port connection 'cmd' does not match port width (2) of module 'calculator' [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ipshared/6090/hdl/calculator_v1_0_S00_AXI.v:405]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg3_reg was removed.  [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ipshared/6090/hdl/calculator_v1_0_S00_AXI.v:226]
+INFO: [Synth 8-6155] done synthesizing module 'calculator_v1_0_S00_AXI' (2#1) [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ipshared/6090/hdl/calculator_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'calculator_v1_0' (3#1) [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ipshared/6090/hdl/calculator_v1_0.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'hw5_calculator_0_0' (4#1) [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ip/hw5_calculator_0_0/synth/hw5_calculator_0_0.v:57]
+WARNING: [Synth 8-3331] design calculator_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design calculator_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design calculator_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design calculator_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design calculator_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design calculator_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 445.250 ; gain = 154.613
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 445.250 ; gain = 154.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 445.250 ; gain = 154.613
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ip/hw5_calculator_0_0/src/calculator_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ip/hw5_calculator_0_0/src/calculator_ooc.xdc] for cell 'inst'
+Parsing XDC File [C:/Users/Leo/Desktop/FPGA/hw5/hw5.runs/hw5_calculator_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/Leo/Desktop/FPGA/hw5/hw5.runs/hw5_calculator_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 806.539 ; gain = 1.508
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 806.539 ; gain = 515.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 806.539 ; gain = 515.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst. (constraint file  C:/Users/Leo/Desktop/FPGA/hw5/hw5.runs/hw5_calculator_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 806.539 ; gain = 515.902
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ipshared/6090/src/calculator.v:10]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 806.539 ; gain = 515.902
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 4     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Multipliers : 
+	                32x32  Multipliers := 1     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 6     
+	   2 Input     32 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module calculator 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
++---Multipliers : 
+	                32x32  Multipliers := 1     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 2     
+Module calculator_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ipshared/6090/src/calculator.v:20]
+DSP Report: Generating DSP calculator_v1_0_S00_AXI_inst/C/C0, operation Mode is: A*B.
+DSP Report: operator calculator_v1_0_S00_AXI_inst/C/C0 is absorbed into DSP calculator_v1_0_S00_AXI_inst/C/C0.
+DSP Report: operator calculator_v1_0_S00_AXI_inst/C/C0 is absorbed into DSP calculator_v1_0_S00_AXI_inst/C/C0.
+DSP Report: Generating DSP calculator_v1_0_S00_AXI_inst/C/C0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator calculator_v1_0_S00_AXI_inst/C/C0 is absorbed into DSP calculator_v1_0_S00_AXI_inst/C/C0.
+DSP Report: operator calculator_v1_0_S00_AXI_inst/C/C0 is absorbed into DSP calculator_v1_0_S00_AXI_inst/C/C0.
+DSP Report: Generating DSP calculator_v1_0_S00_AXI_inst/C/C0, operation Mode is: A*B.
+DSP Report: operator calculator_v1_0_S00_AXI_inst/C/C0 is absorbed into DSP calculator_v1_0_S00_AXI_inst/C/C0.
+DSP Report: operator calculator_v1_0_S00_AXI_inst/C/C0 is absorbed into DSP calculator_v1_0_S00_AXI_inst/C/C0.
+DSP Report: Generating DSP calculator_v1_0_S00_AXI_inst/C/C0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator calculator_v1_0_S00_AXI_inst/C/C0 is absorbed into DSP calculator_v1_0_S00_AXI_inst/C/C0.
+DSP Report: operator calculator_v1_0_S00_AXI_inst/C/C0 is absorbed into DSP calculator_v1_0_S00_AXI_inst/C/C0.
+WARNING: [Synth 8-3331] design calculator_v1_0 has unconnected port s00_axi_awprot[2]
+WARNING: [Synth 8-3331] design calculator_v1_0 has unconnected port s00_axi_awprot[1]
+WARNING: [Synth 8-3331] design calculator_v1_0 has unconnected port s00_axi_awprot[0]
+WARNING: [Synth 8-3331] design calculator_v1_0 has unconnected port s00_axi_arprot[2]
+WARNING: [Synth 8-3331] design calculator_v1_0 has unconnected port s00_axi_arprot[1]
+WARNING: [Synth 8-3331] design calculator_v1_0 has unconnected port s00_axi_arprot[0]
+INFO: [Synth 8-3886] merging instance 'inst/calculator_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'inst/calculator_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\calculator_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'inst/calculator_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'inst/calculator_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\calculator_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (calculator_v1_0_S00_AXI_inst/axi_bresp_reg[1]) is unused and will be removed from module calculator_v1_0.
+WARNING: [Synth 8-3332] Sequential element (calculator_v1_0_S00_AXI_inst/axi_awaddr_reg[1]) is unused and will be removed from module calculator_v1_0.
+WARNING: [Synth 8-3332] Sequential element (calculator_v1_0_S00_AXI_inst/axi_awaddr_reg[0]) is unused and will be removed from module calculator_v1_0.
+WARNING: [Synth 8-3332] Sequential element (calculator_v1_0_S00_AXI_inst/axi_araddr_reg[1]) is unused and will be removed from module calculator_v1_0.
+WARNING: [Synth 8-3332] Sequential element (calculator_v1_0_S00_AXI_inst/axi_araddr_reg[0]) is unused and will be removed from module calculator_v1_0.
+WARNING: [Synth 8-3332] Sequential element (calculator_v1_0_S00_AXI_inst/axi_rresp_reg[1]) is unused and will be removed from module calculator_v1_0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 806.539 ; gain = 515.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++----------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name     | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++----------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|calculator_v1_0 | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|calculator_v1_0 | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|calculator_v1_0 | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|calculator_v1_0 | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++----------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:00:47 . Memory (MB): peak = 842.930 ; gain = 552.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:48 . Memory (MB): peak = 865.027 ; gain = 574.391
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:41 ; elapsed = 00:00:48 . Memory (MB): peak = 865.027 ; gain = 574.391
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:42 ; elapsed = 00:00:50 . Memory (MB): peak = 865.027 ; gain = 574.391
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:42 ; elapsed = 00:00:50 . Memory (MB): peak = 865.027 ; gain = 574.391
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:42 ; elapsed = 00:00:50 . Memory (MB): peak = 865.027 ; gain = 574.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:42 ; elapsed = 00:00:50 . Memory (MB): peak = 865.027 ; gain = 574.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:42 ; elapsed = 00:00:50 . Memory (MB): peak = 865.027 ; gain = 574.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:42 ; elapsed = 00:00:50 . Memory (MB): peak = 865.027 ; gain = 574.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY4  |    12|
+|2     |DSP48E1 |     3|
+|3     |LUT1    |     2|
+|4     |LUT2    |    16|
+|5     |LUT3    |    32|
+|6     |LUT4    |    18|
+|7     |LUT5    |     2|
+|8     |LUT6    |    66|
+|9     |FDRE    |   137|
+|10    |FDSE    |     1|
++------+--------+------+
+
+Report Instance Areas: 
++------+---------------------------------+------------------------+------+
+|      |Instance                         |Module                  |Cells |
++------+---------------------------------+------------------------+------+
+|1     |top                              |                        |   289|
+|2     |  inst                           |calculator_v1_0         |   289|
+|3     |    calculator_v1_0_S00_AXI_inst |calculator_v1_0_S00_AXI |   289|
+|4     |      C                          |calculator              |   126|
++------+---------------------------------+------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:42 ; elapsed = 00:00:50 . Memory (MB): peak = 865.027 ; gain = 574.391
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 12 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:28 ; elapsed = 00:00:37 . Memory (MB): peak = 865.027 ; gain = 213.102
+Synthesis Optimization Complete : Time (s): cpu = 00:00:43 ; elapsed = 00:00:50 . Memory (MB): peak = 865.027 ; gain = 574.391
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 15 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+27 Infos, 20 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:45 ; elapsed = 00:00:53 . Memory (MB): peak = 865.027 ; gain = 582.055
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Leo/Desktop/FPGA/hw5/hw5.runs/hw5_calculator_0_0_synth_1/hw5_calculator_0_0.dcp' has been generated.

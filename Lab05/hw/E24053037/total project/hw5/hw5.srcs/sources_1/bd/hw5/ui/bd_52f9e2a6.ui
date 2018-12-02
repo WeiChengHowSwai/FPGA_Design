@@ -1,0 +1,39 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y -160 -defaultsOSRD
+preplace port G_out -pg 1 -y 500 -defaultsOSRD
+preplace port B_out -pg 1 -y 520 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y -140 -defaultsOSRD
+preplace port R_out -pg 1 -y 480 -defaultsOSRD
+preplace inst sorting_0 -pg 1 -lvl 3 -y -60 -defaultsOSRD
+preplace inst calculator_0 -pg 1 -lvl 3 -y 80 -defaultsOSRD
+preplace inst djb2_0 -pg 1 -lvl 3 -y 360 -defaultsOSRD
+preplace inst PWM_0 -pg 1 -lvl 3 -y 500 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -y 190 -defaultsOSRD
+preplace inst parity_0 -pg 1 -lvl 3 -y 220 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -y 120 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y 350 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 1 3 850J -160 NJ -160 NJ
+preplace netloc ps7_0_axi_periph_M02_AXI 1 2 1 1200
+preplace netloc PWM_0_B_out 1 3 1 N
+preplace netloc PWM_0_R_out 1 3 1 N
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 890
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 2 900 -10 1230
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 -10 20 840
+preplace netloc ps7_0_axi_periph_M03_AXI 1 2 1 1200J
+preplace netloc ps7_0_axi_periph_M01_AXI 1 2 1 1210
+preplace netloc processing_system7_0_FIXED_IO 1 1 3 860J -140 NJ -140 NJ
+preplace netloc ps7_0_axi_periph_M04_AXI 1 2 1 1240
+preplace netloc PWM_0_G_out 1 3 1 N
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 -20 10 880 -20 1220
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 1250
+preplace netloc rst_ps7_0_100M_interconnect_aresetn 1 1 1 870
+levelinfo -pg 1 -40 640 1050 1380 1780 -top -270 -bot 580
+",
+}
+{
+   da_axi4_cnt: "7",
+   da_ps7_cnt: "1",
+}

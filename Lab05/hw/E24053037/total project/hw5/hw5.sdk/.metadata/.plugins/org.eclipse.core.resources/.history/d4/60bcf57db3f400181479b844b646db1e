@@ -1,0 +1,77 @@
+#include <stdio.h>
+#include "xil_printf.h"
+#include "xil_io.h"
+#include "xparameters.h"
+#include "parity.h"
+#include "PWM.h"
+
+
+int main()
+{
+	int sl=0;
+	u32	A, P;
+	printf("Program Start.\n\r");
+	while(getchar() != EOF) {
+
+		printf("==========================\r\n");
+		printf("1 = sort\r\n");
+		printf("2 = ALU\r\n");
+		printf("3 = parity\r\n");
+		printf("4 = hash function\r\n");
+		printf("5 = PWM control\r\n");
+		printf("==========================\r\n");
+		printf("Please select mode:");
+		scanf("%d", &sl);
+		printf(" %d\r\n", sl);
+
+		switch(sl){
+			case 1:
+
+				break;
+
+			case 2:
+
+				break;
+
+			case 3:
+				printf("Input A:");
+				scanf("%d", &A);
+				printf(" %d\r\n", A);
+
+				P = parity(XPAR_PARITY_0_S00_AXI_BASEADDR, A);
+				printf("A 's parity bit = %d\n\r", P);
+				break;
+
+			case 4:
+
+				break;
+
+			case 5:
+				u32 reset,R,G,B;
+
+				printf("Input reset:");
+				scanf("%d", &reset);
+				printf(" %d\r\n", reset);
+				printf("Input R:");
+				scanf("%d", &R);
+				printf(" %d\r\n", R);
+				printf("Input G:");
+				scanf("%d", &G);
+				printf(" %d\r\n", G);
+				printf("Input B:");
+				scanf("%d", &B);
+				printf(" %d\r\n", B);
+
+				pwm(XPAR_PWM_0_S00_AXI_BASEADDR,reset,R,G,B);
+
+				printf("Look your LED!!\r\n");
+				break;
+
+			default:
+				printf("wrong command\r\n");
+		}
+
+	}
+	printf("Program End.\n\r");
+    return 0;
+}
