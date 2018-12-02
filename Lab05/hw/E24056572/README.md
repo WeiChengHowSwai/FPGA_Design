@@ -71,8 +71,15 @@ Deiver的部分惠要求使用者輸入四個參數，分別是base address、�
 
 #### Reference
 
+為什麼是 5381 和 33?
+
 * [Why are 5381 and 33 so important in the djb2 algorithm? ](https://stackoverflow.com/questions/1579721/why-are-5381-and-33-so-important-in-the-djb2-algorithm)
+* [Reason for 5381 number in DJB hash function?](https://stackoverflow.com/questions/10696223/reason-for-5381-number-in-djb-hash-function/13809282#13809282)
 * [Magic number](https://en.wikipedia.org/wiki/Magic_number_(programming))
+
+DJB2 回傳的 hash 值 size 多大呢？
+
+* [Integer overflow while doing djb2 Hash Function](https://stackoverflow.com/questions/2571683/djb2-hash-function)
 
 ### Programming
 
