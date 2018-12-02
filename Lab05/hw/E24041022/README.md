@@ -44,4 +44,6 @@ E24041022、E24041894、E24046674
 
 https://drive.google.com/file/d/1MQaNIoZQY5WrZXAzl91ljaFGd18o-8wr/view?usp=sharing
 
+怕助教看不清楚畫面裡的字，前面做的動作都是 R + ，所以每次RED的PWM值都會加大，最後加到100%為止，由影片可以看出來前50%都是白光(RESET的結果)，後50%都是紅光，再來逐漸做 B - ，所以BLUE的值會一直變小，到最後就變成 前50%是黃(綠+紅)，後50%是紅。 
+
 
