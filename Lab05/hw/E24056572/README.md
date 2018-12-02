@@ -38,7 +38,7 @@ Deiver的部分惠要求使用者輸入四個參數，分別是base address、�
 
 <h3>Result</h3>
 
-<img src = "./image/arith_main.png">
+<img src = "./image/arith_main.PNG">
 <img src = "./image/arith.png">
 
 <h2 id="Program3">Program3 設計parity generator</h2>  
@@ -67,10 +67,12 @@ Driver目前提供了pwm_out這個function，這個函式會要求佔存器的Ba
 
 實作上，pwm控制器會從一個slave register讀取使用者要求的0至255間的資料，我們將四個port共32bit的資料存放在一個佔存器之中，當使用者輸入某一個port以及8位元資料時，Driver會根據輸入的port，將本來的32位元資料中對應port的8位元資料替代掉，接著寫入佔存器中讓Controller讀取。  
 
+
+<h3>Result</h3>  
 以下是demo影片。  
 
 <a href = "https://youtu.be/gYdYgQHwCoA">PWM_Controller Example</a>
 
 
 
-<h3>Result</h3>
+
