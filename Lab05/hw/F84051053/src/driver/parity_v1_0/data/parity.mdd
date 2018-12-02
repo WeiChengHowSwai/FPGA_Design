@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER parity
+	OPTION supported_peripherals = (parity);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = parity;
+END DRIVER
