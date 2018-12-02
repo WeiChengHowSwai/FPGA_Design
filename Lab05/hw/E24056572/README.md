@@ -13,7 +13,7 @@ FPGA-based System Design - Lab05 HW
 - E24056572   
 - E24056637   
 - E24054203   
-- 
+-
 <h2>Design</h2>  
 
 <img src = "./image/block_design.PNG">
@@ -47,7 +47,7 @@ Deiver的部分惠要求使用者輸入四個參數，分別是base address、�
  此處我們使用的是even_parity_bit_generator。
  even_parity_bit 與 data 的 bit 1 個數有關，
  只需要將 data 全部 bit 進行 XOR 運算，即可得 even_parity_bit。
- 
+
  在 verilog 有對全部 bit 運算的指令，
  稱為 Reduction Operator。
  除了 XOR ，還有以下5個 Reduction Operator：
@@ -68,6 +68,11 @@ Deiver的部分惠要求使用者輸入四個參數，分別是base address、�
 本項作業要求我們實作DJB2的電路，本Hashing Function是由Dan Bernstein所提出的，從初始hash值為5381開始，將hash乘上33加上目前的字元得到新的hash值。
 
 而為什麼是選擇33，至今沒有獲得太多解釋。這裡比較在意的是[原連結](http://www.cse.yorku.ca/~oz/hash.html)所指的`unsigned long`到底是多長，因為long基本上其實是一個型態大小各自表述<sup>[1](https://en.wikipedia.org/wiki/64-bit_computing#64-bit_data_models)</sup>，網路上找了許多的資料都表明DJB2會給出32bit的hash值，因此本次作業我們同樣是輸出32bit的hash值。
+
+#### Reference
+
+* [Why are 5381 and 33 so important in the djb2 algorithm? ](https://stackoverflow.com/questions/1579721/why-are-5381-and-33-so-important-in-the-djb2-algorithm)
+* [Magic number](https://en.wikipedia.org/wiki/Magic_number_(programming)
 
 ### Programming
 
@@ -121,5 +126,3 @@ Driver目前提供了pwm_out這個function，這個函式會要求佔存器的Ba
 以下是demo影片。  
 
 <a href = "https://youtu.be/gYdYgQHwCoA">PWM_Controller Example</a>
-
-
