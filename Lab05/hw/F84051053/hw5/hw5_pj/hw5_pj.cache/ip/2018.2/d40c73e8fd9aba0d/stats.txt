@@ -1,0 +1,4 @@
+NumberHits:0
+Timestamp: Sun Dec 02 04:21:12 UTC 2018
+VLNV: xilinx.com:user:arithmetic:1.0
+SynthRuntime: 76
