@@ -3,6 +3,10 @@
 ## 成員名單
 E24041022、E24041894、E24046674
 
+## Block Design.
+
+![image](https://github.com/kenny8654/FPGA_Design/blob/master/Lab05/hw/E24041022/image/messageImage_1543757459069.jpg)
+
 ## Program1.
 設計一個排序電路，由 processor 輸入一串數字將其排序後傳回。(數列長度固定)
 
