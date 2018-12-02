@@ -1,0 +1,4 @@
+NumberHits:0
+Timestamp: Sun Dec 02 12:43:19 UTC 2018
+VLNV: xilinx.com:user:parity:1.0
+SynthRuntime: 98

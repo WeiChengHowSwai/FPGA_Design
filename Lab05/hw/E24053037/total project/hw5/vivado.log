@@ -1,0 +1,303 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Dec  2 20:30:52 2018
+# Process ID: 530136
+# Current directory: C:/Users/Leo/Desktop/FPGA/hw5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent529960 C:\Users\Leo\Desktop\FPGA\hw5\hw5.xpr
+# Log file: C:/Users/Leo/Desktop/FPGA/hw5/vivado.log
+# Journal file: C:/Users/Leo/Desktop/FPGA/hw5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Leo/Desktop/FPGA/hw5/hw5.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/calculator_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/PWM_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/parity_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:26 . Memory (MB): peak = 775.398 ; gain = 108.832
+update_compile_order -fileset sources_1
+ipx::edit_ip_in_project -upgrade true -name parity_v1_0_project -directory C:/Users/Leo/Desktop/FPGA/hw5/hw5.tmp/parity_v1_0_project c:/Users/Leo/Desktop/FPGA/ip_repo/parity_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 815.688 ; gain = 28.516
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/calculator_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/PWM_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/parity_1.0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:13 . Memory (MB): peak = 869.949 ; gain = 82.777
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/Leo/Desktop/FPGA/ip_repo/parity_1.0/component.xml' ignored by IP packager.
+set_property core_revision 4 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/Leo/Desktop/FPGA/ip_repo/parity_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/parity_1.0'
+ipx::edit_ip_in_project -upgrade true -name djb2_v1_0_project -directory C:/Users/Leo/Desktop/FPGA/hw5/hw5.tmp/djb2_v1_0_project c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 871.578 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/calculator_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/PWM_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/parity_1.0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 938.477 ; gain = 66.898
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0/component.xml' ignored by IP packager.
+set_property core_revision 3 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0'
+ipx::edit_ip_in_project -upgrade true -name sorting_v1_0_project -directory C:/Users/Leo/Desktop/FPGA/hw5/hw5.tmp/sorting_v1_0_project c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 949.281 ; gain = 0.918
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/calculator_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/PWM_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/parity_1.0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 949.281 ; gain = 0.918
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0/component.xml' ignored by IP packager.
+set_property core_revision 3 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0'
+ipx::edit_ip_in_project -upgrade true -name calculator_v1_0_project -directory C:/Users/Leo/Desktop/FPGA/hw5/hw5.tmp/calculator_v1_0_project c:/Users/Leo/Desktop/FPGA/ip_repo/calculator_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 951.867 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/calculator_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/PWM_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/parity_1.0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 951.867 ; gain = 0.000
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/Leo/Desktop/FPGA/ip_repo/calculator_1.0/component.xml' ignored by IP packager.
+set_property core_revision 3 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/Leo/Desktop/FPGA/ip_repo/calculator_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/calculator_1.0'
+ipx::edit_ip_in_project -upgrade true -name PWM_v1_0_project -directory C:/Users/Leo/Desktop/FPGA/hw5/hw5.tmp/PWM_v1_0_project c:/Users/Leo/Desktop/FPGA/ip_repo/PWM_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 952.828 ; gain = 0.961
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/calculator_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/PWM_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/parity_1.0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 952.828 ; gain = 0.961
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/Leo/Desktop/FPGA/ip_repo/PWM_1.0/component.xml' ignored by IP packager.
+set_property core_revision 4 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/Leo/Desktop/FPGA/ip_repo/PWM_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/PWM_1.0'
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/calculator_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/PWM_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/parity_1.0'.
+update_ip_catalog
+open_bd_design {C:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/hw5.bd}
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding cell -- xilinx.com:user:parity:1.0 - parity_0
+Adding cell -- xilinx.com:user:PWM:1.0 - PWM_0
+Adding cell -- xilinx.com:user:sorting:1.0 - sorting_0
+Adding cell -- xilinx.com:user:djb2:1.0 - djb2_0
+Adding cell -- xilinx.com:user:calculator:1.0 - calculator_0
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <hw5> from BD file <C:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/hw5.bd>
+open_bd_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1113.152 ; gain = 72.563
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/calculator_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/PWM_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/parity_1.0'.
+update_ip_catalog
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {hw5_calculator_0_0 hw5_PWM_0_0 hw5_djb2_0_0 hw5_parity_0_1 hw5_sorting_0_0}] -log ip_upgrade.log
+Upgrading 'C:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/hw5.bd'
+INFO: [IP_Flow 19-3422] Upgraded hw5_PWM_0_0 (PWM_v1.0 1.0) from revision 3 to revision 4
+INFO: [IP_Flow 19-3422] Upgraded hw5_calculator_0_0 (calculator_v1.0 1.0) from revision 2 to revision 3
+INFO: [IP_Flow 19-3422] Upgraded hw5_djb2_0_0 (djb2_v1.0 1.0) from revision 2 to revision 3
+INFO: [IP_Flow 19-3422] Upgraded hw5_parity_0_1 (parity_v1.0 1.0) from revision 3 to revision 4
+INFO: [IP_Flow 19-3422] Upgraded hw5_sorting_0_0 (sorting_v1.0 1.0) from revision 2 to revision 3
+Wrote  : <C:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/hw5.bd> 
+Wrote  : <C:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ui/bd_52f9e2a6.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/Leo/Desktop/FPGA/hw5/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1153.992 ; gain = 0.000
+export_ip_user_files -of_objects [get_ips {hw5_calculator_0_0 hw5_PWM_0_0 hw5_djb2_0_0 hw5_parity_0_1 hw5_sorting_0_0}] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/hw5.bd]
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+Wrote  : <C:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/hw5.bd> 
+VHDL Output written to : C:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/synth/hw5.v
+VHDL Output written to : C:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/sim/hw5.v
+VHDL Output written to : C:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/hdl/hw5_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block parity_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PWM_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sorting_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block djb2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block calculator_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ip/hw5_auto_pc_0/hw5_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/hw_handoff/hw5.hwh
+Generated Block Design Tcl file C:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/hw_handoff/hw5_bd.tcl
+Generated Hardware Definition File C:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/synth/hw5.hwdef
+generate_target: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1257.195 ; gain = 103.203
+catch { config_ip_cache -export [get_ips -all hw5_parity_0_1] }
+catch { config_ip_cache -export [get_ips -all hw5_PWM_0_0] }
+catch { config_ip_cache -export [get_ips -all hw5_sorting_0_0] }
+catch { config_ip_cache -export [get_ips -all hw5_djb2_0_0] }
+catch { config_ip_cache -export [get_ips -all hw5_calculator_0_0] }
+catch { config_ip_cache -export [get_ips -all hw5_auto_pc_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP hw5_auto_pc_0, cache-ID = 10815dbb95871d39; cache size = 8.125 MB.
+export_ip_user_files -of_objects [get_files C:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/hw5.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/hw5.bd]
+launch_runs -jobs 2 {hw5_parity_0_1_synth_1 hw5_PWM_0_0_synth_1 hw5_sorting_0_0_synth_1 hw5_djb2_0_0_synth_1 hw5_calculator_0_0_synth_1}
+[Sun Dec  2 20:41:18 2018] Launched hw5_parity_0_1_synth_1, hw5_PWM_0_0_synth_1, hw5_sorting_0_0_synth_1, hw5_djb2_0_0_synth_1, hw5_calculator_0_0_synth_1...
+Run output will be captured here:
+hw5_parity_0_1_synth_1: C:/Users/Leo/Desktop/FPGA/hw5/hw5.runs/hw5_parity_0_1_synth_1/runme.log
+hw5_PWM_0_0_synth_1: C:/Users/Leo/Desktop/FPGA/hw5/hw5.runs/hw5_PWM_0_0_synth_1/runme.log
+hw5_sorting_0_0_synth_1: C:/Users/Leo/Desktop/FPGA/hw5/hw5.runs/hw5_sorting_0_0_synth_1/runme.log
+hw5_djb2_0_0_synth_1: C:/Users/Leo/Desktop/FPGA/hw5/hw5.runs/hw5_djb2_0_0_synth_1/runme.log
+hw5_calculator_0_0_synth_1: C:/Users/Leo/Desktop/FPGA/hw5/hw5.runs/hw5_calculator_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/hw5.bd] -directory C:/Users/Leo/Desktop/FPGA/hw5/hw5.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Leo/Desktop/FPGA/hw5/hw5.ip_user_files -ipstatic_source_dir C:/Users/Leo/Desktop/FPGA/hw5/hw5.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/Leo/Desktop/FPGA/hw5/hw5.cache/compile_simlib/modelsim} {questa=C:/Users/Leo/Desktop/FPGA/hw5/hw5.cache/compile_simlib/questa} {riviera=C:/Users/Leo/Desktop/FPGA/hw5/hw5.cache/compile_simlib/riviera} {activehdl=C:/Users/Leo/Desktop/FPGA/hw5/hw5.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.051 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.006 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.033 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.051 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.006 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.033 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Dec  2 20:48:45 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Leo/Desktop/FPGA/hw5/hw5.runs/synth_1/runme.log
+[Sun Dec  2 20:48:45 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Leo/Desktop/FPGA/hw5/hw5.runs/impl_1/runme.log
+file copy -force C:/Users/Leo/Desktop/FPGA/hw5/hw5.runs/impl_1/hw5_wrapper.sysdef C:/Users/Leo/Desktop/FPGA/hw5/hw5.sdk/hw5_wrapper.hdf
+
+launch_sdk -workspace C:/Users/Leo/Desktop/FPGA/hw5/hw5.sdk -hwspec C:/Users/Leo/Desktop/FPGA/hw5/hw5.sdk/hw5_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/Leo/Desktop/FPGA/hw5/hw5.sdk -hwspec C:/Users/Leo/Desktop/FPGA/hw5/hw5.sdk/hw5_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+ipx::edit_ip_in_project -upgrade true -name djb2_v1_0_project -directory C:/Users/Leo/Desktop/FPGA/hw5/hw5.tmp/djb2_v1_0_project c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1337.371 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/calculator_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/djb2_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/sorting_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/PWM_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Leo/Desktop/FPGA/ip_repo/parity_1.0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1337.371 ; gain = 0.000
+update_compile_order -fileset sources_1
+current_project hw5
+open_bd_design {C:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/hw5.bd}
+close_project
