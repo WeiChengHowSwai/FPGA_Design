@@ -15,18 +15,28 @@ E24041022、E24041894、E24046674
 
 我們可以輸入兩個32bits的數字，利用軟體去判斷加、減、乘，將其代表的數字傳到硬體進行運算。
 
+![image](https://github.com/kenny8654/FPGA_Design/blob/master/Lab05/hw/E24041022/image/math.PNG)
 
 ## Program3.
 設計 parity generator，輸入 32-bit 資料回傳其 parity bit (禁止額外暫存器的使用 ex: counter)。
 
 32bits的資料，兩兩分別做XOR，若為偶數個1，出來則是0，反之亦然，一開始先做16個XOR，出來的結果接續做8個XOR，一直做到最後一個，出來的就是答案。
 
+![image](https://github.com/kenny8654/FPGA_Design/blob/master/Lab05/hw/E24041022/image/parity.PNG)
 
 ## Program4.
 設計 djb2 這個 hash function 的電路。
 
+將一字串傳給軟體的function，function會把每個字符以及前一次算出的結果(初始為5381)，依序丟給硬體計算 (hash<<5)+hash+c，全部都丟完後算出的就是結果
+
+![image](https://github.com/kenny8654/FPGA_Design/blob/master/Lab05/hw/E24041022/image/1543576412040.jpg)
 
 ## Program5.
 設計 PWM controller。
 
 參考Lab2的作業來修改，硬體先將內建的clk透過divider變慢，然後從軟體去輸入要改變哪個顏色的PWM，要調高或是調低，再傳到硬體去做計算，另外一開始reset的時候PWM會是50%。
+
+以影片呈現功能，助教可以在自己demo看看
+https://drive.google.com/file/d/1MQaNIoZQY5WrZXAzl91ljaFGd18o-8wr/view?usp=sharing
+
+
