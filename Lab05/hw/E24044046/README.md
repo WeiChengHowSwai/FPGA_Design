@@ -106,23 +106,23 @@
 ### FPGA燒錄結果: (下述R,G,B分別代表red,green,blue的PWM值)
 1.一開始設定R=30,G=0,B=0
 
-![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab05/hw/E24044046/image/PWM_02.PNG)
+![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab05/hw/E24044046/image/PWM_02.jpg)
 
 2.改變G為50(R=30,G=50,B=0)
 
-![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab05/hw/E24044046/image/PWM_03.PNG)
+![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab05/hw/E24044046/image/PWM_03.jpg)
 
 3.改變G為0(R=30,G=0,B=0)
 
-![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab05/hw/E24044046/image/PWM_02.PNG)
+![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab05/hw/E24044046/image/PWM_02.jpg)
 
 4.改變B為40(R=30,G=0,B=40)
 
-![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab05/hw/E24044046/image/PWM_04.PNG)
+![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab05/hw/E24044046/image/PWM_04.jpg)
 
 5.結束程式，燈熄滅(R=0,G=0,B=0)
 
-![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab05/hw/E24044046/image/PWM_05.PNG)
+![](https://github.com/tysh0738/FPGA_Design/blob/master/Lab05/hw/E24044046/image/PWM_05.jpg)
 
 
 
