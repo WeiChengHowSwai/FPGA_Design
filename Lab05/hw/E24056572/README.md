@@ -20,8 +20,9 @@ FPGA-based System Design - Lab05 HW
 
 <h2 id="Program1">Program1 設計排序電路</h2>  
 
-Unfinished
-
+Unfinished  
+屍體Only
+在寫driver時有障礙，因此沒能完成  
 
 <h2 id = "Program2">Program2 設計計算電路</h2>
 
