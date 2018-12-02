@@ -72,7 +72,7 @@ Deiver的部分惠要求使用者輸入四個參數，分別是base address、�
 #### Reference
 
 * [Why are 5381 and 33 so important in the djb2 algorithm? ](https://stackoverflow.com/questions/1579721/why-are-5381-and-33-so-important-in-the-djb2-algorithm)
-* [Magic number](https://en.wikipedia.org/wiki/Magic_number_(programming)
+* [Magic number](https://en.wikipedia.org/wiki/Magic_number_(programming))
 
 ### Programming
 
