@@ -51,9 +51,38 @@ Deiver的部分惠要求使用者輸入四個參數，分別是base address、�
 
 <h2 id="Program4">Program4 設計dib2 hash function電路</h2>  
 
-<h3>Introduction</h3>
+### Introduction
 
-<h3>Result</h3>
+本項作業要求我們實作DJB2的電路，本Hashing Function是由Dan Bernstein所提出的，從初始hash值為5381開始，將hash乘上33加上目前的字元得到新的hash值。
+
+而為什麼是選擇33，至今沒有獲得太多解釋。這裡比較在意的是[原連結](http://www.cse.yorku.ca/~oz/hash.html)所指的`unsigned long`到底是多長，因為long基本上其實是一個型態大小各自表述<sup>[1](https://en.wikipedia.org/wiki/64-bit_computing#64-bit_data_models)</sup>，網路上找了許多的資料都表明DJB2會給出32bit的hash值，因此本次作業我們同樣是輸出32bit的hash值。
+
+### Programming
+
+本次我們採用32bit\*4條的AXI4 Bus作為IO，主要的hash電路由以下FSM構成，一次可以處理1~4個字元。(L代表資料數量，此處省略了Reset)
+![FSM](image/djb2_fsm.png)
+
+電路會接收一個32bit的指令，其中包含了4bit的指令欄位以及28bit的資料欄位，並且輸出32bit的hash值，以及1bit代表busy的訊號：
+
+|31   |30    |29~28      |27~21 |20~14 |13~7  |6~0   |
+|:---:|:----:|:---------:|:----:|:----:|:----:|:----:|
+|Reset|Enable|Data Length|Data 4|Data 3|Data 2|Data 1|
+
+當Reset為1時，不管後面指令為何，電路行為必定為Reset，即是將hash值設回初始值5381，並且state回到IDLE。
+
+而Enable採正緣觸發，只要收到一次正緣Enable，電路就會根據後面的資料長度以及資料做一次hash運算，此時電路會將busy拉高，代表電路忙碌中：
+- Data Length = 00，代表有一筆資料，會取出Data 1進行一次運算。
+- Data Length = 01，代表有兩筆資料，會取出Data 1,2進行兩次運算。
+- Data Length = 10，代表有三筆資料，會取出Data 1,2,3進行三次運算。
+- Data Length = 11，代表有四筆資料，會取出Data 1,2,3,4進行四次運算。
+
+做完一次運算後，電路將busy拉回0，此時便可從輸出端取出hash值，等待下一次運算。不過本電路目前有一個缺點是在電路運算途中，需保持Data與Data Length欄位值不變才可正常運作。
+
+關於Enable正緣觸發的技巧：多使用了1個暫存器En_delay，將En_delay的D接上Enable，並且將Enable與~En_delay做AND運算，即可獲得只有一個clock的EN訊號；將這個訊號接上內部運算電路即可構成正緣觸發。
+
+而Driver的實作，使用者只要提供一串字串以及其長度，Driver就會將字串切成4個為一組送進電路裡，拉高後拉低Enable訊號並等待電路Busy訊號變為0，再送入下一筆資料繼續運算，等待全部運算結束之後，再自輸出暫存器取出hash值即可。
+
+### Result
 
 
 <h2 id = "Program5">Program5 設計pwm控制電路</h2>
@@ -72,7 +101,5 @@ Driver目前提供了pwm_out這個function，這個函式會要求佔存器的Ba
 以下是demo影片。  
 
 <a href = "https://youtu.be/gYdYgQHwCoA">PWM_Controller Example</a>
-
-
 
 
