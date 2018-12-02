@@ -73,6 +73,7 @@ Deiver的部分惠要求使用者輸入四個參數，分別是base address、�
 ### Programming
 
 本次我們採用32bit\*4條的AXI4 Bus作為IO，主要的hash電路由以下FSM構成，一次可以處理1~4個字元。(L代表資料數量，此處省略了Reset)
+
 ![FSM](image/djb2_fsm.png)
 
 電路會接收一個32bit的指令，其中包含了4bit的指令欄位以及28bit的資料欄位，並且輸出32bit的hash值，以及1bit代表busy的訊號：
@@ -93,10 +94,17 @@ Deiver的部分惠要求使用者輸入四個參數，分別是base address、�
 
 關於Enable正緣觸發的技巧：多使用了1個暫存器En_delay，將En_delay的D接上Enable，並且將Enable與~En_delay做AND運算，即可獲得只有一個clock的EN訊號；將這個訊號接上內部運算電路即可構成正緣觸發。
 
+![en_demo](image/djb2_en.png)
+
 而Driver的實作，使用者只要提供一串字串以及其長度，Driver就會將字串切成4個為一組送進電路裡，拉高後拉低Enable訊號並等待電路Busy訊號變為0，再送入下一筆資料繼續運算，等待全部運算結束之後，再自輸出暫存器取出hash值即可。
 
 ### Result
 
+![](image/djb2_result.png)
+
+### Note
+
+本次還有一個小疑問，原本我們是將我們自己寫的電路的clk直接接上S_AXI_ACLK，可是在做ooc的時候，ooc無法`get_ports clk`也無法`get_ports S_AXI_ACLK`，都顯示找不到。最後我們暫時先將clk拉出去外面，外面再直接拉線接上AXI的CLK解決這個問題，不知道這個解法是不是正確的，或者是有其他的解決方法。
 
 <h2 id = "Program5">Program5 設計pwm控制電路</h2>
 
