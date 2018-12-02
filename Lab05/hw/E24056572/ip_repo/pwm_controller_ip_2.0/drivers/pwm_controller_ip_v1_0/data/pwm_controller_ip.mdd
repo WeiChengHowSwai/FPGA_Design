@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER pwm_controller_ip
+	OPTION supported_peripherals = (pwm_controller_ip);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = pwm_controller_ip;
+END DRIVER
