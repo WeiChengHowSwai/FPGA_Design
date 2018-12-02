@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Dec  2 20:05:32 2018
+# Process ID: 64848
+# Current directory: d:/123NCKU/FPGA/ip_repo/edit_PWM_ctrl_v2_0.runs/synth_1
+# Command line: vivado.exe -log PWM_ctrl_v2_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source PWM_ctrl_v2_0.tcl
+# Log file: d:/123NCKU/FPGA/ip_repo/edit_PWM_ctrl_v2_0.runs/synth_1/PWM_ctrl_v2_0.vds
+# Journal file: d:/123NCKU/FPGA/ip_repo/edit_PWM_ctrl_v2_0.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source PWM_ctrl_v2_0.tcl -notrace

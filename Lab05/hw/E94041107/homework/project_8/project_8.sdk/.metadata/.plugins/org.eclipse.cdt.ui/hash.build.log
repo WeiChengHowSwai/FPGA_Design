@@ -1,0 +1,130 @@
+19:48:58 **** Auto Build of configuration Debug for project hash ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hash_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:23:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 * {aka long unsigned int *}' [-Wformat=]
+     scanf("%d", &number);
+            ~^   ~~~~~~~
+            %ld
+../src/main.c:24:15: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf(" %d\r\n", number);
+              ~^
+              %ld
+../src/main.c:27:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 * {aka long unsigned int *}' [-Wformat=]
+   scanf("%d", &A);
+          ~^   ~~
+          %ld
+../src/main.c:28:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf(" %d\r\n", A);
+            ~^
+            %ld
+../src/main.c:30:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 * {aka long unsigned int *}' [-Wformat=]
+   scanf("%d", &B);
+          ~^   ~~
+          %ld
+../src/main.c:31:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf(" %d\r\n", B);
+            ~^
+            %ld
+../src/main.c:33:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 * {aka long unsigned int *}' [-Wformat=]
+   scanf("%d", &C);
+          ~^   ~~
+          %ld
+../src/main.c:34:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf(" %d\r\n", C);
+            ~^
+            %ld
+../src/main.c:43:26: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("no1,no2,no3 = %d%d%d\n\r", no1,no2,no3);
+                         ~^
+                         %ld
+../src/main.c:43:28: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("no1,no2,no3 = %d%d%d\n\r", no1,no2,no3);
+                           ~^
+                           %ld
+../src/main.c:43:30: warning: format '%d' expects argument of type 'int', but argument 4 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("no1,no2,no3 = %d%d%d\n\r", no1,no2,no3);
+                             ~^
+                             %ld
+../src/main.c:48:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 * {aka long unsigned int *}' [-Wformat=]
+   scanf("%d", &X);
+          ~^   ~~
+          %ld
+../src/main.c:49:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf(" %d\r\n", X);
+            ~^
+            %ld
+../src/main.c:51:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 * {aka long unsigned int *}' [-Wformat=]
+   scanf("%d", &Y);
+          ~^   ~~
+          %ld
+../src/main.c:52:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf(" %d\r\n", Y);
+            ~^
+            %ld
+../src/main.c:54:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 * {aka long unsigned int *}' [-Wformat=]
+   scanf("%d", &sel);
+          ~^   ~~~~
+          %ld
+../src/main.c:55:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf(" %d\r\n", sel);
+            ~^
+            %ld
+../src/main.c:60:21: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   {printf("X + Y = %d\n\r", alu_sum);}
+                    ~^
+                    %ld
+../src/main.c:62:27: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+         {printf("X - Y = %d\n\r", alu_sum);}
+                          ~^
+                          %ld
+../src/main.c:64:27: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+         {printf("X * Y = %d\n\r", alu_sum);}
+                          ~^
+                          %ld
+../src/main.c:69:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 * {aka long unsigned int *}' [-Wformat=]
+   scanf("%d", &parity_data);
+          ~^   ~~~~~~~~~~~~
+          %ld
+../src/main.c:70:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf(" %d\r\n", parity_data);
+            ~^
+            %ld
+../src/main.c:83:11: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[4]' [-Wformat=]
+   scanf("%s",&hin);
+          ~^  ~~~~
+../src/main.c:87:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("After hash function = %d\n\r", hout);
+                                 ~^
+                                 %ld
+../src/main.c:92:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 * {aka long unsigned int *}' [-Wformat=]
+   scanf("%d",&pwm_in);
+          ~^  ~~~~~~~
+          %ld
+../src/main.c:93:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\r\n",pwm_in);
+           ~^
+           %ld
+../src/main.c:13:65: warning: variable 'pwm_out' set but not used [-Wunused-but-set-variable]
+  u32 A, B, C, Sum,number,X,Y,sel,alu_sum,parity_data,parity_sum,pwm_out,pwm_in,no1,no2,no3;
+                                                                 ^~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hash.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hash_bsp/ps7_cortexa9_0/lib -o "hash.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hash.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hash.elf  |tee "hash.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 121596	   2580	  23328	 147504	  24030	hash.elf
+'Finished building: hash.elf.size'
+' '
+
+19:48:59 Build Finished (took 1s.75ms)
+

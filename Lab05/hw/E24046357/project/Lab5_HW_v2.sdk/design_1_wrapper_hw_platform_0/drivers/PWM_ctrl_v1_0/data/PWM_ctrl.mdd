@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER PWM_ctrl
+	OPTION supported_peripherals = (PWM_ctrl);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = PWM_ctrl;
+END DRIVER

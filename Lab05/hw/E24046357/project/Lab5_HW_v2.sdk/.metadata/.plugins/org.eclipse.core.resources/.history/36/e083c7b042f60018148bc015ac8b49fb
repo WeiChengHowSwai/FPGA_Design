@@ -1,0 +1,14 @@
+
+
+/***************************** Include Files *******************************/
+#include "PWM_ctrl.h"
+
+/************************** Function Definitions ***************************/
+void PWM(UINTPTR baseaddr , int sw)
+{
+	u32 PWM ;
+	PWM_CTRL_mWriteReg(baseaddr , 0 , sw);
+	PWM = PWM_CTRL_mReadReg(baseaddr , 4);
+	PWM_CTRL_mWriteReg(baseaddr , 0 , 0x00);
+
+}
