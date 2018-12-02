@@ -1,0 +1,36 @@
+verilog xil_defaultlib --include "../../../../Lab5_HW_v2.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../Lab5_HW_v2.srcs/sources_1/bd/design_1/ipshared/02c8/hdl/verilog" --include "../../../../Lab5_HW_v2.srcs/sources_1/bd/design_1/ipshared/b193/hdl" \
+"../../../bd/design_1/ipshared/6e4c/hdl/Sorting_v2_0_S00_AXI.v" \
+"../../../bd/design_1/ipshared/6e4c/hdl/Sorting_v2_0.v" \
+"../../../bd/design_1/ipshared/6e4c/src/Sorting.v" \
+"../../../bd/design_1/ip/design_1_Sorting_0_0/sim/design_1_Sorting_0_0.v" \
+"../../../bd/design_1/ipshared/4b77/hdl/Arithmetic_v1_0_S00_AXI.v" \
+"../../../bd/design_1/ipshared/4b77/hdl/Arithmetic_v1_0.v" \
+"../../../bd/design_1/Lab5_HW/arithmetic.v" \
+"../../../bd/design_1/ip/design_1_Arithmetic_0_0/sim/design_1_Arithmetic_0_0.v" \
+"../../../bd/design_1/ipshared/5a72/hdl/ParityGenerator_v1_0_S00_AXI.v" \
+"../../../bd/design_1/Lab5_HW/ParityGen.v" \
+"../../../bd/design_1/ipshared/5a72/hdl/ParityGenerator_v1_0.v" \
+"../../../bd/design_1/ip/design_1_ParityGenerator_0_0/sim/design_1_ParityGenerator_0_0.v" \
+"../../../bd/design_1/ipshared/74e0/hdl/PWM_ctrl_v1_0_S00_AXI.v" \
+
+sv xil_defaultlib --include "../../../../Lab5_HW_v2.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../Lab5_HW_v2.srcs/sources_1/bd/design_1/ipshared/02c8/hdl/verilog" --include "../../../../Lab5_HW_v2.srcs/sources_1/bd/design_1/ipshared/b193/hdl" \
+"../../../bd/design_1/ipshared/74e0/src/Decoder.sv" \
+"../../../bd/design_1/ipshared/74e0/src/RGB_LED.sv" \
+"../../../bd/design_1/ipshared/74e0/src/clk_div.sv" \
+"../../../bd/design_1/ipshared/74e0/src/top.sv" \
+
+verilog xil_defaultlib --include "../../../../Lab5_HW_v2.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../Lab5_HW_v2.srcs/sources_1/bd/design_1/ipshared/02c8/hdl/verilog" --include "../../../../Lab5_HW_v2.srcs/sources_1/bd/design_1/ipshared/b193/hdl" \
+"../../../bd/design_1/ipshared/74e0/hdl/PWM_ctrl_v1_0.v" \
+"../../../bd/design_1/ip/design_1_PWM_ctrl_0_0/sim/design_1_PWM_ctrl_0_0.v" \
+"../../../bd/design_1/ipshared/00cb/hdl/djb2_v3_0_S00_AXI.v" \
+"../../../bd/design_1/ipshared/00cb/hdl/djb2_v3_0.v" \
+"../../../bd/design_1/ipshared/00cb/src/djb2.v" \
+"../../../bd/design_1/ip/design_1_djb2_0_0/sim/design_1_djb2_0_0.v" \
+"../../../bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" \
+"../../../bd/design_1/ip/design_1_xbar_0/sim/design_1_xbar_0.v" \
+"../../../bd/design_1/sim/design_1.v" \
+"../../../bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

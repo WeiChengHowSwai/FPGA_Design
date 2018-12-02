@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Dec  2 20:10:44 2018
+# Process ID: 65244
+# Current directory: D:/123NCKU/FPGA/ip_repo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent43836 D:\123NCKU\FPGA\ip_repo\edit_PWM_ctrl_v2_0.xpr
+# Log file: D:/123NCKU/FPGA/ip_repo/vivado.log
+# Journal file: D:/123NCKU/FPGA/ip_repo\vivado.jou
+#-----------------------------------------------------------
+start_gui

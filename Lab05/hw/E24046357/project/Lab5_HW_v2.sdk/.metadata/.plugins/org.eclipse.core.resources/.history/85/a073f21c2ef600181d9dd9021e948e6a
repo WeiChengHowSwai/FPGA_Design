@@ -1,0 +1,13 @@
+
+
+/***************************** Include Files *******************************/
+#include "PWM_ctrl.h"
+
+/************************** Function Definitions ***************************/
+int PWM(UINTPTR baseaddr , int sw){
+	int data = sw << 1 ;
+	int vlaue ;
+	PWM_CTRL_mWriteReg(baseaddr , 0 , 0x01 );
+	PWM_CTRL_mWriteReg(baseaddr , 0 , data );
+	value = PWM_CTRL_mReadReg(baseaddr , 4);
+}
