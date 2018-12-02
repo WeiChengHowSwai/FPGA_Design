@@ -13,11 +13,14 @@ FPGA-based System Design - Lab05 HW
 - E24056572   
 - E24056637   
 - E24054203   
+- 
+<h2>Design</h2>  
 
-
+<img src = "./image/block_design.PNG">
 
 <h2 id="Program1">Program1 設計排序電路</h2>  
 
+Unfinished
 
 
 <h2 id = "Program2">Program2 設計計算電路</h2>
