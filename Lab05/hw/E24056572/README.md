@@ -18,11 +18,7 @@ FPGA-based System Design - Lab05 HW
 
 <h2 id="Program1">Program1 設計排序電路</h2>  
 
-<h3>Introduction</h3>
-  
-<h3>Programming</h3>
 
-<h3>Result</h3>
 
 <h2 id = "Program2">Program2 設計計算電路</h2>
 
