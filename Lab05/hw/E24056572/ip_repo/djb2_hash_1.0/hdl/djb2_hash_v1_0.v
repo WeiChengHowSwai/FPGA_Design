@@ -15,7 +15,7 @@
 	)
 	(
 		// Users to add ports here
-
+        input wire clk,
 		// User ports ends
 		// Do not modify the ports beyond this line
 
@@ -68,7 +68,8 @@
 		.S_AXI_RDATA(s00_axi_rdata),
 		.S_AXI_RRESP(s00_axi_rresp),
 		.S_AXI_RVALID(s00_axi_rvalid),
-		.S_AXI_RREADY(s00_axi_rready)
+		.S_AXI_RREADY(s00_axi_rready),
+		.clk(clk)
 	);
 
 	// Add user logic here

@@ -15,7 +15,7 @@
 	)
 	(
 		// Users to add ports here
-
+    input wire clk,
 		// User ports ends
 		// Do not modify the ports beyond this line
 
@@ -405,7 +405,7 @@
     hash hash_1 (
         .cmd(slv_reg0[31:28]),
         .data(slv_reg0[27:0]),
-        .clk(S_AXI_ACLK),
+        .clk(clk),
         .hashed(hashed),
         .busy(busy_hash)
     );

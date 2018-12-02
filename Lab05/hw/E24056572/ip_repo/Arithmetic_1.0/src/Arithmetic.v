@@ -7,7 +7,7 @@
 // Tool Versions: Vivado 2018.2
 // Description: FPGA LAB5
 //////////////////////////////////////////////////////////////////////////////////
-module Arithmetic(
+(*use_dsp = "yes"*)module Arithmetic(
     input signed[15:0]A,
     input signed[15:0]B,
     input [1:0]operation,
@@ -28,6 +28,9 @@ module Arithmetic(
             end
             mul:begin
                 C = A * B;
+            end
+            default:begin
+                C = 0;
             end
         endcase
     end
