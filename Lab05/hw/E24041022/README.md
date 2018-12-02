@@ -37,6 +37,7 @@ E24041022、E24041894、E24046674
 參考Lab2的作業來修改，硬體先將內建的clk透過divider變慢，然後從軟體去輸入要改變哪個顏色的PWM，要調高或是調低，再傳到硬體去做計算，另外一開始reset的時候PWM會是50%。
 
 以影片呈現功能，助教可以在自己demo看看
+
 https://drive.google.com/file/d/1MQaNIoZQY5WrZXAzl91ljaFGd18o-8wr/view?usp=sharing
 
 
