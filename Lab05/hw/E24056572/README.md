@@ -44,10 +44,23 @@ Deiver的部分惠要求使用者輸入四個參數，分別是base address、�
 <h2 id="Program3">Program3 設計parity generator</h2>  
 
 <h3>Introduction</h3>
-  
-<h3>Programming</h3>
+
+ 此處我們使用的是even_parity_bit_generator。
+ even_parity_bit 與 data 的 bit 1 個數有關，
+ 只需要將 data 全部 bit 進行 XOR 運算，即可得 even_parity_bit。
+ 
+ 在 verilog 有對全部 bit 運算的指令，
+ 稱為 Reduction Operator。
+ 除了 XOR ，還有以下5個 Reduction Operator：
+ AND OR NAND NOR XNOR
+
+ even_parity_bit 即由 Reduction XOR 計算而得
+ 如下：
+    even_parity_bit =  (^data);
 
 <h3>Result</h3>
+
+<img src = "./image/parityResult.png">
 
 <h2 id="Program4">Program4 設計dib2 hash function電路</h2>  
 
