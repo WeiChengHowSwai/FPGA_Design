@@ -1,0 +1,328 @@
+
+*** Running vivado
+    with args -log design_1_sort_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_sort_0_0.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source design_1_sort_0_0.tcl -notrace
+Command: synth_design -top design_1_sort_0_0 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 10300 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 388.980 ; gain = 99.887
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_sort_0_0' [c:/Users/ruyuan/Desktop/FPGA_Design-master/Lab05/hw/project_8/project_8.srcs/sources_1/bd/design_1/ip/design_1_sort_0_0/synth/design_1_sort_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'sort_v1_0' [c:/Users/ruyuan/Desktop/FPGA_Design-master/Lab05/hw/project_8/project_8.srcs/sources_1/bd/design_1/ipshared/1123/hdl/sort_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'sort_v1_0_S00_AXI' [c:/Users/ruyuan/Desktop/FPGA_Design-master/Lab05/hw/project_8/project_8.srcs/sources_1/bd/design_1/ipshared/1123/hdl/sort_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
+INFO: [Synth 8-226] default block is never used [c:/Users/ruyuan/Desktop/FPGA_Design-master/Lab05/hw/project_8/project_8.srcs/sources_1/bd/design_1/ipshared/1123/hdl/sort_v1_0_S00_AXI.v:233]
+INFO: [Synth 8-226] default block is never used [c:/Users/ruyuan/Desktop/FPGA_Design-master/Lab05/hw/project_8/project_8.srcs/sources_1/bd/design_1/ipshared/1123/hdl/sort_v1_0_S00_AXI.v:374]
+INFO: [Synth 8-6157] synthesizing module 'sort' [c:/Users/ruyuan/Desktop/FPGA_Design-master/Lab05/hw/project_8/project_8.srcs/sources_1/bd/design_1/ipshared/1123/src/sort.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'sort' (1#1) [c:/Users/ruyuan/Desktop/FPGA_Design-master/Lab05/hw/project_8/project_8.srcs/sources_1/bd/design_1/ipshared/1123/src/sort.v:1]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg1_reg was removed.  [c:/Users/ruyuan/Desktop/FPGA_Design-master/Lab05/hw/project_8/project_8.srcs/sources_1/bd/design_1/ipshared/1123/hdl/sort_v1_0_S00_AXI.v:226]
+INFO: [Synth 8-6155] done synthesizing module 'sort_v1_0_S00_AXI' (2#1) [c:/Users/ruyuan/Desktop/FPGA_Design-master/Lab05/hw/project_8/project_8.srcs/sources_1/bd/design_1/ipshared/1123/hdl/sort_v1_0_S00_AXI.v:4]
+WARNING: [Synth 8-350] instance 'sort_v1_0_S00_AXI_inst' of module 'sort_v1_0_S00_AXI' requires 24 connections, but only 21 given [c:/Users/ruyuan/Desktop/FPGA_Design-master/Lab05/hw/project_8/project_8.srcs/sources_1/bd/design_1/ipshared/1123/hdl/sort_v1_0.v:50]
+INFO: [Synth 8-6155] done synthesizing module 'sort_v1_0' (3#1) [c:/Users/ruyuan/Desktop/FPGA_Design-master/Lab05/hw/project_8/project_8.srcs/sources_1/bd/design_1/ipshared/1123/hdl/sort_v1_0.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_sort_0_0' (4#1) [c:/Users/ruyuan/Desktop/FPGA_Design-master/Lab05/hw/project_8/project_8.srcs/sources_1/bd/design_1/ip/design_1_sort_0_0/synth/design_1_sort_0_0.v:57]
+WARNING: [Synth 8-3331] design sort_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design sort_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design sort_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design sort_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design sort_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design sort_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 443.945 ; gain = 154.852
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 443.945 ; gain = 154.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 443.945 ; gain = 154.852
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/ruyuan/Desktop/FPGA_Design-master/Lab05/hw/project_8/project_8.srcs/sources_1/bd/design_1/project_3/sort_ooc.xdc] for cell 'inst'
+WARNING: [Vivado 12-584] No ports matched 'sysclk'. [c:/Users/ruyuan/Desktop/FPGA_Design-master/Lab05/hw/project_8/project_8.srcs/sources_1/bd/design_1/project_3/sort_ooc.xdc:1]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports sysclk]'. [c:/Users/ruyuan/Desktop/FPGA_Design-master/Lab05/hw/project_8/project_8.srcs/sources_1/bd/design_1/project_3/sort_ooc.xdc:1]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+Finished Parsing XDC File [c:/Users/ruyuan/Desktop/FPGA_Design-master/Lab05/hw/project_8/project_8.srcs/sources_1/bd/design_1/project_3/sort_ooc.xdc] for cell 'inst'
+Parsing XDC File [C:/Users/ruyuan/Desktop/FPGA_Design-master/Lab05/hw/project_8/project_8.runs/design_1_sort_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/ruyuan/Desktop/FPGA_Design-master/Lab05/hw/project_8/project_8.runs/design_1_sort_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 799.063 ; gain = 0.012
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 799.063 ; gain = 509.969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 799.063 ; gain = 509.969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst. (constraint file  C:/Users/ruyuan/Desktop/FPGA_Design-master/Lab05/hw/project_8/project_8.runs/design_1_sort_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 799.063 ; gain = 509.969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 799.063 ; gain = 509.969
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 12    
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module sort 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 12    
+Module sort_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design sort_v1_0 has unconnected port s00_axi_awprot[2]
+WARNING: [Synth 8-3331] design sort_v1_0 has unconnected port s00_axi_awprot[1]
+WARNING: [Synth 8-3331] design sort_v1_0 has unconnected port s00_axi_awprot[0]
+WARNING: [Synth 8-3331] design sort_v1_0 has unconnected port s00_axi_arprot[2]
+WARNING: [Synth 8-3331] design sort_v1_0 has unconnected port s00_axi_arprot[1]
+WARNING: [Synth 8-3331] design sort_v1_0 has unconnected port s00_axi_arprot[0]
+INFO: [Synth 8-3886] merging instance 'inst/sort_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'inst/sort_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\sort_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'inst/sort_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'inst/sort_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\sort_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (sort_v1_0_S00_AXI_inst/axi_bresp_reg[1]) is unused and will be removed from module sort_v1_0.
+WARNING: [Synth 8-3332] Sequential element (sort_v1_0_S00_AXI_inst/axi_awaddr_reg[1]) is unused and will be removed from module sort_v1_0.
+WARNING: [Synth 8-3332] Sequential element (sort_v1_0_S00_AXI_inst/axi_awaddr_reg[0]) is unused and will be removed from module sort_v1_0.
+WARNING: [Synth 8-3332] Sequential element (sort_v1_0_S00_AXI_inst/axi_araddr_reg[1]) is unused and will be removed from module sort_v1_0.
+WARNING: [Synth 8-3332] Sequential element (sort_v1_0_S00_AXI_inst/axi_araddr_reg[0]) is unused and will be removed from module sort_v1_0.
+WARNING: [Synth 8-3332] Sequential element (sort_v1_0_S00_AXI_inst/axi_rresp_reg[1]) is unused and will be removed from module sort_v1_0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 799.063 ; gain = 509.969
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 799.063 ; gain = 509.969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 799.063 ; gain = 509.969
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 808.672 ; gain = 519.578
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 808.672 ; gain = 519.578
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 808.672 ; gain = 519.578
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 808.672 ; gain = 519.578
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 808.672 ; gain = 519.578
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 808.672 ; gain = 519.578
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 808.672 ; gain = 519.578
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT1  |     1|
+|2     |LUT2  |     1|
+|3     |LUT3  |     1|
+|4     |LUT4  |    24|
+|5     |LUT5  |    29|
+|6     |LUT6  |    22|
+|7     |MUXF7 |     3|
+|8     |FDRE  |   137|
+|9     |FDSE  |     1|
++------+------+------+
+
+Report Instance Areas: 
++------+---------------------------+------------------+------+
+|      |Instance                   |Module            |Cells |
++------+---------------------------+------------------+------+
+|1     |top                        |                  |   219|
+|2     |  inst                     |sort_v1_0         |   219|
+|3     |    sort_v1_0_S00_AXI_inst |sort_v1_0_S00_AXI |   219|
++------+---------------------------+------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 808.672 ; gain = 519.578
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 12 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 808.672 ; gain = 164.461
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:37 . Memory (MB): peak = 808.672 ; gain = 519.578
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+25 Infos, 21 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 824.762 ; gain = 542.059
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ruyuan/Desktop/FPGA_Design-master/Lab05/hw/project_8/project_8.runs/design_1_sort_0_0_synth_1/design_1_sort_0_0.dcp' has been generated.
