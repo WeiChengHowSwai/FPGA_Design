@@ -3,9 +3,12 @@
 E24046357、E24046399、E24042060
 ## Block Design
 
-![BD](/image/blockdesign.JPG)
+![BD](image/blockdesign.JPG)
 
-註:在做這次作業時原本都可以正常執行，但在寫README時為了要截圖再執行時卻無法正常執行，所以以下敘述除了BlockDesign皆無圖片，望助教見諒
+## 實際操作畫面
+
+![Demo](image/Demo.jpg)
+
 ## Program 1 : 設計一個排序電路，由 processor 輸入一串數字將其排序後傳回。(數列長度固定)
 ### 程式說明
 第一題我們所採用的排序演算法為[Bubble Sort](https://zh.wikipedia.org/wiki/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F)，為家喻戶曉的排序演算法之一。雖然想法簡單易懂，但在大量資料的排序上很沒有效率。考量到這次只排序8筆資料，所以還是採用之。
