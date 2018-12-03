@@ -1,0 +1,1199 @@
+17:22:48 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:24:11 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:24:26 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:27:07 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:28:13 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27652	   2804	  22712	  53168	   cfb0	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:28:49 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27716	   2804	  22712	  53232	   cff0	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:30:10 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27736	   2804	  22712	  53252	   d004	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:33:42 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'TMR_Intr_Handler':
+../src/helloworld.c:130:29: warning: statement with no effect [-Wunused-value]
+               else rgb_data == 34;
+                    ~~~~~~~~~^~~~~
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28008	   2804	  22712	  53524	   d114	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:34:09 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28028	   2804	  22712	  53544	   d128	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:34:21 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28028	   2804	  22712	  53544	   d128	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:34:34 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:34:52 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28028	   2804	  22712	  53544	   d128	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:35:02 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:36:22 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28068	   2804	  22712	  53584	   d150	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:36:36 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28084	   2804	  22712	  53600	   d160	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:36:45 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:39:07 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28084	   2804	  22712	  53600	   d160	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:39:13 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:39:40 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28084	   2804	  22712	  53600	   d160	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:40:25 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28140	   2804	  22712	  53656	   d198	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:40:30 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:41:16 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28140	   2804	  22712	  53656	   d198	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:42:23 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28060	   2804	  22712	  53576	   d148	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:42:48 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28060	   2804	  22712	  53576	   d148	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:42:53 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:44:45 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28028	   2804	  22712	  53544	   d128	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:45:25 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28072	   2804	  22712	  53588	   d154	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:45:33 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:47:50 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28072	   2804	  22712	  53588	   d154	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:47:55 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:50:07 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28072	   2804	  22712	  53588	   d154	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:50:21 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:51:41 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28072	   2804	  22712	  53588	   d154	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:51:47 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:53:28 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28112	   2804	  22712	  53628	   d17c	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:53:38 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28112	   2804	  22712	  53628	   d17c	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:53:45 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:54:33 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28072	   2804	  22712	  53588	   d154	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:55:18 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28096	   2804	  22712	  53612	   d16c	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:55:24 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:56:38 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28080	   2804	  22712	  53596	   d15c	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:56:44 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:57:12 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28084	   2804	  22712	  53600	   d160	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:57:16 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:57:40 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28084	   2804	  22712	  53600	   d160	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+17:57:44 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:58:20 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:58:46 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+18:09:25 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28084	   2804	  22712	  53600	   d160	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+20:02:00 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28084	   2804	  22712	  53600	   d160	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+20:03:27 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28072	   2804	  22712	  53588	   d154	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+20:03:43 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28072	   2804	  22712	  53588	   d154	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+20:05:50 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28072	   2804	  22712	  53588	   d154	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+20:09:27 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28072	   2804	  22712	  53588	   d154	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+20:09:40 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+20:13:50 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28072	   2804	  22712	  53588	   d154	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+20:13:55 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+20:14:58 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28072	   2804	  22712	  53588	   d154	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+20:15:09 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28076	   2804	  22712	  53592	   d158	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+20:15:15 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+20:18:31 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28108	   2804	  22712	  53624	   d178	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+20:18:52 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28104	   2804	  22712	  53620	   d174	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+20:18:54 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28104	   2804	  22712	  53620	   d174	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+20:19:07 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+20:20:23 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28104	   2804	  22712	  53620	   d174	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+20:21:03 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28104	   2804	  22712	  53620	   d174	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+20:21:33 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28104	   2804	  22712	  53620	   d174	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+20:22:18 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28136	   2804	  22712	  53652	   d194	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+20:22:35 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28136	   2804	  22712	  53652	   d194	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+20:22:40 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+20:26:07 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28136	   2804	  22712	  53652	   d194	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+20:26:12 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+20:29:06 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28168	   2804	  22712	  53684	   d1b4	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+20:29:12 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+20:30:10 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28200	   2804	  22712	  53716	   d1d4	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+20:30:16 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+20:30:56 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28200	   2804	  22712	  53716	   d1d4	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+20:31:14 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28232	   2804	  22712	  53748	   d1f4	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+20:31:22 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28232	   2804	  22712	  53748	   d1f4	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+20:31:31 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+20:31:55 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28232	   2804	  22712	  53748	   d1f4	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 
+20:31:59 **** Incremental Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+20:32:15 **** Auto Build of configuration Debug for project Timer_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_led_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Timer_led.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_led_bsp/ps7_cortexa9_0/lib -o "Timer_led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_led.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Timer_led.elf  |tee "Timer_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28232	   2804	  22712	  53748	   d1f4	Timer_led.elf
+Finished building: Timer_led.elf.size
+ 

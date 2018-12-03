@@ -1,0 +1,77 @@
+
+*** Running vivado
+    with args -log design_timer_xbar_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_timer_xbar_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source design_timer_xbar_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1270.809 ; gain = 76.996 ; free physical = 44262 ; free virtual = 85644
+INFO: [Synth 8-638] synthesizing module 'design_timer_xbar_0' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ip/design_timer_xbar_0/synth/design_timer_xbar_0.v:59]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_axi_crossbar' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4882]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_crossbar_sasd' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:1240]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_addr_decoder' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_carry_and' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_carry_and' (1#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' (2#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' (2#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_addr_decoder' (3#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_decerr_slave' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_decerr_slave' (4#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_addr_arbiter_sasd' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:65]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_addr_arbiter_sasd' (5#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:65]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_splitter' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_splitter' (6#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_splitter__parameterized0' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_splitter__parameterized0' (6#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' (7#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' (7#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' (7#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice' (8#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' (8#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_crossbar_sasd' (9#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:1240]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_axi_crossbar' (10#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4882]
+INFO: [Synth 8-256] done synthesizing module 'design_timer_xbar_0' (11#1) [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.srcs/sources_1/bd/design_timer/ip/design_timer_xbar_0/synth/design_timer_xbar_0.v:59]
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1391.312 ; gain = 197.500 ; free physical = 43757 ; free virtual = 85140
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1391.312 ; gain = 197.500 ; free physical = 43744 ; free virtual = 85126
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.05 . Memory (MB): peak = 1716.316 ; gain = 0.008 ; free physical = 43245 ; free virtual = 84628
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1716.316 ; gain = 522.504 ; free physical = 43195 ; free virtual = 84578
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1716.316 ; gain = 522.504 ; free physical = 43195 ; free virtual = 84578
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1716.316 ; gain = 522.504 ; free physical = 43195 ; free virtual = 84578
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1716.316 ; gain = 522.504 ; free physical = 43172 ; free virtual = 84555
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1716.316 ; gain = 522.504 ; free physical = 43129 ; free virtual = 84512
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 1716.316 ; gain = 522.504 ; free physical = 43637 ; free virtual = 85020
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1716.316 ; gain = 522.504 ; free physical = 43666 ; free virtual = 85050
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1716.316 ; gain = 522.504 ; free physical = 43648 ; free virtual = 85033
+Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1716.316 ; gain = 522.504 ; free physical = 43594 ; free virtual = 84978
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1716.316 ; gain = 522.504 ; free physical = 43594 ; free virtual = 84977
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1716.316 ; gain = 522.504 ; free physical = 43593 ; free virtual = 84977
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1716.316 ; gain = 522.504 ; free physical = 43593 ; free virtual = 84977
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1716.316 ; gain = 522.504 ; free physical = 43591 ; free virtual = 84976
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1716.316 ; gain = 522.504 ; free physical = 43593 ; free virtual = 84977
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |     8|
+|3     |LUT3 |     6|
+|4     |LUT4 |    83|
+|5     |LUT5 |    19|
+|6     |LUT6 |    50|
+|7     |FDRE |   130|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1716.316 ; gain = 522.504 ; free physical = 43593 ; free virtual = 84977
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1716.316 ; gain = 535.094 ; free physical = 44277 ; free virtual = 85663

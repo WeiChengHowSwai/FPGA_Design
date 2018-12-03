@@ -1,0 +1,514 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Dec  2 14:44:13 2018
+# Process ID: 313268
+# Current directory: C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent317632 C:\Users\user\Documents\GitHub\F84051053\hw5\hw5_pj\hw5_pj.xpr
+# Log file: C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/vivado.log
+# Journal file: C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/user/Documents/GitHub/F84051053/hw5/xdc/pynq-z2_v1.0.xdc'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/hash_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2018.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'hw5_sorting_0_0' generated file not found 'c:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/ip/hw5_sorting_0_0/hw5_sorting_0_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'hw5_sorting_0_0' generated file not found 'c:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/ip/hw5_sorting_0_0/hw5_sorting_0_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'hw5_sorting_0_0' generated file not found 'c:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/ip/hw5_sorting_0_0/hw5_sorting_0_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'hw5_sorting_0_0' generated file not found 'c:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/ip/hw5_sorting_0_0/hw5_sorting_0_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'hw5_sorting_0_0' generated file not found 'c:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/ip/hw5_sorting_0_0/hw5_sorting_0_0_sim_netlist.vhdl'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:16 . Memory (MB): peak = 853.652 ; gain = 146.945
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/user/Documents/GitHub/F84051053/hw5/xdc/pynq-z2_v1.0.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 C:/Users/user/Documents/GitHub/F84051053/hw5/xdc/pynq-z2_v1.0.xdc
+export_ip_user_files -of_objects  [get_files C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hdl/hw5_wrapper.v] -no_script -reset -force -quiet
+remove_files  C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hdl/hw5_wrapper.v
+file delete -force C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hdl/hw5_wrapper.v
+export_ip_user_files -of_objects  [get_files C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hw5.bd] -no_script -reset -force -quiet
+remove_files  C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hw5.bd
+delete_ip_run: Time (s): cpu = 00:00:19 ; elapsed = 00:00:10 . Memory (MB): peak = 877.773 ; gain = 12.586
+remove_files: Time (s): cpu = 00:00:20 ; elapsed = 00:00:11 . Memory (MB): peak = 879.508 ; gain = 14.320
+file delete -force C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5
+create_peripheral xilinx.com user sorting 1.0 -dir C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/../ip_repo
+add_peripheral_interface S00_AXI -interface_mode slave -axi_type lite [ipx::find_open_core xilinx.com:user:sorting:1.0]
+set_property VALUE 5 [ipx::get_bus_parameters WIZ_NUM_REG -of_objects [ipx::get_bus_interfaces S00_AXI -of_objects [ipx::find_open_core xilinx.com:user:sorting:1.0]]]
+generate_peripheral -driver -bfm_example_design -debug_hw_example_design -force [ipx::find_open_core xilinx.com:user:sorting:1.0]
+write_peripheral [ipx::find_open_core xilinx.com:user:sorting:1.0]
+set_property  ip_repo_paths  {C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/../ip_repo/sorting_1.0 C:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/hash_1.0 C:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo C:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0 C:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0} [current_project]
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/sorting_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/hash_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0'. The path is contained within another repository.
+ipx::edit_ip_in_project -upgrade true -name edit_sorting_v1_0 -directory C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/../ip_repo c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/sorting_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 892.586 ; gain = 3.809
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/sorting_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/hash_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 903.359 ; gain = 14.582
+update_compile_order -fileset sources_1
+add_files -norecurse -copy_to c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/sorting_1.0/src C:/Users/user/Documents/GitHub/F84051053/src/hdl/sorting.v
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse C:/Users/user/Documents/GitHub/F84051053/xdc/sorting_ooc.xdc
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/sorting_1.0/component.xml' ignored by IP packager.
+set_property core_revision 2 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/sorting_1.0
+CRITICAL WARNING: [IP_Flow 19-1681] Failed to reload user IP repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/sorting_1.0'. ''c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/sorting_1.0' is not valid: Path is contained within another repository.'
+0
+create_peripheral xilinx.com user arithmetic 1.0 -dir C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/../ip_repo
+add_peripheral_interface S00_AXI -interface_mode slave -axi_type lite [ipx::find_open_core xilinx.com:user:arithmetic:1.0]
+generate_peripheral -driver -bfm_example_design -debug_hw_example_design -force [ipx::find_open_core xilinx.com:user:arithmetic:1.0]
+write_peripheral [ipx::find_open_core xilinx.com:user:arithmetic:1.0]
+set_property  ip_repo_paths  {C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/../ip_repo/arithmetic_1.0 C:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/sorting_1.0 C:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/hash_1.0 C:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo C:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0 C:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0} [current_project]
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/sorting_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/hash_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0'. The path is contained within another repository.
+ipx::edit_ip_in_project -upgrade true -name edit_arithmetic_v1_0 -directory C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/../ip_repo c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 936.242 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/sorting_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/hash_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 936.242 ; gain = 0.000
+update_compile_order -fileset sources_1
+add_files -norecurse -copy_to c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0/src C:/Users/user/Documents/GitHub/F84051053/src/hdl/arithmetic.v
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse C:/Users/user/Documents/GitHub/F84051053/xdc/arithmetic_ooc.xdc
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0/component.xml' ignored by IP packager.
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project
+create_peripheral xilinx.com user parity 1.0 -dir C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/../ip_repo
+add_peripheral_interface S00_AXI -interface_mode slave -axi_type lite [ipx::find_open_core xilinx.com:user:parity:1.0]
+generate_peripheral -driver -bfm_example_design -debug_hw_example_design -force [ipx::find_open_core xilinx.com:user:parity:1.0]
+write_peripheral [ipx::find_open_core xilinx.com:user:parity:1.0]
+set_property  ip_repo_paths  {C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/../ip_repo/parity_1.0 C:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0 C:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/sorting_1.0 C:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/hash_1.0 C:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo C:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0 C:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0} [current_project]
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/parity_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/sorting_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/hash_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0'. The path is contained within another repository.
+ipx::edit_ip_in_project -upgrade true -name edit_parity_v1_0 -directory C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/../ip_repo c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/parity_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 939.926 ; gain = 1.328
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/parity_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/sorting_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/hash_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 939.926 ; gain = 1.328
+update_compile_order -fileset sources_1
+add_files -norecurse -copy_to c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/parity_1.0/src C:/Users/user/Documents/GitHub/F84051053/src/hdl/parity.v
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse C:/Users/user/Documents/GitHub/F84051053/xdc/parity_ooc.xdc
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/parity_1.0/component.xml' ignored by IP packager.
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/parity_1.0
+CRITICAL WARNING: [IP_Flow 19-1681] Failed to reload user IP repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/parity_1.0'. ''c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/parity_1.0' is not valid: Path is contained within another repository.'
+0
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/parity_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/sorting_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/hash_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0'. The path is contained within another repository.
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/parity_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/sorting_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/hash_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0'. The path is contained within another repository.
+set_property  ip_repo_paths  {c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/parity_1.0 C:/Users/user/Documents/GitHub/F84051053 c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0 c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/sorting_1.0 c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/hash_1.0 c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/parity_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Documents/GitHub/F84051053'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'c:/Users/user/Documents/GitHub/F84051053' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'c:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj'.)
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/sorting_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/hash_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0'. The path is contained within another repository.
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/parity_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Documents/GitHub/F84051053'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'c:/Users/user/Documents/GitHub/F84051053' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'c:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj'.)
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/sorting_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/hash_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0'. The path is contained within another repository.
+update_ip_catalog
+add_files -fileset constrs_1 -norecurse C:/Users/user/Documents/GitHub/F84051053/xdc/pynq-z2_v1.0.xdc
+create_bd_design "hw5"
+Wrote  : <C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hw5.bd> 
+create_bd_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1013.125 ; gain = 46.988
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:pwm:1.0 pwm_0
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:sorting:1.0 sorting_0
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:parity:1.0 parity_0
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:arithmetic:1.0 arithmetic_0
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:hash:1.0 hash_0
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:processing_system7 -config {make_external "FIXED_IO, DDR" apply_board_preset "1" Master "Disable" Slave "Disable" }  [get_bd_cells processing_system7_0]
+apply_bd_automation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1084.465 ; gain = 0.000
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {Auto} Clk_xbar {Auto} Master {/processing_system7_0/M_AXI_GP0} Slave {/pwm_0/S00_AXI} intc_ip {New AXI Interconnect} master_apm {0}}  [get_bd_intf_pins pwm_0/S00_AXI]
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+</pwm_0/S00_AXI/S00_AXI_reg> is being mapped into </processing_system7_0/Data> at <0x43C00000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {Auto} Clk_xbar {Auto} Master {/processing_system7_0/M_AXI_GP0} Slave {/sorting_0/S00_AXI} intc_ip {New AXI Interconnect} master_apm {0}}  [get_bd_intf_pins sorting_0/S00_AXI]
+</sorting_0/S00_AXI/S00_AXI_reg> is being mapped into </processing_system7_0/Data> at <0x43C10000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {Auto} Clk_xbar {Auto} Master {/processing_system7_0/M_AXI_GP0} Slave {/parity_0/S00_AXI} intc_ip {New AXI Interconnect} master_apm {0}}  [get_bd_intf_pins parity_0/S00_AXI]
+</parity_0/S00_AXI/S00_AXI_reg> is being mapped into </processing_system7_0/Data> at <0x43C20000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {Auto} Clk_xbar {Auto} Master {/processing_system7_0/M_AXI_GP0} Slave {/arithmetic_0/S00_AXI} intc_ip {New AXI Interconnect} master_apm {0}}  [get_bd_intf_pins arithmetic_0/S00_AXI]
+</arithmetic_0/S00_AXI/S00_AXI_reg> is being mapped into </processing_system7_0/Data> at <0x43C30000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {Auto} Clk_xbar {Auto} Master {/processing_system7_0/M_AXI_GP0} Slave {/hash_0/S00_AXI} intc_ip {New AXI Interconnect} master_apm {0}}  [get_bd_intf_pins hash_0/S00_AXI]
+</hash_0/S00_AXI/S00_AXI_reg> is being mapped into </processing_system7_0/Data> at <0x43C40000 [ 64K ]>
+endgroup
+save_bd_design
+Wrote  : <C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hw5.bd> 
+Wrote  : <C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/ui/bd_52f9e2a6.ui> 
+make_wrapper -files [get_files C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hw5.bd] -top
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+Wrote  : <C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hw5.bd> 
+VHDL Output written to : C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/synth/hw5.v
+VHDL Output written to : C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/sim/hw5.v
+VHDL Output written to : C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hdl/hw5_wrapper.v
+make_wrapper: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1224.633 ; gain = 89.855
+add_files -norecurse C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hdl/hw5_wrapper.v
+export_ip_user_files -of_objects  [get_files C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hdl/hw5_wrapper.v] -no_script -reset -force -quiet
+remove_files  C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hdl/hw5_wrapper.v
+file delete -force C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hdl/hw5_wrapper.v
+startgroup
+create_bd_port -dir O led4_r
+connect_bd_net [get_bd_pins /pwm_0/led4_r] [get_bd_ports led4_r]
+endgroup
+startgroup
+create_bd_port -dir O led4_b
+connect_bd_net [get_bd_pins /pwm_0/led4_b] [get_bd_ports led4_b]
+endgroup
+startgroup
+create_bd_port -dir O led4_g
+connect_bd_net [get_bd_pins /pwm_0/led4_g] [get_bd_ports led4_g]
+endgroup
+save_bd_design
+Wrote  : <C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hw5.bd> 
+Wrote  : <C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/ui/bd_52f9e2a6.ui> 
+make_wrapper -files [get_files C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hw5.bd] -top
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+Wrote  : <C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hw5.bd> 
+VHDL Output written to : C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/synth/hw5.v
+VHDL Output written to : C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/sim/hw5.v
+VHDL Output written to : C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hdl/hw5_wrapper.v
+add_files -norecurse C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hdl/hw5_wrapper.v
+close_bd_design [get_bd_designs hw5]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+INFO: [BD 41-1662] The design 'hw5.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/synth/hw5.v
+VHDL Output written to : C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/sim/hw5.v
+VHDL Output written to : C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hdl/hw5_wrapper.v
+CRITICAL WARNING: [IP_Flow 19-663] Failed to copy file 'c:/Users/user/Documents/GitHub/F84051053/hw5/xdc/pwm_ooc.xdc', it does not exist.
+CRITICAL WARNING: [IP_Flow 19-157] Failed to copy file from 'c:/Users/user/Documents/GitHub/F84051053/hw5/xdc/pwm_ooc.xdc' to 'c:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/xdc/pwm_ooc.xdc'.
+ERROR: [IP_Flow 19-167] Failed to deliver one or more file(s).
+ERROR: [IP_Flow 19-3505] IP Generation error: Failed to generate IP 'pwm_0'. Failed to generate 'Verilog Synthesis' outputs: 
+ERROR: [IP_Flow 19-98] Generation of the IP CORE failed.
+Failed to generate IP 'pwm_0'. Failed to generate 'Verilog Synthesis' outputs: 
+ERROR: [BD 41-1030] Generation failed for the IP Integrator block pwm_0 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sorting_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block parity_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block arithmetic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hash_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/ip/hw5_auto_pc_0/hw5_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hw_handoff/hw5.hwh
+Generated Block Design Tcl file C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hw_handoff/hw5_bd.tcl
+Generated Hardware Definition File C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/synth/hw5.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP hw5_pwm_0_0, cache-ID = d5baa0cd35a18d96; cache size = 3.717 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP hw5_hash_0_0, cache-ID = 06296faab76abfbc; cache size = 3.717 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP hw5_processing_system7_0_0, cache-ID = 5dd357fda6d261fa; cache size = 3.717 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP hw5_rst_ps7_0_100M_0, cache-ID = da56856f582a29df; cache size = 3.717 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP hw5_xbar_0, cache-ID = 462ccc1ddd5225a1; cache size = 3.717 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP hw5_auto_pc_0, cache-ID = 10815dbb95871d39; cache size = 3.717 MB.
+ERROR: [Vivado 12-4756] Launch of runs aborted due to earlier errors while preparing sub-designs for run execution.
+export_ip_user_files -of_objects  [get_files C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hdl/hw5_wrapper.v] -no_script -reset -force -quiet
+remove_files  C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hdl/hw5_wrapper.v
+file delete -force C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hdl/hw5_wrapper.v
+remove_files  C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hdl/hw5_wrapper.v
+WARNING: [Vivado 12-818] No files matched 'C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hdl/hw5_wrapper.v'
+export_ip_user_files -of_objects  [get_files C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hw5.bd] -no_script -reset -force -quiet
+remove_files  C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hw5.bd
+file delete -force C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5
+create_peripheral xilinx.com user pwm 1.0 -dir C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/../ip_repo
+add_peripheral_interface S00_AXI -interface_mode slave -axi_type lite [ipx::find_open_core xilinx.com:user:pwm:1.0]
+generate_peripheral -driver -bfm_example_design -debug_hw_example_design -force [ipx::find_open_core xilinx.com:user:pwm:1.0]
+write_peripheral [ipx::find_open_core xilinx.com:user:pwm:1.0]
+set_property  ip_repo_paths  {C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/../ip_repo/pwm_1.0 c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/parity_1.0 C:/Users/user/Documents/GitHub/F84051053 c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0 c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/sorting_1.0 c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/hash_1.0 c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0} [current_project]
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/parity_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Documents/GitHub/F84051053'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'c:/Users/user/Documents/GitHub/F84051053' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'c:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj'.)
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/sorting_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/hash_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0'. The path is contained within another repository.
+ipx::edit_ip_in_project -upgrade true -name edit_pwm_v1_0 -directory C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/../ip_repo c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 1378.848 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/parity_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Documents/GitHub/F84051053'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/sorting_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/hash_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 1378.848 ; gain = 0.000
+update_compile_order -fileset sources_1
+add_files -norecurse -copy_to c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0/src C:/Users/user/Documents/GitHub/F84051053/src/hdl/pwm.v
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse C:/Users/user/Documents/GitHub/F84051053/xdc/pwm_ooc.xdc
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0/component.xml' ignored by IP packager.
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0/component.xml' ignored by IP packager.
+INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'.
+set_property core_revision 2 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0
+CRITICAL WARNING: [IP_Flow 19-1681] Failed to reload user IP repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0'. ''c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0' is not valid: Path is contained within another repository.'
+0
+create_bd_design "hw5"
+Wrote  : <C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hw5.bd> 
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:pwm:1.0 pwm_0
+endgroup
+set_property location {0.5 -20 -30} [get_bd_cells pwm_0]
+delete_bd_objs [get_bd_cells pwm_0]
+close_bd_design [get_bd_designs hw5]
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/parity_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Documents/GitHub/F84051053'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'c:/Users/user/Documents/GitHub/F84051053' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'c:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj'.)
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/sorting_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/hash_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0'. The path is contained within another repository.
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/parity_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Documents/GitHub/F84051053'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'c:/Users/user/Documents/GitHub/F84051053' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'c:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj'.)
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/arithmetic_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/sorting_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/hash_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/user/Documents/GitHub/F84051053/hw5/ip_repo/pwm_1.0'. The path is contained within another repository.
+open_bd_design {C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hw5.bd}
+Successfully read diagram <hw5> from BD file <C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hw5.bd>
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:pwm:1.0 pwm_0
+endgroup
+startgroup
+create_bd_port -dir O led4_r
+connect_bd_net [get_bd_pins /pwm_0/led4_r] [get_bd_ports led4_r]
+endgroup
+startgroup
+create_bd_port -dir O led4_b
+connect_bd_net [get_bd_pins /pwm_0/led4_b] [get_bd_ports led4_b]
+endgroup
+startgroup
+create_bd_port -dir O led4_g
+connect_bd_net [get_bd_pins /pwm_0/led4_g] [get_bd_ports led4_g]
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:arithmetic:1.0 arithmetic_0
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:parity:1.0 parity_0
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:hash:1.0 hash_0
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:sorting:1.0 sorting_0
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:processing_system7 -config {make_external "FIXED_IO, DDR" apply_board_preset "1" Master "Disable" Slave "Disable" }  [get_bd_cells processing_system7_0]
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {Auto} Clk_xbar {Auto} Master {/processing_system7_0/M_AXI_GP0} Slave {/pwm_0/S00_AXI} intc_ip {New AXI Interconnect} master_apm {0}}  [get_bd_intf_pins pwm_0/S00_AXI]
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+</pwm_0/S00_AXI/S00_AXI_reg> is being mapped into </processing_system7_0/Data> at <0x43C00000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {Auto} Clk_xbar {Auto} Master {/processing_system7_0/M_AXI_GP0} Slave {/arithmetic_0/S00_AXI} intc_ip {New AXI Interconnect} master_apm {0}}  [get_bd_intf_pins arithmetic_0/S00_AXI]
+</arithmetic_0/S00_AXI/S00_AXI_reg> is being mapped into </processing_system7_0/Data> at <0x43C10000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {Auto} Clk_xbar {Auto} Master {/processing_system7_0/M_AXI_GP0} Slave {/parity_0/S00_AXI} intc_ip {New AXI Interconnect} master_apm {0}}  [get_bd_intf_pins parity_0/S00_AXI]
+</parity_0/S00_AXI/S00_AXI_reg> is being mapped into </processing_system7_0/Data> at <0x43C20000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {Auto} Clk_xbar {Auto} Master {/processing_system7_0/M_AXI_GP0} Slave {/hash_0/S00_AXI} intc_ip {New AXI Interconnect} master_apm {0}}  [get_bd_intf_pins hash_0/S00_AXI]
+</hash_0/S00_AXI/S00_AXI_reg> is being mapped into </processing_system7_0/Data> at <0x43C30000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {Auto} Clk_xbar {Auto} Master {/processing_system7_0/M_AXI_GP0} Slave {/sorting_0/S00_AXI} intc_ip {New AXI Interconnect} master_apm {0}}  [get_bd_intf_pins sorting_0/S00_AXI]
+</sorting_0/S00_AXI/S00_AXI_reg> is being mapped into </processing_system7_0/Data> at <0x43C40000 [ 64K ]>
+endgroup
+validate_bd_design
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+make_wrapper -files [get_files C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hw5.bd] -top
+INFO: [BD 41-1662] The design 'hw5.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hw5.bd> 
+Wrote  : <C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/ui/bd_52f9e2a6.ui> 
+VHDL Output written to : C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/synth/hw5.v
+VHDL Output written to : C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/sim/hw5.v
+VHDL Output written to : C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hdl/hw5_wrapper.v
+add_files -norecurse C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hdl/hw5_wrapper.v
+close_bd_design [get_bd_designs hw5]
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+INFO: [BD 41-1662] The design 'hw5.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/synth/hw5.v
+VHDL Output written to : C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/sim/hw5.v
+VHDL Output written to : C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hdl/hw5_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block pwm_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block arithmetic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block parity_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hash_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sorting_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/ip/hw5_auto_pc_0/hw5_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hw_handoff/hw5.hwh
+Generated Block Design Tcl file C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/hw_handoff/hw5_bd.tcl
+Generated Hardware Definition File C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.srcs/sources_1/bd/hw5/synth/hw5.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP hw5_pwm_0_0, cache-ID = d5baa0cd35a18d96; cache size = 3.717 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP hw5_hash_0_0, cache-ID = 06296faab76abfbc; cache size = 3.717 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP hw5_processing_system7_0_0, cache-ID = 5dd357fda6d261fa; cache size = 3.717 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP hw5_rst_ps7_0_100M_0, cache-ID = da56856f582a29df; cache size = 3.717 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP hw5_xbar_0, cache-ID = 462ccc1ddd5225a1; cache size = 3.717 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP hw5_auto_pc_0, cache-ID = 10815dbb95871d39; cache size = 3.717 MB.
+[Sun Dec  2 15:10:08 2018] Launched hw5_sorting_0_0_synth_1, hw5_arithmetic_0_0_synth_1, hw5_parity_0_0_synth_1, synth_1...
+Run output will be captured here:
+hw5_sorting_0_0_synth_1: C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.runs/hw5_sorting_0_0_synth_1/runme.log
+hw5_arithmetic_0_0_synth_1: C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.runs/hw5_arithmetic_0_0_synth_1/runme.log
+hw5_parity_0_0_synth_1: C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.runs/hw5_parity_0_0_synth_1/runme.log
+synth_1: C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.runs/synth_1/runme.log
+[Sun Dec  2 15:10:09 2018] Launched impl_1...
+Run output will be captured here: C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:37 ; elapsed = 00:00:47 . Memory (MB): peak = 1664.320 ; gain = 91.086
+file mkdir C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.sdk
+file copy -force C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.runs/impl_1/hw5_wrapper.sysdef C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.sdk/hw5_wrapper.hdf
+
+launch_sdk -workspace C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.sdk -hwspec C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.sdk/hw5_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.sdk -hwspec C:/Users/user/Documents/GitHub/F84051053/hw5/hw5_pj/hw5_pj.sdk/hw5_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Dec  2 16:34:52 2018...

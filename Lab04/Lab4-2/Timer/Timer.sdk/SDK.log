@@ -1,0 +1,387 @@
+16:18:44 INFO  : Launching XSCT server: xsct -n -interactive /home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/temp_xsdb_launch_script.tcl
+16:18:45 INFO  : XSCT server has started successfully.
+16:18:46 INFO  : Successfully done setting XSCT server connection channel  
+16:18:46 INFO  : Successfully done setting SDK workspace  
+16:18:49 INFO  : Registering command handlers for SDK TCF services
+16:18:49 INFO  : Processing command line option -hwspec /home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper.hdf.
+16:18:49 INFO  : Checking for hwspec changes in the project design_timer_wrapper_hw_platform_0.
+16:21:50 WARN  : Unable to obtain port 2350 for use by XMD, java.net.BindException: Address already in use (Bind failed)
+16:21:55 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:484)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:464)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+16:23:13 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:484)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:464)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+16:25:58 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:26:09 INFO  : Registering command handlers for SDK TCF services
+16:26:10 INFO  : Launching XSCT server: xsct -n -interactive /home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/temp_xsdb_launch_script.tcl
+16:26:11 INFO  : XSCT server has started successfully.
+16:26:11 INFO  : Successfully done setting XSCT server connection channel  
+16:26:11 INFO  : Successfully done setting SDK workspace  
+16:26:11 INFO  : Processing command line option -hwspec /home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper.hdf.
+16:26:11 INFO  : Checking for hwspec changes in the project design_timer_wrapper_hw_platform_0.
+16:27:42 WARN  : Unable to obtain port 2350 for use by XMD, java.net.BindException: Address already in use (Bind failed)
+16:27:46 INFO  : System reset is completed.
+16:27:49 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+16:27:51 INFO  : ps7_init is completed.
+16:27:51 INFO  : ps7_post_config is completed.
+16:28:34 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:28:35 INFO  : System reset is completed.
+16:28:38 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+16:28:39 INFO  : ps7_init is completed.
+16:28:40 INFO  : ps7_post_config is completed.
+16:30:33 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:30:36 INFO  : System reset is completed.
+16:30:39 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+16:30:41 INFO  : ps7_init is completed.
+16:30:41 INFO  : ps7_post_config is completed.
+16:30:41 INFO  : ps7_debug is completed.
+16:34:21 INFO  : System reset is completed.
+16:34:23 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+16:34:25 INFO  : ps7_init is completed.
+16:34:25 INFO  : ps7_post_config is completed.
+16:34:26 INFO  : ps7_debug is completed.
+16:39:09 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+16:39:09 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+16:39:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:39:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:40:27 INFO  : System reset is completed.
+16:40:30 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+16:40:32 INFO  : ps7_init is completed.
+16:40:32 INFO  : ps7_post_config is completed.
+16:40:40 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:40:42 INFO  : System reset is completed.
+16:40:45 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+16:40:47 INFO  : ps7_init is completed.
+16:40:47 INFO  : ps7_post_config is completed.
+16:40:47 INFO  : ps7_debug is completed.
+16:43:02 INFO  : System reset is completed.
+16:43:05 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+16:43:07 INFO  : ps7_init is completed.
+16:43:07 INFO  : ps7_post_config is completed.
+17:00:38 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:00:39 INFO  : System reset is completed.
+17:00:42 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+17:00:44 INFO  : ps7_init is completed.
+17:00:44 INFO  : ps7_post_config is completed.
+17:02:45 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:02:47 INFO  : System reset is completed.
+17:02:50 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+17:02:52 INFO  : ps7_init is completed.
+17:02:52 INFO  : ps7_post_config is completed.
+17:03:21 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:03:23 INFO  : System reset is completed.
+17:03:26 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+17:03:28 INFO  : ps7_init is completed.
+17:03:28 INFO  : ps7_post_config is completed.
+17:05:40 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:05:43 INFO  : System reset is completed.
+17:05:45 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+17:05:48 INFO  : ps7_init is completed.
+17:05:48 INFO  : ps7_post_config is completed.
+17:06:13 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:06:15 INFO  : System reset is completed.
+17:06:18 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+17:06:20 INFO  : ps7_init is completed.
+17:06:20 INFO  : ps7_post_config is completed.
+17:06:47 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:06:49 INFO  : System reset is completed.
+17:06:51 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+17:06:53 INFO  : ps7_init is completed.
+17:06:53 INFO  : ps7_post_config is completed.
+17:09:00 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:17:24 INFO  : Registering command handlers for SDK TCF services
+17:17:25 INFO  : Launching XSCT server: xsct -n -interactive /home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/temp_xsdb_launch_script.tcl
+17:17:26 INFO  : XSCT server has started successfully.
+17:17:26 INFO  : Successfully done setting XSCT server connection channel  
+17:17:26 INFO  : Successfully done setting SDK workspace  
+17:17:26 INFO  : Processing command line option -hwspec /home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper.hdf.
+17:17:26 INFO  : Checking for hwspec changes in the project design_timer_wrapper_hw_platform_0.
+17:17:28 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1538471538000,  Project:1538457021000
+17:17:28 INFO  : The hardware specification for project 'design_timer_wrapper_hw_platform_0' is different from /home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper.hdf.
+17:17:28 INFO  : Copied contents of /home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper.hdf into /design_timer_wrapper_hw_platform_0/system.hdf.
+17:17:30 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:17:31 INFO  : 
+17:17:32 INFO  : 
+17:17:33 INFO  : Updating hardware inferred compiler options for Timer_led.
+17:17:34 INFO  : Updating hardware inferred compiler options for Timer_led_bsp_xscutimer_intr_example_1.
+17:17:35 INFO  : Updating hardware inferred compiler options for hello_wo.
+17:17:35 INFO  : Clearing existing target manager status.
+17:17:35 WARN  : Unable to obtain port 2350 for use by XMD, java.net.BindException: Address already in use (Bind failed)
+17:19:28 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+17:19:28 ERROR : Timeout occured while waiting to get reply for command "xreset 64"
+17:19:28 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.doSystemReset(TM.java:988)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:469)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+17:20:25 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+17:20:25 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 64"
+17:20:25 ERROR : Disconnect target failed.
+17:20:25 ERROR : Unable to disconnect from existing targets
+java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:329)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:308)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:212)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:58)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:830)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:823)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:946)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:314)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1580)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:270)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:147)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:202)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:165)
+	at java.lang.Thread.run(Thread.java:745)
+17:22:23 INFO  : Registering command handlers for SDK TCF services
+17:22:23 INFO  : Launching XSCT server: xsct -n -interactive /home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/temp_xsdb_launch_script.tcl
+17:22:24 INFO  : XSCT server has started successfully.
+17:22:24 INFO  : Successfully done setting XSCT server connection channel  
+17:22:25 INFO  : Successfully done setting SDK workspace  
+17:22:25 INFO  : Processing command line option -hwspec /home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper.hdf.
+17:22:25 INFO  : Checking for hwspec changes in the project design_timer_wrapper_hw_platform_0.
+17:24:12 WARN  : Unable to obtain port 2350 for use by XMD, java.net.BindException: Address already in use (Bind failed)
+17:24:15 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Failed to connect to Xilinx hw_server at TCP:140.116.187.109:3121
+.    Check if
+     1. the hw_server is running and correct TCP port is used
+     2. the board is powered on and JTAG cable is connected.
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:484)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:464)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+17:24:27 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Failed to connect to Xilinx hw_server at TCP:140.116.187.109:3121
+.    Check if
+     1. the hw_server is running and correct TCP port is used
+     2. the board is powered on and JTAG cable is connected.
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:484)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:464)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+17:24:32 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:26:32 INFO  : Registering command handlers for SDK TCF services
+17:26:32 INFO  : Launching XSCT server: xsct -n -interactive /home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/temp_xsdb_launch_script.tcl
+17:26:33 INFO  : XSCT server has started successfully.
+17:26:33 INFO  : Successfully done setting XSCT server connection channel  
+17:26:33 INFO  : Successfully done setting SDK workspace  
+17:26:33 INFO  : Processing command line option -hwspec /home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper.hdf.
+17:26:34 INFO  : Checking for hwspec changes in the project design_timer_wrapper_hw_platform_0.
+17:27:08 WARN  : Unable to obtain port 2350 for use by XMD, java.net.BindException: Address already in use (Bind failed)
+17:27:12 INFO  : System reset is completed.
+17:27:15 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+17:27:17 INFO  : ps7_init is completed.
+17:27:17 INFO  : ps7_post_config is completed.
+17:34:34 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:34:36 INFO  : System reset is completed.
+17:34:39 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+17:34:41 INFO  : ps7_init is completed.
+17:34:41 INFO  : ps7_post_config is completed.
+17:35:02 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:35:04 INFO  : System reset is completed.
+17:35:06 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+17:35:09 INFO  : ps7_init is completed.
+17:35:09 INFO  : ps7_post_config is completed.
+17:36:45 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:36:47 INFO  : System reset is completed.
+17:36:50 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+17:36:52 INFO  : ps7_init is completed.
+17:36:52 INFO  : ps7_post_config is completed.
+17:39:14 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:39:15 INFO  : System reset is completed.
+17:39:18 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+17:39:20 INFO  : ps7_init is completed.
+17:39:20 INFO  : ps7_post_config is completed.
+17:40:30 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:40:32 INFO  : System reset is completed.
+17:40:35 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+17:40:37 INFO  : ps7_init is completed.
+17:40:37 INFO  : ps7_post_config is completed.
+17:42:53 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:42:54 INFO  : System reset is completed.
+17:42:57 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+17:42:59 INFO  : ps7_init is completed.
+17:42:59 INFO  : ps7_post_config is completed.
+17:45:33 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:45:35 INFO  : System reset is completed.
+17:45:38 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+17:45:40 INFO  : ps7_init is completed.
+17:45:40 INFO  : ps7_post_config is completed.
+17:47:55 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:47:56 INFO  : System reset is completed.
+17:47:59 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+17:48:02 INFO  : ps7_init is completed.
+17:48:02 INFO  : ps7_post_config is completed.
+17:50:22 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:50:28 INFO  : System reset is completed.
+17:50:31 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+17:50:33 INFO  : ps7_init is completed.
+17:50:33 INFO  : ps7_post_config is completed.
+17:51:47 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:51:49 INFO  : System reset is completed.
+17:51:52 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+17:51:53 INFO  : ps7_init is completed.
+17:51:54 INFO  : ps7_post_config is completed.
+17:53:45 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:53:47 INFO  : System reset is completed.
+17:53:49 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+17:53:51 INFO  : ps7_init is completed.
+17:53:51 INFO  : ps7_post_config is completed.
+17:55:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:55:25 INFO  : System reset is completed.
+17:55:28 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+17:55:30 INFO  : ps7_init is completed.
+17:55:30 INFO  : ps7_post_config is completed.
+17:56:44 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:56:46 INFO  : System reset is completed.
+17:56:48 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+17:56:51 INFO  : ps7_init is completed.
+17:56:51 INFO  : ps7_post_config is completed.
+17:57:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:57:18 INFO  : System reset is completed.
+17:57:21 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+17:57:22 INFO  : ps7_init is completed.
+17:57:23 INFO  : ps7_post_config is completed.
+17:57:45 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:57:46 INFO  : System reset is completed.
+17:57:49 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+17:57:51 INFO  : ps7_init is completed.
+17:57:51 INFO  : ps7_post_config is completed.
+17:58:20 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:58:21 INFO  : System reset is completed.
+17:58:24 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+17:58:26 INFO  : ps7_init is completed.
+17:58:26 INFO  : ps7_post_config is completed.
+17:58:46 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:58:49 INFO  : System reset is completed.
+17:58:51 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+17:58:53 INFO  : ps7_init is completed.
+17:58:53 INFO  : ps7_post_config is completed.
+20:09:40 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:09:42 INFO  : System reset is completed.
+20:09:44 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+20:09:46 INFO  : ps7_init is completed.
+20:09:46 INFO  : ps7_post_config is completed.
+20:13:56 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:13:58 INFO  : System reset is completed.
+20:14:00 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+20:14:02 INFO  : ps7_init is completed.
+20:14:02 INFO  : ps7_post_config is completed.
+20:15:15 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:15:17 INFO  : System reset is completed.
+20:15:19 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+20:15:21 INFO  : ps7_init is completed.
+20:15:21 INFO  : ps7_post_config is completed.
+20:19:08 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:19:09 INFO  : System reset is completed.
+20:19:12 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+20:19:13 INFO  : ps7_init is completed.
+20:19:14 INFO  : ps7_post_config is completed.
+20:22:40 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:22:42 INFO  : System reset is completed.
+20:22:45 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+20:22:46 INFO  : ps7_init is completed.
+20:22:46 INFO  : ps7_post_config is completed.
+20:26:13 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:26:17 INFO  : System reset is completed.
+20:26:20 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+20:26:22 INFO  : ps7_init is completed.
+20:26:22 INFO  : ps7_post_config is completed.
+20:29:12 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:29:14 INFO  : System reset is completed.
+20:29:16 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+20:29:18 INFO  : ps7_init is completed.
+20:29:18 INFO  : ps7_post_config is completed.
+20:30:17 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:30:18 INFO  : System reset is completed.
+20:30:21 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+20:30:23 INFO  : ps7_init is completed.
+20:30:23 INFO  : ps7_post_config is completed.
+20:31:31 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:31:33 INFO  : System reset is completed.
+20:31:35 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+20:31:37 INFO  : ps7_init is completed.
+20:31:37 INFO  : ps7_post_config is completed.
+20:32:00 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:32:01 INFO  : System reset is completed.
+20:32:04 INFO  : FPGA configured successfully with bitstream "/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.sdk/design_timer_wrapper_hw_platform_0/design_timer_wrapper.bit"
+20:32:05 INFO  : ps7_init is completed.
+20:32:05 INFO  : ps7_post_config is completed.
+20:34:06 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

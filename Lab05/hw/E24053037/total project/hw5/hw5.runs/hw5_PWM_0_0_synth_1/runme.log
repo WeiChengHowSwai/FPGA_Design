@@ -1,0 +1,350 @@
+
+*** Running vivado
+    with args -log hw5_PWM_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source hw5_PWM_0_0.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source hw5_PWM_0_0.tcl -notrace
+Command: synth_design -top hw5_PWM_0_0 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 532988 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 390.145 ; gain = 100.438
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'hw5_PWM_0_0' [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ip/hw5_PWM_0_0/synth/hw5_PWM_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'PWM_v1_0' [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ipshared/8b84/hdl/PWM_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 7 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'PWM_v1_0_S00_AXI' [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ipshared/8b84/hdl/PWM_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 7 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 4 - type: integer 
+INFO: [Synth 8-226] default block is never used [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ipshared/8b84/hdl/PWM_v1_0_S00_AXI.v:289]
+INFO: [Synth 8-226] default block is never used [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ipshared/8b84/hdl/PWM_v1_0_S00_AXI.v:654]
+INFO: [Synth 8-6157] synthesizing module 'PWM' [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ipshared/8b84/src/PWM.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'PWM' (1#1) [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ipshared/8b84/src/PWM.v:4]
+WARNING: [Synth 8-3848] Net clk in module/entity PWM_v1_0_S00_AXI does not have driver. [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ipshared/8b84/hdl/PWM_v1_0_S00_AXI.v:712]
+INFO: [Synth 8-6155] done synthesizing module 'PWM_v1_0_S00_AXI' (2#1) [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ipshared/8b84/hdl/PWM_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'PWM_v1_0' (3#1) [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ipshared/8b84/hdl/PWM_v1_0.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'hw5_PWM_0_0' (4#1) [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ip/hw5_PWM_0_0/synth/hw5_PWM_0_0.v:57]
+WARNING: [Synth 8-3331] design PWM_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design PWM_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design PWM_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design PWM_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design PWM_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design PWM_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 447.352 ; gain = 157.645
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin pwm1:clk to constant 0 [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ipshared/8b84/hdl/PWM_v1_0_S00_AXI.v:711]
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 447.352 ; gain = 157.645
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 447.352 ; gain = 157.645
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ip/hw5_PWM_0_0/src/PWM_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ip/hw5_PWM_0_0/src/PWM_ooc.xdc] for cell 'inst'
+Parsing XDC File [C:/Users/Leo/Desktop/FPGA/hw5/hw5.runs/hw5_PWM_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/Leo/Desktop/FPGA/hw5/hw5.runs/hw5_PWM_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.263 . Memory (MB): peak = 820.516 ; gain = 1.566
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:27 ; elapsed = 00:00:53 . Memory (MB): peak = 820.516 ; gain = 530.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:27 ; elapsed = 00:00:53 . Memory (MB): peak = 820.516 ; gain = 530.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst. (constraint file  C:/Users/Leo/Desktop/FPGA/hw5/hw5.runs/hw5_PWM_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:53 . Memory (MB): peak = 820.516 ; gain = 530.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:28 ; elapsed = 00:00:54 . Memory (MB): peak = 820.516 ; gain = 530.809
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 33    
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 32    
+	  32 Input     32 Bit        Muxes := 32    
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module PWM 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+Module PWM_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 33    
+	                7 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 32    
+	  32 Input     32 Bit        Muxes := 32    
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design PWM_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design PWM_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design PWM_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design PWM_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design PWM_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design PWM_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+INFO: [Synth 8-3886] merging instance 'inst/PWM_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'inst/PWM_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/PWM_v1_0_S00_AXI_inst/\axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'inst/PWM_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'inst/PWM_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/PWM_v1_0_S00_AXI_inst/\axi_bresp_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (counter_256_reg[7]) is unused and will be removed from module PWM.
+WARNING: [Synth 8-3332] Sequential element (counter_256_reg[6]) is unused and will be removed from module PWM.
+WARNING: [Synth 8-3332] Sequential element (counter_256_reg[5]) is unused and will be removed from module PWM.
+WARNING: [Synth 8-3332] Sequential element (counter_256_reg[4]) is unused and will be removed from module PWM.
+WARNING: [Synth 8-3332] Sequential element (counter_256_reg[3]) is unused and will be removed from module PWM.
+WARNING: [Synth 8-3332] Sequential element (counter_256_reg[2]) is unused and will be removed from module PWM.
+WARNING: [Synth 8-3332] Sequential element (counter_256_reg[1]) is unused and will be removed from module PWM.
+WARNING: [Synth 8-3332] Sequential element (counter_256_reg[0]) is unused and will be removed from module PWM.
+WARNING: [Synth 8-3332] Sequential element (axi_bresp_reg[1]) is unused and will be removed from module PWM_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[1]) is unused and will be removed from module PWM_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[0]) is unused and will be removed from module PWM_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[1]) is unused and will be removed from module PWM_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[0]) is unused and will be removed from module PWM_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (axi_rresp_reg[1]) is unused and will be removed from module PWM_v1_0_S00_AXI.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:01:01 . Memory (MB): peak = 820.516 ; gain = 530.809
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:50 ; elapsed = 00:01:20 . Memory (MB): peak = 820.516 ; gain = 530.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:51 ; elapsed = 00:01:21 . Memory (MB): peak = 829.328 ; gain = 539.621
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:52 ; elapsed = 00:01:22 . Memory (MB): peak = 829.328 ; gain = 539.621
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:53 ; elapsed = 00:01:24 . Memory (MB): peak = 829.328 ; gain = 539.621
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:53 ; elapsed = 00:01:24 . Memory (MB): peak = 829.328 ; gain = 539.621
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:54 ; elapsed = 00:01:24 . Memory (MB): peak = 829.328 ; gain = 539.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:54 ; elapsed = 00:01:24 . Memory (MB): peak = 829.328 ; gain = 539.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:54 ; elapsed = 00:01:24 . Memory (MB): peak = 829.328 ; gain = 539.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:54 ; elapsed = 00:01:24 . Memory (MB): peak = 829.328 ; gain = 539.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     3|
+|2     |LUT1   |     1|
+|3     |LUT2   |    25|
+|4     |LUT3   |     1|
+|5     |LUT4   |     3|
+|6     |LUT5   |     2|
+|7     |LUT6   |   418|
+|8     |MUXF7  |   128|
+|9     |FDRE   |  1073|
+|10    |FDSE   |     1|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------------------+-----------------+------+
+|      |Instance                  |Module           |Cells |
++------+--------------------------+-----------------+------+
+|1     |top                       |                 |  1655|
+|2     |  inst                    |PWM_v1_0         |  1655|
+|3     |    PWM_v1_0_S00_AXI_inst |PWM_v1_0_S00_AXI |  1655|
+|4     |      pwm1                |PWM              |    27|
++------+--------------------------+-----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:54 ; elapsed = 00:01:24 . Memory (MB): peak = 829.328 ; gain = 539.621
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 20 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:33 ; elapsed = 00:00:51 . Memory (MB): peak = 829.328 ; gain = 166.457
+Synthesis Optimization Complete : Time (s): cpu = 00:00:54 ; elapsed = 00:01:24 . Memory (MB): peak = 829.328 ; gain = 539.621
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 131 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'hw5_PWM_0_0' is not ideal for floorplanning, since the cellview 'PWM_v1_0_S00_AXI' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+25 Infos, 29 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:57 ; elapsed = 00:01:29 . Memory (MB): peak = 829.914 ; gain = 546.770
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Leo/Desktop/FPGA/hw5/hw5.runs/hw5_PWM_0_0_synth_1/hw5_PWM_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP c:/Users/Leo/Desktop/FPGA/hw5/hw5.srcs/sources_1/bd/hw5/ip/hw5_PWM_0_0/hw5_PWM_0_0.xci
+INFO: [Coretcl 2-1174] Renamed 3 cell refs.
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Leo/Desktop/FPGA/hw5/hw5.runs/hw5_PWM_0_0_synth_1/hw5_PWM_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file hw5_PWM_0_0_utilization_synth.rpt -pb hw5_PWM_0_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 829.914 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Dec  2 20:43:23 2018...

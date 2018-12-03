@@ -1,0 +1,63 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Tue Oct  2 17:24:50 2018
+# Process ID: 29241
+# Current directory: /home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.runs/impl_1
+# Command line: vivado -log design_timer_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_timer_wrapper.tcl -notrace
+# Log file: /home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.runs/impl_1/design_timer_wrapper.vdi
+# Journal file: /home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source design_timer_wrapper.tcl -notrace
+Command: open_checkpoint design_timer_wrapper_routed.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.07 . Memory (MB): peak = 1177.203 ; gain = 0.000 ; free physical = 3664 ; free virtual = 79255
+INFO: [Netlist 29-17] Analyzing 74 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.2
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.runs/impl_1/.Xil/Vivado-29241-VLSILAB-PLAT1/dcp3/design_timer_wrapper_board.xdc]
+Finished Parsing XDC File [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.runs/impl_1/.Xil/Vivado-29241-VLSILAB-PLAT1/dcp3/design_timer_wrapper_board.xdc]
+Parsing XDC File [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.runs/impl_1/.Xil/Vivado-29241-VLSILAB-PLAT1/dcp3/design_timer_wrapper_early.xdc]
+Finished Parsing XDC File [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.runs/impl_1/.Xil/Vivado-29241-VLSILAB-PLAT1/dcp3/design_timer_wrapper_early.xdc]
+Parsing XDC File [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.runs/impl_1/.Xil/Vivado-29241-VLSILAB-PLAT1/dcp3/design_timer_wrapper.xdc]
+Finished Parsing XDC File [/home/ldap-users/shiyong/Downloads/FPGA/Timer/Timer.runs/impl_1/.Xil/Vivado-29241-VLSILAB-PLAT1/dcp3/design_timer_wrapper.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.22 ; elapsed = 00:00:00.23 . Memory (MB): peak = 1504.777 ; gain = 1.000 ; free physical = 3360 ; free virtual = 78956
+Restored from archive | CPU: 0.230000 secs | Memory: 2.058281 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.22 ; elapsed = 00:00:00.23 . Memory (MB): peak = 1504.777 ; gain = 1.000 ; free physical = 3360 ; free virtual = 78956
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 10 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 10 instances
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2017.2 (64-bit) build 1909853
+open_checkpoint: Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1504.777 ; gain = 327.574 ; free physical = 3366 ; free virtual = 78956
+Command: write_bitstream -force design_timer_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020-clg400'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020-clg400'
+Running DRC as a precondition to command write_bitstream
+Command: report_drc (run_mandatory_drcs) for: bitstream_checks
+INFO: [DRC 23-27] Running DRC with 8 threads
+report_drc (run_mandatory_drcs) completed successfully
+INFO: [Vivado 12-3199] DRC finished with 0 Errors
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Project 1-821] Please set project.enableDesignId to be 'true'.
+INFO: [Designutils 20-2272] Running write_bitstream with 8 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./design_timer_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+14 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 1960.090 ; gain = 455.312 ; free physical = 3323 ; free virtual = 78917
+INFO: [Common 17-206] Exiting Vivado at Tue Oct  2 17:25:28 2018...

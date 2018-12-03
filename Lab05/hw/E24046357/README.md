@@ -3,11 +3,15 @@
 E24046357、E24046399、E24042060
 ## Block Design
 
+
 ![BD](image/blockdesign.JPG)
 
 ## 實際操作畫面
 
 ![Demo](image/Demo.jpg)
+=======
+![BD](https://github.com/ncku-vlsilab/FPGA_Design/blob/master/Lab05/hw/E24046357/image/blockdesign.JPG)
+
 
 ## Program 1 : 設計一個排序電路，由 processor 輸入一串數字將其排序後傳回。(數列長度固定)
 ### 程式說明

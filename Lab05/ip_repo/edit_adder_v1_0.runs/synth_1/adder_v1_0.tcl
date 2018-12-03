@@ -18,23 +18,22 @@ proc create_report { reportName command } {
   }
 }
 set_msg_config -id {HDL-1065} -limit 10000
-create_project -in_memory -part xc7z020clg400-1
+create_project -in_memory -part xc7z010clg400-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir c:/users/vlsilab/documents/github/fpga_design/lab05/ip_repo/edit_adder_v1_0.cache/wt [current_project]
-set_property parent.project_path c:/users/vlsilab/documents/github/fpga_design/lab05/ip_repo/edit_adder_v1_0.xpr [current_project]
+set_property webtalk.parent_dir c:/users/user/desktop/fpga_design/lab05/ip_repo/edit_adder_v1_0.cache/wt [current_project]
+set_property parent.project_path c:/users/user/desktop/fpga_design/lab05/ip_repo/edit_adder_v1_0.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property board_part tul.com.tw:pynq-z2:part0:1.0 [current_project]
-set_property ip_repo_paths c:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab05/ip_repo/adder_1.0 [current_project]
-set_property ip_output_repo c:/users/vlsilab/documents/github/fpga_design/lab05/ip_repo/edit_adder_v1_0.cache/ip [current_project]
+set_property ip_repo_paths c:/Users/user/Desktop/FPGA_Design/Lab05/ip_repo/adder_1.0 [current_project]
+set_property ip_output_repo c:/users/user/desktop/fpga_design/lab05/ip_repo/edit_adder_v1_0.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_verilog -library xil_defaultlib {
-  c:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab05/ip_repo/adder_1.0/src/adder.v
-  c:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab05/ip_repo/adder_1.0/hdl/adder_v1_0_S00_AXI.v
-  c:/Users/VLSILAB/Documents/GitHub/FPGA_Design/Lab05/ip_repo/adder_1.0/hdl/adder_v1_0.v
+  c:/Users/user/Desktop/FPGA_Design/Lab05/ip_repo/adder_1.0/src/adder.v
+  c:/Users/user/Desktop/FPGA_Design/Lab05/ip_repo/adder_1.0/hdl/adder_v1_0_S00_AXI.v
+  c:/Users/user/Desktop/FPGA_Design/Lab05/ip_repo/adder_1.0/hdl/adder_v1_0.v
 }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -47,7 +46,7 @@ foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
 set_param ips.enableIPCacheLiteLoad 0
 close [open __synthesis_is_running__ w]
 
-synth_design -top adder_v1_0 -part xc7z020clg400-1
+synth_design -top adder_v1_0 -part xc7z010clg400-1
 
 
 # disable binary constraint mode for synth run checkpoints

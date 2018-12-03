@@ -1,0 +1,99 @@
+#include <stdio.h>
+#include "xil_printf.h"
+#include "xil_io.h"
+#include "xparameters.h"
+#include "parity.h"
+#include "PWM.h"
+
+
+int main()
+{
+	int sl=0;
+	u32	A,B,C,D,P;
+	u32 sort_out[4];
+	u32 reset;
+	u32 R;
+	u32 G;
+	u32 B;
+
+	printf("Program Start.\n\r");
+	while(getchar() != EOF) {
+
+		printf("==========================\r\n");
+		printf("1 = sort\r\n");
+		printf("2 = ALU\r\n");
+		printf("3 = parity\r\n");
+		printf("4 = hash function\r\n");
+		printf("5 = PWM control\r\n");
+		printf("==========================\r\n");
+		printf("Please select mode:");
+		scanf("%d", &sl);
+		printf(" %d\r\n", sl);
+
+		switch(sl){
+			case 1:
+				printf("Input A:");
+				scanf("%d", &A);
+				printf(" %d\r\n", A);
+				printf("Input B:");
+				scanf("%d", &B);
+				printf(" %d\r\n", B);
+				printf("Input C:");
+				scanf("%d", &C);
+				printf(" %d\r\n", C);
+				printf("Input D:");
+				scanf("%d", &D);
+				printf(" %d\r\n", D);
+
+				int i;
+				for(i=0;i<4;i++){
+					sort_out[i] = sort(XPAR_SORTING_0_S00_AXI_BASEADDR,A,B,C,D,i);
+				}
+
+				printf("Result of sort is : %d , %d , %d, %d\r\n",sort_out[0], sort_out[1], sort_out[2], sort_out[3]);
+				break;
+
+			case 2:
+
+				break;
+
+			case 3:
+				printf("Input A:");
+				scanf("%d", &A);
+				printf(" %d\r\n", A);
+
+				P = parity(XPAR_PARITY_0_S00_AXI_BASEADDR, A);
+				printf("A 's parity bit = %d\n\r", P);
+				break;
+
+			case 4:
+
+				break;
+
+			case 5:
+				printf("Input reset:");
+				scanf("%d", &reset);
+				printf(" %d\r\n", reset);
+				printf("Input R:");
+				scanf("%d", &R);
+				printf(" %d\r\n", R);
+				printf("Input G:");
+				scanf("%d", &G);
+				printf(" %d\r\n", G);
+				printf("Input B:");
+				scanf("%d", &B);
+				printf(" %d\r\n", B);
+
+				pwm(XPAR_PWM_0_S00_AXI_BASEADDR,reset,R,G,B);
+
+				printf("Look your LED!!\r\n");
+				break;
+
+			default:
+				printf("wrong command\r\n");
+		}
+
+	}
+	printf("Program End.\n\r");
+    return 0;
+}
