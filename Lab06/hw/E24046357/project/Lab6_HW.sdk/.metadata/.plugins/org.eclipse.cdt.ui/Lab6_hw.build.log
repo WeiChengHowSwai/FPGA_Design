@@ -1,0 +1,36 @@
+15:36:34 **** Auto Build of configuration Debug for project Lab6_hw ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab6_hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:20:31: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("ADDR : 2, Data = %d\n\r", data);
+                              ~^
+                              %ld
+../src/main.c:23:31: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("ADDR : 3, Data = %d\n\r", data);
+                              ~^
+                              %ld
+../src/main.c:26:31: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("ADDR : 1, Data = %d\n\r", data);
+                              ~^
+                              %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab6_hw.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab6_hw_bsp/ps7_cortexa9_0/lib -o "Lab6_hw.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab6_hw.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab6_hw.elf  |tee "Lab6_hw.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70852	   2580	  23328	  96760	  179f8	Lab6_hw.elf
+'Finished building: Lab6_hw.elf.size'
+' '
+
+15:36:36 Build Finished (took 1s.584ms)
+

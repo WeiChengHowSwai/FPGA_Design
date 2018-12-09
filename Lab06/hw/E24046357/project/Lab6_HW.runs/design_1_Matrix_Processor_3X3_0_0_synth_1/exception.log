@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file D:\123NCKU\FPGA\Lab6_HW\Lab6_HW.runs\design_1_Matrix_Processor_3X3_0_0_synth_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: Permission denied

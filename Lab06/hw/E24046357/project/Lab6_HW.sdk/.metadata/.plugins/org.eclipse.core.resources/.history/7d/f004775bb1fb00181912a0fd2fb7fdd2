@@ -1,0 +1,110 @@
+#include <stdio.h>
+#include "xil_printf.h"
+#include "xil_io.h"
+#include "xparameters.h"
+
+void	write_data(u32 address, u32 data);
+void	send_data();
+void	compute();
+void	send_back();
+s8 read_data(u32 address);
+
+int main()
+{
+	s8		data;
+	char	element;
+
+    printf("Matrix Processor Start.\n\r");
+
+    printf("Enter the compute element:");
+    scanf("%s",&element);
+    printf("%c\r\n",element);
+
+
+
+
+    return 0;
+}
+
+void	write_data(u32 address, u32 data)
+{
+	u32 ans;
+
+	Xil_Out32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR, 0x00000000);
+    Xil_Out32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR + 0x00000004, 0x00000001);	//cmd	write
+    Xil_Out32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR + 0x00000008, data);			//data_in
+    Xil_Out32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR + 0x0000000C, address);		//address
+    Xil_Out32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR, 0x00000001);				//cmd valid
+    Xil_Out32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR, 0x00000000);				//cmd no valid
+    ans = 0x00000000;
+    while(ans != 0x00000001)
+    {
+    	ans = Xil_In32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR);					//waiting for cmd done
+    }
+}
+
+void	send_data()
+{
+	u32 ans;
+
+	Xil_Out32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR, 0x00000000);
+	Xil_Out32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR + 0x00000004, 0x00000002);	//cmd	send
+    Xil_Out32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR, 0x00000001);				//cmd valid
+    Xil_Out32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR, 0x00000000);				//cmd no valid
+    ans = 0x00000000;
+    while(ans != 0x00000001)
+    {
+    	ans = Xil_In32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR);					//waiting for cmd done
+    }
+}
+
+void	compute()
+{
+	u32 ans;
+
+	Xil_Out32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR, 0x00000000);
+	Xil_Out32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR + 0x00000004, 0x00000003);	//cmd	send
+    Xil_Out32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR, 0x00000001);				//cmd valid
+    Xil_Out32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR, 0x00000000);				//cmd no valid
+    ans = 0x00000000;
+    while(ans != 0x00000001)
+    {
+    	ans = Xil_In32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR);					//waiting for cmd done
+    }
+}
+
+void	send_back()
+{
+	u32 ans;
+
+	Xil_Out32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR, 0x00000000);
+	Xil_Out32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR + 0x00000004, 0x00000004);	//cmd	send_back
+    Xil_Out32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR, 0x00000001);				//cmd valid
+    Xil_Out32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR, 0x00000000);				//cmd no valid
+    ans = 0x00000000;
+    while(ans != 0x00000001)
+    {
+    	ans = Xil_In32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR);					//waiting for cmd done
+    }
+}
+
+s8 read_data(u32 address)
+{
+	u32 ans;
+	s8 data;
+
+	Xil_Out32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR, 0x00000000);
+    Xil_Out32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR + 0x00000004, 0x00000005);	//cmd	read
+    Xil_Out32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR + 0x0000000C, address);		//address
+    Xil_Out32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR, 0x00000001);					//cmd valid
+    					//cmd no valid
+    ans = 0x00000000;
+    while(ans != 0x00000001)
+    {
+    	ans = Xil_In32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR);					//waiting for cmd done
+    }
+    data = Xil_In32(XPAR_MATRIX_PROCESSOR_3X3_0_S00_AXI_BASEADDR + 0x00000004);			//data_out
+    return data;
+}
+
+

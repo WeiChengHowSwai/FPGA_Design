@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Dec  9 15:09:17 2018
+# Process ID: 7964
+# Current directory: d:/123NCKU/FPGA/Lab6_HW/Lab6_HW.tmp/matrix_processor_3x3_v1_0_project/Matrix_Processor_3X3_v1_0_project.runs/synth_1
+# Command line: vivado.exe -log Matrix_Processor_3X3_v1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Matrix_Processor_3X3_v1_0.tcl
+# Log file: d:/123NCKU/FPGA/Lab6_HW/Lab6_HW.tmp/matrix_processor_3x3_v1_0_project/Matrix_Processor_3X3_v1_0_project.runs/synth_1/Matrix_Processor_3X3_v1_0.vds
+# Journal file: d:/123NCKU/FPGA/Lab6_HW/Lab6_HW.tmp/matrix_processor_3x3_v1_0_project/Matrix_Processor_3X3_v1_0_project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Matrix_Processor_3X3_v1_0.tcl -notrace
